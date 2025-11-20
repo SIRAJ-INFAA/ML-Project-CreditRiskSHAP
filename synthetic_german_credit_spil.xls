@@ -1,0 +1,1201 @@
+CustomerID,Age,Sex,Job,Housing,SavingAccount,CheckingAccount,CreditAmount,Duration,Purpose,InstallmentRate,ResidenceSince,ForeignWorker,Telephone,MaritalStatus,Dependents,EmploymentSince,CreditHistory,RiskScore,LoanApproved,Region,Income,EducationLevel
+CUST0000,56,Male,Management,Own,Moderate,,5086,59,Furniture,1,2,No,Yes,Married,0,7,Paid,682,0,North,8679,High School
+CUST0001,69,Female,Skilled,Own,Rich,,8930,67,Car,3,3,No,No,Single,2,7,Delayed,687,0,North,3675,Bachelor
+CUST0002,46,Female,Highly Skilled,Rent,Moderate,<0,2845,6,Business,2,2,No,Yes,Divorced,1,26,Critical,384,1,North,8124,PhD
+CUST0003,32,Male,Skilled,Free,Rich,,16959,54,Education,3,2,Yes,No,Divorced,0,28,Paid,809,1,West,6781,PhD
+CUST0004,60,Male,Highly Skilled,Free,Unknown,>=200,10048,30,Business,4,3,No,Yes,Single,2,6,Paid,736,1,East,4236,Bachelor
+CUST0005,25,Female,Highly Skilled,Free,Little,>=200,6377,15,Vacation,4,4,Yes,Yes,Divorced,1,1,Paid,592,0,West,6898,Bachelor
+CUST0006,38,Male,Skilled,Rent,Moderate,,7285,21,Furniture,4,2,Yes,No,Single,2,20,Delayed,348,1,South,9235,Master
+CUST0007,56,Female,Skilled,Free,Little,<0,16333,63,Vacation,3,4,No,Yes,Divorced,2,5,Delayed,366,0,East,9680,High School
+CUST0008,36,Male,Unskilled,Rent,Moderate,<0,5422,34,Education,4,1,Yes,No,Married,2,27,Delayed,428,0,South,5276,Master
+CUST0009,40,Male,Management,Free,Little,,19214,11,Vacation,4,2,No,Yes,Divorced,0,15,No Credit,328,0,North,5723,High School
+CUST0010,28,Male,Highly Skilled,Free,Moderate,0<=X<200,5186,21,Repairs,2,1,No,No,Married,1,9,Delayed,642,1,East,6644,PhD
+CUST0011,28,Male,Unskilled,Own,Moderate,>=200,14907,25,Business,3,3,Yes,Yes,Married,1,3,Paid,844,0,South,2115,PhD
+CUST0012,41,Male,Skilled,Rent,Moderate,0<=X<200,18786,48,Education,2,4,No,No,Single,1,12,Delayed,418,1,North,2781,High School
+CUST0013,53,Male,Management,Own,Moderate,<0,12705,31,Education,4,3,No,Yes,Married,1,9,Delayed,432,1,South,9842,Master
+CUST0014,57,Male,Unskilled,Own,Moderate,<0,13679,38,Education,4,2,Yes,No,Divorced,0,20,Critical,626,1,South,2876,Bachelor
+CUST0015,41,Female,Highly Skilled,Own,Moderate,0<=X<200,18943,31,Car,4,1,Yes,Yes,Divorced,2,13,Paid,484,0,West,6363,High School
+CUST0016,20,Female,Unskilled,Rent,Moderate,,17024,50,Business,3,2,Yes,No,Married,1,8,Delayed,805,1,North,9532,Master
+CUST0017,39,Female,Highly Skilled,Rent,Moderate,0<=X<200,18673,68,Vacation,1,3,Yes,Yes,Single,0,10,No Credit,833,0,West,4375,PhD
+CUST0018,19,Female,Skilled,Free,Moderate,0<=X<200,516,57,Education,4,4,Yes,No,Married,2,22,Critical,540,0,East,3750,Bachelor
+CUST0019,41,Female,Management,Own,Little,>=200,13874,31,Business,4,4,Yes,Yes,Divorced,0,17,Delayed,815,0,North,4276,PhD
+CUST0020,61,Male,Management,Free,Rich,>=200,17348,7,Education,4,2,No,No,Divorced,0,10,Critical,464,0,West,1448,High School
+CUST0021,47,Male,Management,Own,Moderate,0<=X<200,18711,19,Repairs,4,2,Yes,No,Married,1,16,Critical,517,1,West,6537,PhD
+CUST0022,55,Female,Skilled,Rent,Rich,0<=X<200,6456,35,Repairs,3,1,Yes,No,Married,1,1,No Credit,304,1,East,5172,PhD
+CUST0023,19,Male,Highly Skilled,Rent,Moderate,<0,16973,54,Repairs,1,3,No,No,Married,2,2,No Credit,380,1,South,9989,High School
+CUST0024,38,Female,Skilled,Rent,Moderate,>=200,5315,17,Furniture,1,2,No,Yes,Divorced,2,10,No Credit,546,1,South,4496,Bachelor
+CUST0025,50,Female,Management,Own,Little,>=200,19735,49,Education,1,1,Yes,Yes,Divorced,1,17,Paid,792,0,South,3182,High School
+CUST0026,29,Male,Skilled,Rent,Unknown,<0,3343,38,Furniture,4,2,Yes,Yes,Divorced,0,26,Critical,685,0,East,4326,Master
+CUST0027,39,Male,Skilled,Own,Unknown,,16472,18,Business,4,4,No,No,Single,1,2,Delayed,606,0,West,9837,High School
+CUST0028,61,Male,Skilled,Free,Little,>=200,17853,31,Furniture,1,1,Yes,No,Divorced,2,25,No Credit,842,0,North,1719,High School
+CUST0029,42,Female,Highly Skilled,Own,Rich,>=200,1594,26,Business,1,1,Yes,No,Divorced,0,14,No Credit,306,1,East,2522,Bachelor
+CUST0030,66,Male,Unskilled,Free,Unknown,,6624,33,Business,4,2,No,No,Single,0,10,Critical,814,1,South,7756,Master
+CUST0031,44,Female,Unskilled,Own,Little,>=200,1904,53,Business,4,3,Yes,No,Single,0,10,Critical,372,0,South,7627,PhD
+CUST0032,59,Female,Skilled,Free,Little,>=200,4482,45,Vacation,2,4,No,Yes,Single,1,27,Critical,309,0,North,2069,PhD
+CUST0033,45,Female,Unskilled,Rent,Unknown,,13015,71,Furniture,2,3,Yes,Yes,Single,1,29,Delayed,421,0,East,6562,PhD
+CUST0034,33,Male,Unskilled,Free,Rich,,16290,28,Vacation,2,1,No,Yes,Single,2,27,Paid,812,0,South,8749,PhD
+CUST0035,32,Male,Skilled,Rent,Little,0<=X<200,12705,53,Education,1,3,No,No,Single,0,24,Paid,740,1,East,5887,Bachelor
+CUST0036,64,Female,Skilled,Rent,Moderate,<0,13248,7,Furniture,3,1,No,No,Married,0,19,No Credit,337,0,West,5674,Master
+CUST0037,68,Male,Management,Free,Rich,<0,3592,25,Education,4,3,Yes,No,Married,1,27,Paid,644,1,East,3156,Bachelor
+CUST0038,61,Male,Unskilled,Own,Rich,,14471,64,Education,2,2,No,No,Married,2,24,Delayed,637,1,West,8944,High School
+CUST0039,69,Male,Highly Skilled,Own,Unknown,,15116,51,Business,3,3,Yes,No,Married,2,10,Paid,483,0,North,5139,Master
+CUST0040,20,Female,Skilled,Own,Unknown,>=200,5433,8,Furniture,4,1,No,No,Divorced,0,18,Delayed,366,0,West,6629,Master
+CUST0041,54,Female,Management,Own,Moderate,0<=X<200,5426,60,Education,3,4,No,No,Single,1,27,No Credit,316,1,West,8087,PhD
+CUST0042,68,Male,Highly Skilled,Own,Little,0<=X<200,4469,17,Repairs,1,4,No,Yes,Divorced,0,0,Critical,682,1,North,6078,PhD
+CUST0043,24,Female,Unskilled,Rent,Unknown,,3465,45,Education,1,4,Yes,Yes,Single,1,26,Delayed,667,0,South,7405,PhD
+CUST0044,38,Male,Management,Own,Unknown,>=200,4819,71,Repairs,1,1,Yes,No,Single,2,4,Critical,615,1,North,7871,PhD
+CUST0045,26,Male,Skilled,Rent,Rich,>=200,9475,21,Furniture,2,3,No,No,Divorced,0,9,No Credit,796,0,East,1632,High School
+CUST0046,56,Male,Highly Skilled,Rent,Unknown,<0,7608,39,Vacation,4,4,Yes,No,Married,0,9,Delayed,644,0,North,3199,PhD
+CUST0047,35,Male,Skilled,Rent,Unknown,<0,9641,49,Furniture,1,4,Yes,Yes,Divorced,0,13,Delayed,772,1,East,6353,Bachelor
+CUST0048,21,Female,Unskilled,Free,Unknown,>=200,16928,11,Vacation,2,4,Yes,Yes,Divorced,2,1,Paid,414,1,South,3910,Master
+CUST0049,42,Female,Highly Skilled,Free,Unknown,<0,2310,69,Vacation,2,2,No,No,Single,0,3,Delayed,399,0,East,1622,High School
+CUST0050,31,Female,Unskilled,Rent,Rich,,10773,27,Furniture,2,1,Yes,Yes,Single,2,1,No Credit,737,0,North,7073,High School
+CUST0051,67,Male,Unskilled,Free,Moderate,>=200,9521,23,Education,2,1,No,Yes,Single,1,17,Critical,644,1,North,1360,Master
+CUST0052,26,Male,Management,Own,Moderate,<0,18793,17,Car,1,1,No,Yes,Married,2,12,Delayed,648,1,South,7365,Master
+CUST0053,43,Male,Skilled,Own,Little,0<=X<200,6864,57,Education,2,1,No,No,Divorced,1,18,No Credit,438,1,North,9401,Master
+CUST0054,19,Female,Highly Skilled,Rent,Unknown,>=200,3081,56,Education,1,1,Yes,Yes,Divorced,2,4,No Credit,623,1,South,4943,High School
+CUST0055,37,Male,Unskilled,Own,Rich,>=200,1191,53,Business,1,2,No,Yes,Married,2,19,Delayed,601,0,South,5869,Bachelor
+CUST0056,45,Female,Unskilled,Rent,Little,0<=X<200,1431,24,Business,2,3,Yes,No,Divorced,0,1,Paid,593,0,North,9128,Bachelor
+CUST0057,64,Female,Highly Skilled,Rent,Little,,13628,11,Education,1,2,Yes,No,Divorced,2,10,Delayed,828,0,West,1877,Master
+CUST0058,24,Female,Unskilled,Own,Moderate,0<=X<200,14726,32,Repairs,4,4,No,Yes,Single,0,29,Delayed,591,1,East,5795,High School
+CUST0059,61,Female,Management,Free,Rich,>=200,14361,58,Vacation,4,2,No,No,Married,1,29,Paid,373,1,West,8791,PhD
+CUST0060,25,Female,Management,Own,Rich,,15975,53,Business,3,1,No,Yes,Single,1,25,No Credit,783,0,South,3523,High School
+CUST0061,64,Female,Management,Own,Rich,<0,3906,12,Education,4,2,Yes,Yes,Married,0,17,Delayed,315,1,East,7270,Master
+CUST0062,52,Male,Management,Rent,Moderate,<0,8839,64,Car,1,1,Yes,No,Single,1,29,Paid,825,1,West,9583,High School
+CUST0063,31,Male,Unskilled,Rent,Moderate,<0,17916,16,Repairs,1,2,No,No,Divorced,2,5,Critical,635,1,North,7623,High School
+CUST0064,34,Female,Highly Skilled,Rent,Moderate,>=200,18195,20,Furniture,4,1,No,Yes,Married,0,22,Critical,815,1,West,6088,High School
+CUST0065,53,Female,Highly Skilled,Rent,Moderate,0<=X<200,9079,69,Education,2,4,Yes,No,Married,0,27,Paid,426,1,East,8564,PhD
+CUST0066,67,Male,Highly Skilled,Free,Moderate,,3621,8,Education,2,1,Yes,No,Single,0,9,No Credit,817,1,East,8066,Master
+CUST0067,57,Female,Highly Skilled,Free,Unknown,<0,18757,28,Vacation,1,2,No,Yes,Married,1,21,Paid,428,0,East,7545,Master
+CUST0068,21,Female,Skilled,Free,Unknown,,16446,58,Repairs,2,4,Yes,Yes,Divorced,1,22,No Credit,810,0,East,3321,Master
+CUST0069,19,Male,Highly Skilled,Rent,Rich,>=200,4248,42,Business,3,2,Yes,Yes,Divorced,2,16,Critical,722,0,West,9149,Bachelor
+CUST0070,23,Female,Skilled,Rent,Little,<0,777,14,Business,3,4,Yes,Yes,Divorced,2,21,Delayed,684,0,North,9125,Bachelor
+CUST0071,59,Female,Skilled,Rent,Rich,>=200,18743,20,Business,4,3,Yes,Yes,Single,0,10,Paid,531,1,North,9330,Master
+CUST0072,21,Female,Management,Free,Little,0<=X<200,12063,8,Furniture,4,3,Yes,Yes,Married,2,18,Critical,494,0,East,9294,High School
+CUST0073,46,Male,Skilled,Rent,Moderate,>=200,7292,22,Repairs,2,3,Yes,No,Single,1,16,Delayed,364,0,North,6333,High School
+CUST0074,35,Male,Unskilled,Own,Little,>=200,14418,31,Repairs,1,2,No,No,Divorced,2,23,Critical,576,0,West,9675,Master
+CUST0075,43,Male,Skilled,Own,Rich,0<=X<200,10874,26,Business,4,2,Yes,Yes,Married,1,3,Paid,523,0,North,8858,PhD
+CUST0076,61,Female,Management,Rent,Rich,,5175,26,Business,3,4,No,No,Divorced,2,25,Paid,577,1,South,5319,PhD
+CUST0077,51,Female,Skilled,Own,Little,0<=X<200,1670,16,Vacation,4,4,No,No,Married,1,23,Delayed,665,1,North,6389,High School
+CUST0078,27,Male,Unskilled,Own,Unknown,0<=X<200,9181,43,Car,4,4,Yes,Yes,Married,1,25,Paid,815,0,East,2848,High School
+CUST0079,53,Female,Unskilled,Free,Moderate,>=200,11217,40,Car,3,4,No,No,Single,2,13,Critical,514,0,North,4205,Bachelor
+CUST0080,31,Female,Unskilled,Rent,Moderate,,12950,19,Education,1,1,No,No,Married,2,26,Delayed,738,1,North,3161,PhD
+CUST0081,48,Female,Management,Rent,Rich,<0,11180,19,Education,4,3,No,Yes,Divorced,1,19,Delayed,727,1,North,2464,High School
+CUST0082,65,Female,Management,Free,Unknown,0<=X<200,10568,15,Repairs,4,1,Yes,No,Married,0,3,Critical,695,0,North,1643,High School
+CUST0083,32,Female,Highly Skilled,Own,Little,,2962,17,Repairs,4,1,No,No,Divorced,2,27,No Credit,508,1,South,6351,Master
+CUST0084,25,Male,Management,Own,Moderate,0<=X<200,14150,43,Furniture,2,1,Yes,Yes,Single,1,13,Delayed,800,1,West,5553,Bachelor
+CUST0085,31,Female,Unskilled,Rent,Unknown,0<=X<200,787,39,Furniture,4,1,No,No,Divorced,2,25,No Credit,762,0,East,7518,PhD
+CUST0086,40,Male,Unskilled,Own,Moderate,0<=X<200,18791,46,Car,3,3,No,No,Married,2,3,Critical,526,1,East,6723,PhD
+CUST0087,57,Female,Management,Free,Unknown,0<=X<200,1661,15,Education,1,1,No,No,Divorced,2,5,Critical,674,0,North,8946,Bachelor
+CUST0088,38,Male,Skilled,Free,Unknown,>=200,17013,22,Car,1,4,No,Yes,Divorced,2,29,Delayed,799,0,West,1610,High School
+CUST0089,33,Female,Management,Rent,Rich,,2863,22,Car,3,2,Yes,Yes,Married,2,8,Paid,392,1,North,5302,PhD
+CUST0090,62,Male,Management,Free,Moderate,,6483,67,Education,2,4,No,No,Divorced,0,20,Delayed,759,1,South,2543,PhD
+CUST0091,35,Female,Unskilled,Free,Little,,17027,6,Furniture,3,2,No,No,Married,0,11,Paid,620,1,West,2466,PhD
+CUST0092,64,Male,Highly Skilled,Rent,Rich,0<=X<200,8707,17,Vacation,1,4,Yes,Yes,Single,0,28,No Credit,309,1,West,7236,Master
+CUST0093,41,Female,Unskilled,Free,Rich,>=200,15258,9,Vacation,3,4,Yes,Yes,Divorced,1,25,Paid,602,1,West,2181,Bachelor
+CUST0094,43,Male,Highly Skilled,Free,Little,0<=X<200,744,47,Vacation,2,2,Yes,No,Single,0,29,Delayed,621,1,West,3146,PhD
+CUST0095,42,Female,Unskilled,Free,Rich,0<=X<200,17810,18,Education,1,3,No,Yes,Divorced,0,7,Paid,755,0,North,3272,Bachelor
+CUST0096,62,Male,Management,Own,Unknown,,3678,9,Business,2,1,Yes,No,Divorced,1,23,Critical,577,1,South,5536,High School
+CUST0097,58,Male,Unskilled,Rent,Unknown,0<=X<200,2676,24,Business,3,4,Yes,No,Single,0,3,No Credit,837,0,West,1719,Bachelor
+CUST0098,46,Female,Unskilled,Rent,Moderate,<0,5502,7,Business,4,3,Yes,Yes,Divorced,2,26,Critical,692,1,East,5680,Master
+CUST0099,32,Female,Unskilled,Rent,Moderate,0<=X<200,1386,17,Repairs,3,1,Yes,Yes,Divorced,0,25,Critical,394,1,East,4472,Master
+CUST0100,62,Male,Management,Own,Little,<0,14221,11,Furniture,2,3,Yes,No,Single,0,24,Critical,406,1,South,4642,Bachelor
+CUST0101,18,Female,Management,Own,Moderate,0<=X<200,12642,13,Furniture,3,3,Yes,No,Divorced,0,24,Critical,689,1,East,1063,Master
+CUST0102,42,Male,Management,Rent,Unknown,>=200,3154,56,Repairs,4,1,No,Yes,Married,2,4,Paid,825,1,North,1559,PhD
+CUST0103,24,Male,Management,Own,Little,>=200,12484,16,Car,2,4,Yes,No,Divorced,2,5,Critical,370,0,North,8446,Master
+CUST0104,26,Male,Highly Skilled,Rent,Little,,18255,68,Vacation,3,3,No,Yes,Divorced,2,4,Paid,675,0,South,2733,High School
+CUST0105,41,Female,Highly Skilled,Own,Moderate,0<=X<200,7635,62,Business,2,4,Yes,Yes,Divorced,2,18,Critical,667,0,West,9861,Bachelor
+CUST0106,18,Male,Skilled,Free,Unknown,<0,820,17,Vacation,2,4,Yes,Yes,Single,1,26,Delayed,350,1,East,4894,Bachelor
+CUST0107,61,Male,Management,Free,Little,<0,5154,7,Business,1,4,Yes,Yes,Married,2,7,Critical,442,1,East,2542,High School
+CUST0108,25,Female,Highly Skilled,Rent,Unknown,0<=X<200,16631,13,Vacation,1,1,No,Yes,Married,2,8,Delayed,718,1,South,3415,High School
+CUST0109,41,Female,Unskilled,Own,Unknown,<0,11270,16,Car,2,2,Yes,No,Divorced,2,14,Paid,847,0,South,7090,High School
+CUST0110,28,Female,Management,Own,Unknown,>=200,7053,58,Vacation,3,4,Yes,Yes,Single,2,3,No Credit,799,0,East,6217,High School
+CUST0111,68,Female,Skilled,Free,Moderate,<0,12059,15,Vacation,3,2,Yes,Yes,Single,1,24,Paid,466,1,West,6387,PhD
+CUST0112,34,Male,Skilled,Free,Rich,,9509,13,Education,3,2,Yes,Yes,Married,0,8,No Credit,559,0,South,6179,Master
+CUST0113,25,Male,Skilled,Own,Rich,>=200,13982,41,Vacation,4,3,No,Yes,Single,0,6,No Credit,491,1,North,9187,Master
+CUST0114,52,Male,Unskilled,Own,Little,>=200,7998,19,Education,2,4,No,Yes,Divorced,2,7,Critical,501,1,East,7643,PhD
+CUST0115,52,Male,Highly Skilled,Own,Unknown,>=200,7136,59,Furniture,2,4,No,Yes,Divorced,2,14,No Credit,484,0,South,8660,High School
+CUST0116,50,Female,Unskilled,Own,Moderate,0<=X<200,7862,26,Repairs,4,4,No,Yes,Single,2,18,Paid,457,0,South,3458,Bachelor
+CUST0117,22,Male,Management,Own,Unknown,0<=X<200,16895,55,Vacation,2,2,No,No,Divorced,0,14,Critical,398,0,South,7028,Bachelor
+CUST0118,59,Male,Skilled,Own,Unknown,>=200,17078,44,Furniture,2,1,Yes,No,Married,0,4,No Credit,540,0,East,6447,Bachelor
+CUST0119,56,Female,Unskilled,Rent,Moderate,0<=X<200,3037,25,Education,4,2,Yes,No,Divorced,2,18,Paid,790,1,North,5559,High School
+CUST0120,58,Male,Unskilled,Own,Rich,<0,19726,12,Vacation,1,4,Yes,No,Single,0,6,No Credit,501,1,North,3749,PhD
+CUST0121,45,Male,Highly Skilled,Free,Unknown,0<=X<200,15716,14,Vacation,2,4,No,Yes,Married,1,5,No Credit,808,0,East,2948,PhD
+CUST0122,24,Male,Highly Skilled,Rent,Unknown,0<=X<200,19113,6,Car,4,4,Yes,No,Divorced,2,26,Critical,395,0,South,7306,PhD
+CUST0123,26,Male,Skilled,Own,Rich,>=200,3509,31,Furniture,3,2,No,Yes,Married,2,18,Critical,789,0,East,9251,Master
+CUST0124,25,Male,Unskilled,Free,Moderate,,14709,43,Business,1,4,Yes,No,Single,1,24,Paid,517,0,East,9092,Master
+CUST0125,29,Male,Unskilled,Rent,Little,,16175,43,Business,3,3,No,No,Divorced,1,27,Critical,826,1,South,9524,Master
+CUST0126,51,Female,Highly Skilled,Free,Rich,,15529,66,Car,2,4,Yes,Yes,Divorced,0,16,Critical,572,1,East,1189,Master
+CUST0127,50,Female,Unskilled,Own,Little,<0,2577,49,Education,1,1,Yes,Yes,Married,1,9,Delayed,518,1,West,7008,Bachelor
+CUST0128,65,Male,Unskilled,Own,Little,0<=X<200,14407,49,Business,4,3,Yes,No,Divorced,2,18,Delayed,631,1,North,8482,Bachelor
+CUST0129,40,Male,Unskilled,Own,Rich,,4367,67,Business,2,4,Yes,No,Divorced,0,10,Paid,752,1,West,1295,PhD
+CUST0130,41,Female,Highly Skilled,Own,Unknown,>=200,16652,11,Repairs,4,3,No,No,Divorced,1,14,Critical,451,1,West,9368,Master
+CUST0131,54,Male,Skilled,Rent,Little,,5373,22,Furniture,1,4,Yes,No,Divorced,0,9,Paid,646,1,West,9168,PhD
+CUST0132,52,Male,Management,Rent,Little,,9135,56,Education,3,1,Yes,Yes,Single,0,10,Delayed,713,0,East,1799,High School
+CUST0133,61,Male,Skilled,Free,Moderate,0<=X<200,797,43,Vacation,2,4,Yes,No,Divorced,0,22,Delayed,826,1,South,9997,Master
+CUST0134,57,Female,Management,Own,Unknown,0<=X<200,13595,29,Furniture,2,3,No,No,Married,0,2,Delayed,730,0,East,8003,Master
+CUST0135,39,Male,Unskilled,Free,Little,0<=X<200,9536,56,Education,4,1,Yes,No,Single,1,29,Paid,678,0,North,9406,PhD
+CUST0136,44,Female,Skilled,Rent,Moderate,<0,1515,15,Business,1,2,Yes,No,Married,2,2,Critical,727,0,East,3700,PhD
+CUST0137,52,Male,Management,Own,Unknown,<0,1884,26,Repairs,4,1,Yes,No,Married,2,17,No Credit,383,1,East,9788,High School
+CUST0138,18,Female,Highly Skilled,Own,Rich,,9245,62,Furniture,1,1,Yes,Yes,Married,1,24,Critical,491,1,East,6873,PhD
+CUST0139,52,Female,Highly Skilled,Rent,Rich,0<=X<200,19234,44,Business,2,1,Yes,Yes,Single,2,10,Paid,340,1,East,5714,Master
+CUST0140,54,Male,Skilled,Rent,Moderate,,18153,38,Education,1,3,No,Yes,Single,0,19,Delayed,608,1,West,7491,Bachelor
+CUST0141,64,Female,Skilled,Rent,Rich,>=200,1760,64,Furniture,2,1,No,Yes,Single,0,25,No Credit,677,0,South,9333,High School
+CUST0142,31,Male,Unskilled,Rent,Little,>=200,8201,23,Vacation,1,4,No,Yes,Divorced,0,28,Paid,435,1,North,3839,High School
+CUST0143,20,Female,Skilled,Rent,Unknown,0<=X<200,10901,61,Furniture,3,1,Yes,No,Married,1,21,Delayed,405,0,North,4513,Master
+CUST0144,18,Male,Unskilled,Own,Little,0<=X<200,16019,62,Business,1,1,No,Yes,Single,0,17,Paid,818,1,North,2135,Bachelor
+CUST0145,22,Male,Unskilled,Rent,Little,>=200,12364,53,Furniture,3,4,Yes,Yes,Married,0,24,No Credit,841,1,East,7357,PhD
+CUST0146,43,Female,Highly Skilled,Own,Rich,0<=X<200,16181,47,Vacation,1,4,Yes,No,Single,1,14,Delayed,425,0,North,3247,PhD
+CUST0147,31,Male,Highly Skilled,Own,Little,<0,6043,32,Repairs,1,2,Yes,Yes,Single,0,6,Critical,656,0,West,7548,Bachelor
+CUST0148,56,Male,Management,Rent,Rich,<0,18765,57,Repairs,4,1,Yes,Yes,Single,0,9,Paid,699,0,South,5516,Bachelor
+CUST0149,44,Female,Highly Skilled,Rent,Unknown,0<=X<200,12988,47,Business,4,3,No,Yes,Married,2,20,No Credit,378,1,East,5102,Master
+CUST0150,26,Male,Highly Skilled,Own,Unknown,>=200,10579,37,Education,2,1,No,Yes,Divorced,1,22,Critical,688,1,East,2548,PhD
+CUST0151,32,Male,Skilled,Rent,Little,,11244,31,Business,4,1,No,No,Single,0,29,No Credit,834,0,West,7532,Master
+CUST0152,32,Female,Highly Skilled,Rent,Moderate,0<=X<200,4309,30,Repairs,1,4,Yes,No,Single,0,19,Paid,373,1,North,5511,PhD
+CUST0153,43,Female,Management,Rent,Rich,0<=X<200,7706,28,Car,4,2,No,Yes,Single,0,28,No Credit,304,0,East,3831,PhD
+CUST0154,59,Male,Skilled,Free,Rich,,14246,62,Car,1,1,No,No,Divorced,0,9,Delayed,762,1,East,4062,Bachelor
+CUST0155,30,Male,Management,Own,Little,0<=X<200,16495,57,Furniture,3,3,Yes,Yes,Married,2,12,No Credit,381,0,West,8975,Master
+CUST0156,68,Female,Highly Skilled,Free,Rich,,16535,36,Vacation,1,1,No,No,Married,2,14,Paid,836,0,West,4052,Bachelor
+CUST0157,49,Female,Management,Rent,Rich,>=200,12171,69,Furniture,2,3,Yes,No,Married,2,22,Delayed,704,1,North,8210,Master
+CUST0158,56,Male,Skilled,Free,Moderate,<0,13710,38,Car,3,4,No,No,Married,2,17,No Credit,813,0,South,4539,PhD
+CUST0159,66,Female,Unskilled,Rent,Moderate,>=200,18293,7,Repairs,2,2,No,No,Single,1,22,No Credit,577,1,South,1526,High School
+CUST0160,69,Male,Management,Free,Little,<0,5697,23,Furniture,2,1,No,No,Divorced,0,3,Delayed,523,1,North,3807,High School
+CUST0161,49,Male,Management,Rent,Moderate,,16053,52,Business,2,2,Yes,No,Single,2,19,Critical,367,0,South,2753,Master
+CUST0162,21,Male,Skilled,Free,Little,<0,7952,38,Vacation,4,1,No,No,Divorced,0,16,Critical,619,0,West,7882,Master
+CUST0163,47,Male,Skilled,Free,Unknown,>=200,9218,40,Business,2,3,No,No,Married,1,27,Delayed,318,1,West,2654,Bachelor
+CUST0164,54,Male,Management,Free,Little,<0,15359,56,Vacation,3,2,No,No,Divorced,0,2,No Credit,642,1,West,5841,PhD
+CUST0165,40,Female,Highly Skilled,Own,Unknown,,2672,23,Repairs,1,1,No,No,Single,0,20,Critical,642,0,South,5041,High School
+CUST0166,56,Female,Management,Free,Little,<0,13658,35,Furniture,2,4,Yes,No,Single,2,20,Delayed,396,0,South,6024,Bachelor
+CUST0167,62,Female,Skilled,Own,Rich,0<=X<200,17163,49,Vacation,3,3,Yes,Yes,Married,2,1,Paid,351,0,East,9965,Master
+CUST0168,32,Female,Unskilled,Rent,Moderate,>=200,19553,58,Business,2,2,No,No,Single,1,3,No Credit,474,1,East,9734,PhD
+CUST0169,60,Male,Unskilled,Free,Unknown,0<=X<200,11585,15,Furniture,1,1,No,Yes,Single,0,0,Paid,637,1,East,5417,Bachelor
+CUST0170,46,Male,Highly Skilled,Rent,Little,,4481,57,Furniture,3,2,No,No,Divorced,2,14,No Credit,652,1,South,9977,Bachelor
+CUST0171,53,Male,Management,Rent,Moderate,<0,5747,54,Business,3,1,Yes,Yes,Single,2,24,Critical,690,0,East,5635,Master
+CUST0172,30,Male,Unskilled,Free,Little,0<=X<200,11053,16,Car,1,3,No,Yes,Married,2,0,Paid,414,0,West,3883,PhD
+CUST0173,49,Female,Management,Own,Moderate,0<=X<200,6635,71,Vacation,3,4,No,Yes,Married,1,5,Paid,647,1,South,6884,High School
+CUST0174,24,Male,Skilled,Free,Moderate,<0,6073,63,Business,1,3,Yes,No,Single,0,6,Delayed,300,1,North,1448,Bachelor
+CUST0175,68,Male,Unskilled,Rent,Little,<0,14231,41,Repairs,3,2,Yes,No,Married,2,18,Critical,362,0,South,4310,Master
+CUST0176,39,Female,Highly Skilled,Rent,Unknown,>=200,7689,38,Education,3,2,Yes,No,Divorced,0,11,Critical,525,1,East,5585,Bachelor
+CUST0177,45,Female,Skilled,Free,Unknown,0<=X<200,15041,52,Business,1,1,No,No,Divorced,1,0,No Credit,722,0,South,9108,Master
+CUST0178,19,Female,Highly Skilled,Own,Rich,0<=X<200,11378,18,Furniture,1,3,Yes,Yes,Single,0,6,Delayed,318,0,East,5409,Master
+CUST0179,59,Female,Skilled,Own,Moderate,,11587,45,Furniture,3,1,Yes,No,Single,2,18,Delayed,330,0,East,8873,Master
+CUST0180,62,Male,Unskilled,Rent,Rich,>=200,14167,47,Business,3,3,No,No,Divorced,0,12,No Credit,323,1,North,7051,PhD
+CUST0181,23,Male,Highly Skilled,Rent,Rich,,3276,24,Education,1,2,Yes,No,Married,0,25,Paid,510,1,North,9576,High School
+CUST0182,45,Female,Highly Skilled,Own,Little,0<=X<200,9811,24,Business,4,1,No,No,Single,1,11,No Credit,460,0,West,1294,PhD
+CUST0183,45,Male,Skilled,Free,Little,,8197,63,Education,1,1,No,No,Single,1,11,No Credit,554,0,East,2238,High School
+CUST0184,61,Male,Highly Skilled,Rent,Little,0<=X<200,15129,28,Education,3,3,Yes,No,Married,0,21,No Credit,413,1,South,9041,Master
+CUST0185,61,Male,Skilled,Own,Moderate,0<=X<200,8886,59,Repairs,3,4,No,No,Single,0,12,Delayed,803,0,North,3816,High School
+CUST0186,37,Female,Skilled,Rent,Little,,17546,70,Vacation,3,3,Yes,No,Married,0,27,No Credit,519,1,North,2098,PhD
+CUST0187,47,Male,Skilled,Free,Little,,8544,17,Furniture,1,4,Yes,Yes,Married,1,13,No Credit,656,1,East,2737,Bachelor
+CUST0188,28,Female,Skilled,Own,Moderate,<0,10115,29,Furniture,3,3,Yes,Yes,Married,1,21,No Credit,468,1,South,3189,PhD
+CUST0189,45,Male,Unskilled,Rent,Moderate,<0,15534,39,Education,4,2,No,No,Married,0,29,Critical,823,0,North,3765,PhD
+CUST0190,42,Male,Skilled,Free,Unknown,<0,5560,58,Furniture,2,1,Yes,No,Married,1,11,Paid,541,0,North,2222,PhD
+CUST0191,56,Male,Management,Rent,Little,0<=X<200,11400,13,Car,4,3,No,No,Divorced,2,19,Paid,674,0,South,7549,PhD
+CUST0192,50,Female,Highly Skilled,Free,Little,,6081,23,Education,1,2,No,No,Married,1,11,Paid,438,0,North,1410,PhD
+CUST0193,18,Male,Management,Free,Little,>=200,2514,62,Furniture,3,3,No,Yes,Divorced,1,26,Paid,396,1,South,3945,High School
+CUST0194,44,Female,Unskilled,Own,Unknown,0<=X<200,13497,10,Car,1,1,Yes,Yes,Married,1,5,Delayed,446,0,East,9102,High School
+CUST0195,69,Female,Management,Free,Little,>=200,11135,31,Repairs,2,3,No,No,Single,2,26,Delayed,481,1,North,5786,Bachelor
+CUST0196,30,Female,Highly Skilled,Rent,Unknown,,14148,35,Furniture,1,4,No,Yes,Divorced,2,9,No Credit,356,0,East,1786,PhD
+CUST0197,58,Male,Management,Free,Rich,0<=X<200,7648,59,Car,3,1,Yes,Yes,Single,2,19,Delayed,341,0,South,3109,PhD
+CUST0198,20,Male,Unskilled,Free,Unknown,>=200,19248,18,Business,2,4,Yes,No,Married,0,28,Paid,842,0,East,6446,Bachelor
+CUST0199,56,Male,Skilled,Own,Rich,>=200,14522,34,Vacation,2,2,No,No,Married,0,23,Critical,301,0,East,6835,Bachelor
+CUST0200,23,Male,Management,Free,Little,<0,6419,8,Business,3,2,No,No,Single,2,8,No Credit,587,0,East,2986,Master
+CUST0201,25,Female,Unskilled,Free,Rich,<0,16386,63,Car,3,3,Yes,Yes,Married,0,1,No Credit,437,1,West,9126,Bachelor
+CUST0202,44,Female,Unskilled,Rent,Unknown,<0,7138,7,Education,3,4,No,Yes,Single,0,6,Paid,811,0,South,8300,Bachelor
+CUST0203,26,Female,Highly Skilled,Own,Moderate,0<=X<200,5151,33,Education,1,4,No,No,Married,0,8,Paid,521,0,South,6709,Bachelor
+CUST0204,54,Male,Highly Skilled,Own,Rich,,1109,7,Furniture,4,1,No,No,Married,2,24,Paid,630,0,South,3403,Master
+CUST0205,50,Female,Management,Own,Rich,,8440,12,Business,1,4,No,Yes,Divorced,1,11,Delayed,703,0,South,9262,High School
+CUST0206,68,Male,Skilled,Free,Little,<0,10848,31,Education,1,4,Yes,Yes,Single,2,4,No Credit,807,0,South,5401,Master
+CUST0207,59,Female,Unskilled,Own,Unknown,<0,4366,21,Education,4,1,No,No,Married,2,0,Paid,426,1,North,7701,High School
+CUST0208,61,Male,Management,Free,Rich,<0,17255,28,Business,3,1,Yes,Yes,Single,0,21,Critical,564,0,North,4295,Bachelor
+CUST0209,41,Male,Unskilled,Free,Rich,>=200,17499,45,Repairs,3,4,No,No,Divorced,0,14,No Credit,314,1,North,9953,Master
+CUST0210,32,Female,Unskilled,Rent,Rich,<0,2753,65,Education,4,3,Yes,No,Single,1,7,No Credit,525,0,East,3121,Master
+CUST0211,49,Female,Skilled,Rent,Rich,>=200,5442,37,Vacation,4,1,No,Yes,Divorced,1,0,Delayed,404,1,East,4582,High School
+CUST0212,49,Female,Skilled,Rent,Moderate,,12830,20,Car,1,1,Yes,Yes,Single,1,17,No Credit,792,0,South,5197,Master
+CUST0213,41,Female,Management,Rent,Unknown,0<=X<200,1364,18,Furniture,2,4,No,Yes,Single,1,12,Paid,618,0,West,6700,Master
+CUST0214,58,Male,Skilled,Rent,Little,0<=X<200,1768,10,Education,4,4,Yes,No,Divorced,2,28,Paid,518,1,South,8232,PhD
+CUST0215,69,Female,Skilled,Free,Little,0<=X<200,7954,57,Vacation,1,1,No,No,Married,1,0,Critical,576,0,North,5288,High School
+CUST0216,66,Female,Management,Free,Moderate,0<=X<200,14166,46,Vacation,2,4,No,No,Married,2,4,No Credit,640,1,South,2085,Master
+CUST0217,66,Female,Skilled,Own,Unknown,>=200,12870,58,Education,3,1,Yes,No,Married,0,17,No Credit,751,0,East,9645,Master
+CUST0218,69,Male,Highly Skilled,Free,Rich,>=200,5729,55,Repairs,3,3,Yes,No,Single,1,15,Delayed,668,1,South,3621,Bachelor
+CUST0219,29,Male,Unskilled,Free,Moderate,<0,16809,20,Car,1,3,Yes,No,Single,0,25,Paid,773,1,North,9810,PhD
+CUST0220,56,Female,Unskilled,Rent,Unknown,>=200,19121,12,Furniture,1,1,Yes,Yes,Married,0,9,Critical,489,1,South,9828,PhD
+CUST0221,19,Male,Unskilled,Free,Rich,<0,4554,45,Education,4,1,Yes,No,Single,2,29,Paid,718,0,East,3348,Bachelor
+CUST0222,20,Female,Unskilled,Rent,Moderate,<0,1435,33,Furniture,3,2,No,No,Single,1,3,No Credit,794,1,West,5874,Bachelor
+CUST0223,66,Male,Management,Own,Unknown,0<=X<200,12672,37,Business,1,2,Yes,No,Married,2,0,No Credit,338,0,North,4036,Bachelor
+CUST0224,54,Male,Unskilled,Own,Little,>=200,11030,20,Vacation,3,4,Yes,No,Divorced,0,22,Critical,461,1,South,3349,Bachelor
+CUST0225,66,Male,Unskilled,Free,Little,>=200,16060,70,Vacation,3,4,No,Yes,Single,1,7,No Credit,420,1,East,6743,PhD
+CUST0226,34,Male,Unskilled,Own,Unknown,<0,16656,9,Education,4,1,Yes,No,Single,0,4,Critical,698,1,North,5432,Master
+CUST0227,66,Female,Unskilled,Free,Little,<0,17209,16,Education,2,1,Yes,Yes,Single,0,1,Critical,561,0,North,7175,Master
+CUST0228,19,Female,Highly Skilled,Own,Unknown,,10226,31,Business,4,2,Yes,Yes,Single,1,23,Paid,428,0,East,8265,Bachelor
+CUST0229,19,Female,Unskilled,Rent,Rich,,8274,66,Repairs,1,2,No,No,Divorced,1,16,Critical,839,0,South,7103,High School
+CUST0230,45,Male,Highly Skilled,Rent,Unknown,<0,2485,42,Education,4,1,Yes,No,Married,1,6,No Credit,655,1,South,8358,Bachelor
+CUST0231,40,Female,Management,Rent,Rich,,14752,28,Vacation,4,3,No,Yes,Single,2,16,Delayed,731,0,South,3031,Master
+CUST0232,54,Female,Skilled,Rent,Moderate,,5103,45,Furniture,3,3,No,Yes,Married,2,27,Delayed,364,0,North,2249,High School
+CUST0233,49,Female,Unskilled,Free,Unknown,<0,19662,28,Car,4,4,Yes,No,Single,0,5,No Credit,517,1,West,7808,Bachelor
+CUST0234,50,Male,Skilled,Own,Moderate,<0,16460,21,Furniture,1,1,No,Yes,Divorced,1,28,Delayed,726,1,North,4556,High School
+CUST0235,18,Male,Skilled,Free,Little,>=200,9962,66,Repairs,2,1,Yes,No,Married,0,21,Delayed,373,0,South,9519,Bachelor
+CUST0236,36,Male,Management,Rent,Rich,<0,14666,36,Car,4,4,Yes,No,Divorced,0,14,Critical,759,0,North,9988,PhD
+CUST0237,19,Female,Skilled,Free,Unknown,<0,8254,58,Furniture,4,2,Yes,Yes,Single,0,4,Delayed,724,0,West,6299,Master
+CUST0238,61,Female,Highly Skilled,Own,Moderate,0<=X<200,14746,30,Furniture,2,2,Yes,No,Divorced,0,14,Delayed,491,1,North,4094,Bachelor
+CUST0239,43,Female,Skilled,Free,Rich,>=200,4578,49,Business,1,3,Yes,No,Divorced,0,17,Delayed,488,1,East,3977,High School
+CUST0240,49,Male,Skilled,Own,Rich,>=200,13353,17,Repairs,1,1,No,No,Single,1,17,Paid,311,1,South,1962,Master
+CUST0241,23,Male,Skilled,Free,Little,>=200,18251,14,Vacation,4,2,No,Yes,Single,2,24,No Credit,538,1,South,6725,Bachelor
+CUST0242,49,Female,Unskilled,Own,Little,0<=X<200,4542,17,Business,3,3,No,Yes,Married,1,20,Critical,752,1,South,6489,Bachelor
+CUST0243,21,Male,Unskilled,Own,Rich,<0,16784,59,Car,4,3,No,Yes,Single,1,20,Delayed,682,0,North,2268,Bachelor
+CUST0244,28,Male,Highly Skilled,Rent,Rich,>=200,14889,59,Vacation,2,3,Yes,No,Married,1,22,No Credit,347,0,North,6279,Bachelor
+CUST0245,34,Male,Highly Skilled,Own,Unknown,>=200,3075,33,Business,2,2,Yes,Yes,Divorced,2,5,Delayed,616,0,North,1372,PhD
+CUST0246,55,Male,Unskilled,Rent,Rich,,7254,61,Repairs,2,2,No,Yes,Divorced,2,1,Paid,508,1,South,5380,Master
+CUST0247,41,Female,Highly Skilled,Rent,Unknown,>=200,18465,63,Education,4,1,Yes,Yes,Married,2,26,Paid,846,1,North,8617,PhD
+CUST0248,22,Male,Unskilled,Rent,Rich,<0,2486,47,Education,4,1,No,No,Single,1,16,Delayed,418,0,South,7279,Master
+CUST0249,69,Male,Management,Free,Little,<0,19124,43,Car,1,3,No,No,Single,2,20,Delayed,614,0,North,1095,Bachelor
+CUST0250,51,Male,Skilled,Free,Unknown,,15970,58,Education,3,3,No,Yes,Divorced,0,3,Delayed,335,0,South,5369,Master
+CUST0251,23,Male,Skilled,Free,Moderate,>=200,6468,38,Business,4,2,No,Yes,Married,2,11,Paid,762,1,East,4941,High School
+CUST0252,39,Female,Highly Skilled,Free,Little,>=200,7993,61,Car,1,2,Yes,Yes,Divorced,1,18,Paid,702,1,North,8021,Master
+CUST0253,28,Female,Unskilled,Own,Unknown,>=200,4603,56,Vacation,4,1,Yes,No,Divorced,1,1,No Credit,406,1,South,4944,High School
+CUST0254,65,Male,Unskilled,Own,Unknown,0<=X<200,2576,48,Repairs,1,1,No,Yes,Single,0,25,Critical,338,1,East,6868,High School
+CUST0255,33,Male,Highly Skilled,Free,Moderate,>=200,3494,20,Car,1,4,No,No,Married,2,1,Critical,479,1,East,6396,PhD
+CUST0256,50,Male,Unskilled,Own,Unknown,<0,4244,43,Vacation,3,1,No,No,Divorced,2,13,Paid,311,0,West,9041,Master
+CUST0257,26,Male,Management,Own,Rich,<0,14966,20,Car,4,2,No,No,Single,0,14,Critical,638,0,North,1131,Bachelor
+CUST0258,23,Male,Skilled,Rent,Moderate,0<=X<200,15023,10,Furniture,1,3,No,Yes,Divorced,1,19,Delayed,847,1,South,8290,Master
+CUST0259,33,Male,Highly Skilled,Rent,Little,0<=X<200,6094,59,Furniture,2,4,Yes,Yes,Divorced,1,1,No Credit,425,1,West,7516,PhD
+CUST0260,46,Female,Highly Skilled,Rent,Little,>=200,8031,56,Car,2,1,No,No,Single,2,3,Paid,362,0,North,6906,High School
+CUST0261,20,Male,Unskilled,Rent,Rich,,7871,15,Education,2,1,No,No,Single,2,18,Paid,381,1,East,1807,High School
+CUST0262,37,Female,Highly Skilled,Own,Little,0<=X<200,15047,17,Furniture,3,2,Yes,No,Married,2,8,Critical,598,1,North,1050,PhD
+CUST0263,53,Female,Management,Free,Unknown,0<=X<200,18528,9,Repairs,1,4,Yes,No,Divorced,2,6,Delayed,333,0,South,6277,PhD
+CUST0264,36,Male,Unskilled,Own,Unknown,>=200,3644,23,Vacation,3,1,Yes,Yes,Married,2,29,No Credit,348,1,East,1055,Master
+CUST0265,43,Female,Unskilled,Own,Rich,>=200,14490,41,Business,4,3,Yes,Yes,Single,1,12,Critical,356,1,West,4664,High School
+CUST0266,20,Female,Unskilled,Own,Little,0<=X<200,14583,30,Furniture,4,2,Yes,No,Single,1,26,Paid,408,0,North,1743,PhD
+CUST0267,36,Female,Unskilled,Rent,Little,,17126,41,Car,1,4,Yes,No,Divorced,1,11,Paid,816,1,North,7030,Master
+CUST0268,37,Female,Management,Rent,Rich,0<=X<200,8454,14,Education,2,1,Yes,No,Married,1,2,Critical,323,1,West,9131,Master
+CUST0269,49,Female,Unskilled,Rent,Moderate,>=200,7769,66,Business,1,1,Yes,Yes,Married,0,12,Delayed,520,0,North,1079,Bachelor
+CUST0270,24,Female,Highly Skilled,Free,Little,>=200,7630,58,Vacation,1,4,Yes,No,Divorced,1,14,No Credit,614,0,North,3966,High School
+CUST0271,69,Male,Management,Own,Moderate,0<=X<200,7328,23,Vacation,1,2,No,Yes,Divorced,0,13,No Credit,593,1,North,4728,Master
+CUST0272,58,Female,Skilled,Free,Little,,9344,48,Furniture,3,4,Yes,No,Married,1,23,No Credit,309,0,East,5536,PhD
+CUST0273,50,Female,Skilled,Rent,Little,0<=X<200,14720,40,Vacation,4,4,No,Yes,Single,2,8,No Credit,780,0,East,1125,High School
+CUST0274,57,Female,Highly Skilled,Free,Little,0<=X<200,6831,68,Vacation,1,2,No,Yes,Single,2,12,Delayed,566,1,South,6813,PhD
+CUST0275,56,Male,Highly Skilled,Own,Little,>=200,13897,9,Education,1,1,No,No,Divorced,2,22,Paid,387,0,North,9410,PhD
+CUST0276,35,Female,Management,Own,Unknown,,18383,46,Education,1,3,No,Yes,Married,0,21,Paid,754,1,South,1947,Master
+CUST0277,57,Male,Skilled,Rent,Moderate,<0,10791,50,Education,3,2,No,Yes,Married,1,3,No Credit,832,0,East,1594,Master
+CUST0278,18,Female,Skilled,Rent,Moderate,,19042,55,Car,3,3,No,Yes,Married,1,20,No Credit,447,0,North,6030,Bachelor
+CUST0279,28,Male,Skilled,Free,Little,0<=X<200,10664,33,Vacation,3,1,No,Yes,Single,0,7,No Credit,730,1,South,1140,PhD
+CUST0280,45,Male,Skilled,Rent,Little,0<=X<200,10950,47,Vacation,1,4,No,No,Single,0,2,Critical,541,1,North,4055,Master
+CUST0281,42,Female,Skilled,Rent,Moderate,0<=X<200,2535,6,Vacation,2,3,Yes,No,Married,0,1,Critical,365,1,North,5205,Bachelor
+CUST0282,67,Female,Unskilled,Own,Unknown,,11963,44,Repairs,2,1,No,No,Married,0,18,Paid,677,0,West,6171,High School
+CUST0283,40,Male,Highly Skilled,Rent,Rich,>=200,8477,22,Education,2,1,No,No,Divorced,0,27,Paid,687,1,South,8782,Bachelor
+CUST0284,48,Female,Unskilled,Rent,Rich,0<=X<200,17741,40,Business,4,4,No,No,Divorced,2,22,No Credit,508,1,East,3660,Bachelor
+CUST0285,47,Male,Skilled,Own,Moderate,0<=X<200,12682,51,Furniture,1,4,No,Yes,Married,1,7,Critical,714,0,South,7856,PhD
+CUST0286,59,Male,Management,Own,Little,,798,47,Business,2,1,Yes,Yes,Married,0,16,Delayed,315,0,South,7089,High School
+CUST0287,52,Male,Management,Free,Little,<0,1423,44,Car,2,1,No,Yes,Single,2,12,Critical,596,0,South,6318,PhD
+CUST0288,24,Male,Skilled,Rent,Unknown,<0,13831,54,Car,2,3,Yes,Yes,Married,0,6,Paid,519,1,West,3552,PhD
+CUST0289,33,Male,Skilled,Own,Rich,>=200,19683,67,Vacation,1,1,Yes,No,Divorced,2,8,Critical,666,0,North,4611,Bachelor
+CUST0290,43,Female,Management,Free,Unknown,>=200,7078,43,Business,2,1,No,No,Single,0,11,Paid,528,0,East,9062,Bachelor
+CUST0291,65,Male,Unskilled,Free,Rich,0<=X<200,5375,28,Vacation,2,3,No,Yes,Divorced,1,28,No Credit,739,1,West,2040,Master
+CUST0292,69,Male,Unskilled,Rent,Moderate,,12754,27,Repairs,1,2,Yes,No,Divorced,0,13,Delayed,831,0,East,9506,Bachelor
+CUST0293,66,Female,Skilled,Rent,Rich,0<=X<200,18686,9,Car,4,3,No,Yes,Single,0,13,No Credit,749,0,West,8603,Master
+CUST0294,19,Male,Unskilled,Free,Unknown,>=200,11405,54,Car,3,3,No,Yes,Divorced,1,14,No Credit,335,1,North,5172,PhD
+CUST0295,18,Female,Management,Own,Unknown,,13853,64,Business,2,4,Yes,No,Married,1,2,Delayed,721,0,East,3946,Bachelor
+CUST0296,65,Female,Unskilled,Free,Unknown,,16382,7,Car,3,3,Yes,No,Divorced,0,14,Delayed,488,1,South,4236,High School
+CUST0297,29,Female,Skilled,Rent,Moderate,>=200,19541,54,Repairs,4,1,No,No,Single,1,18,Delayed,477,1,West,4680,High School
+CUST0298,22,Male,Management,Own,Rich,<0,10163,36,Repairs,4,1,No,No,Single,1,23,Paid,614,1,East,5807,PhD
+CUST0299,54,Male,Unskilled,Own,Rich,<0,19833,45,Repairs,2,1,No,No,Single,2,19,No Credit,319,1,North,2537,PhD
+CUST0300,49,Male,Highly Skilled,Free,Unknown,,1441,53,Furniture,1,2,Yes,No,Divorced,1,13,Paid,681,1,East,4872,Bachelor
+CUST0301,26,Female,Management,Rent,Rich,0<=X<200,2407,56,Repairs,4,1,No,No,Married,1,7,Delayed,442,0,West,2867,Master
+CUST0302,58,Male,Management,Free,Little,<0,5337,48,Repairs,3,2,Yes,Yes,Single,0,4,Paid,361,1,North,2161,Bachelor
+CUST0303,52,Female,Highly Skilled,Free,Little,0<=X<200,14180,60,Furniture,3,1,Yes,No,Married,0,29,Delayed,541,1,South,4920,Master
+CUST0304,36,Male,Highly Skilled,Free,Little,<0,18127,54,Vacation,3,3,No,Yes,Single,2,18,Critical,537,1,West,6693,Bachelor
+CUST0305,65,Female,Management,Own,Rich,<0,6196,62,Education,3,4,Yes,Yes,Married,0,3,Delayed,430,1,West,4882,High School
+CUST0306,33,Male,Highly Skilled,Own,Moderate,0<=X<200,16726,20,Car,4,1,No,No,Married,1,13,No Credit,422,0,North,8738,High School
+CUST0307,20,Male,Skilled,Rent,Moderate,>=200,14043,32,Repairs,2,2,No,Yes,Married,1,15,No Credit,739,0,West,9456,Master
+CUST0308,37,Male,Skilled,Rent,Moderate,<0,13115,69,Car,2,2,Yes,No,Single,1,19,No Credit,641,0,East,7331,Bachelor
+CUST0309,41,Female,Skilled,Free,Moderate,<0,1966,35,Business,3,4,No,Yes,Divorced,0,23,Paid,718,1,South,6182,PhD
+CUST0310,50,Female,Management,Free,Little,0<=X<200,18850,41,Car,2,1,Yes,Yes,Divorced,1,5,No Credit,754,0,East,2526,Master
+CUST0311,41,Male,Highly Skilled,Free,Little,>=200,875,54,Vacation,3,3,Yes,Yes,Divorced,1,22,Delayed,497,0,North,9131,High School
+CUST0312,69,Male,Highly Skilled,Rent,Unknown,<0,762,60,Furniture,3,1,No,No,Married,2,24,Critical,581,1,West,5394,Master
+CUST0313,28,Female,Unskilled,Own,Rich,<0,12080,61,Car,1,1,No,Yes,Single,2,5,No Credit,300,1,South,2158,Bachelor
+CUST0314,66,Female,Unskilled,Own,Rich,>=200,10636,49,Car,4,4,No,Yes,Married,2,2,Paid,631,0,North,5367,PhD
+CUST0315,25,Female,Highly Skilled,Free,Moderate,<0,8333,36,Car,4,1,No,Yes,Single,0,14,Critical,511,0,East,5630,PhD
+CUST0316,53,Male,Highly Skilled,Free,Little,>=200,2393,63,Education,3,3,Yes,No,Married,1,28,No Credit,386,0,West,4513,Master
+CUST0317,55,Female,Highly Skilled,Free,Moderate,>=200,8606,58,Education,4,2,Yes,Yes,Single,1,2,No Credit,360,0,West,2144,Bachelor
+CUST0318,57,Male,Management,Free,Unknown,0<=X<200,12326,28,Business,2,4,Yes,No,Single,1,10,Critical,394,1,North,1068,Bachelor
+CUST0319,37,Female,Highly Skilled,Rent,Rich,,2152,33,Furniture,3,3,No,Yes,Single,2,2,No Credit,446,1,East,4717,PhD
+CUST0320,52,Male,Unskilled,Own,Rich,>=200,1099,21,Car,1,2,Yes,Yes,Married,1,27,Paid,545,1,West,5723,High School
+CUST0321,65,Female,Management,Free,Moderate,0<=X<200,18796,42,Car,2,4,Yes,Yes,Divorced,1,9,Delayed,596,1,East,5213,Bachelor
+CUST0322,42,Female,Highly Skilled,Rent,Unknown,,9292,26,Car,1,4,No,No,Married,1,17,Delayed,422,1,South,7413,PhD
+CUST0323,52,Female,Unskilled,Free,Rich,<0,4137,22,Car,1,2,No,Yes,Married,1,0,Critical,755,0,West,4466,PhD
+CUST0324,42,Female,Management,Free,Unknown,,10855,42,Education,4,2,No,Yes,Single,1,15,Delayed,698,1,South,4026,Bachelor
+CUST0325,46,Female,Highly Skilled,Own,Unknown,>=200,16489,24,Vacation,4,3,Yes,Yes,Single,0,15,No Credit,530,1,West,7998,Bachelor
+CUST0326,35,Male,Highly Skilled,Free,Moderate,>=200,9790,35,Vacation,3,1,No,Yes,Divorced,1,26,No Credit,833,0,North,3747,Master
+CUST0327,63,Female,Highly Skilled,Own,Little,>=200,6099,50,Business,4,1,Yes,No,Divorced,0,9,Paid,701,1,West,8271,High School
+CUST0328,35,Female,Management,Own,Moderate,>=200,14842,23,Repairs,1,1,Yes,Yes,Single,1,0,Delayed,429,0,West,7171,Master
+CUST0329,19,Female,Unskilled,Own,Little,>=200,14445,67,Furniture,1,1,Yes,Yes,Divorced,0,3,Critical,591,1,East,4855,Master
+CUST0330,52,Male,Unskilled,Rent,Unknown,0<=X<200,11262,41,Vacation,2,1,Yes,Yes,Divorced,1,2,No Credit,575,1,East,9753,PhD
+CUST0331,33,Female,Skilled,Rent,Little,>=200,14812,57,Car,1,3,Yes,Yes,Single,1,4,Critical,675,1,South,3203,PhD
+CUST0332,58,Male,Highly Skilled,Own,Unknown,0<=X<200,7882,24,Vacation,3,4,No,No,Married,1,11,No Credit,354,0,South,4419,High School
+CUST0333,53,Female,Skilled,Free,Rich,<0,9482,49,Business,3,3,Yes,Yes,Divorced,1,24,No Credit,325,1,South,2144,Master
+CUST0334,50,Female,Skilled,Own,Rich,>=200,8207,12,Repairs,4,3,No,Yes,Single,2,11,Paid,740,0,West,3699,Master
+CUST0335,21,Male,Unskilled,Free,Rich,>=200,17630,49,Vacation,4,3,Yes,No,Divorced,1,12,Delayed,496,1,West,1560,PhD
+CUST0336,50,Female,Management,Own,Moderate,,5133,39,Business,4,4,Yes,Yes,Divorced,0,23,Paid,542,1,South,2187,PhD
+CUST0337,31,Male,Management,Free,Moderate,<0,17804,71,Education,3,3,No,Yes,Single,2,11,Delayed,489,0,North,4133,Bachelor
+CUST0338,38,Male,Unskilled,Rent,Unknown,>=200,9769,60,Repairs,1,3,Yes,Yes,Divorced,2,24,Critical,575,0,North,4411,Master
+CUST0339,65,Female,Management,Free,Rich,>=200,14278,15,Business,4,4,Yes,No,Divorced,1,15,Delayed,708,1,West,2689,High School
+CUST0340,37,Male,Skilled,Own,Moderate,<0,7508,47,Vacation,2,3,No,Yes,Divorced,0,12,Critical,639,0,North,5407,Master
+CUST0341,25,Female,Highly Skilled,Rent,Rich,0<=X<200,16023,46,Education,4,1,No,No,Married,0,4,No Credit,452,1,North,3423,PhD
+CUST0342,24,Female,Unskilled,Free,Moderate,>=200,19265,15,Business,3,2,Yes,No,Married,2,23,Critical,697,1,South,2369,Bachelor
+CUST0343,20,Male,Highly Skilled,Free,Little,,4118,15,Business,4,3,Yes,No,Divorced,0,3,Critical,743,0,North,7007,Master
+CUST0344,34,Male,Management,Free,Little,>=200,772,65,Vacation,1,2,Yes,No,Single,1,20,No Credit,726,0,North,7728,High School
+CUST0345,50,Male,Highly Skilled,Free,Rich,,13507,56,Repairs,4,3,No,No,Divorced,1,14,Critical,786,0,West,9772,PhD
+CUST0346,65,Male,Management,Free,Unknown,,18657,26,Education,3,3,Yes,No,Divorced,1,11,Critical,503,1,West,1976,Bachelor
+CUST0347,29,Female,Management,Rent,Moderate,>=200,3047,13,Car,3,1,No,No,Married,1,18,No Credit,411,0,West,5272,Master
+CUST0348,68,Female,Skilled,Rent,Moderate,>=200,3664,70,Furniture,2,4,No,Yes,Married,1,20,No Credit,624,1,North,7497,High School
+CUST0349,39,Male,Management,Rent,Little,,14914,35,Repairs,3,2,Yes,Yes,Married,2,27,No Credit,557,0,South,1118,PhD
+CUST0350,39,Female,Skilled,Rent,Little,<0,14827,54,Education,2,4,No,No,Divorced,1,18,Delayed,827,0,East,2542,High School
+CUST0351,63,Female,Skilled,Own,Unknown,<0,16076,14,Business,1,1,Yes,No,Divorced,1,20,No Credit,649,0,West,5862,Master
+CUST0352,47,Female,Skilled,Rent,Unknown,>=200,1446,22,Education,3,1,Yes,No,Single,2,10,No Credit,734,0,West,4043,PhD
+CUST0353,55,Female,Unskilled,Free,Unknown,0<=X<200,15193,63,Furniture,4,2,No,No,Divorced,2,29,Critical,725,0,West,1972,Master
+CUST0354,55,Male,Unskilled,Free,Rich,<0,17390,62,Vacation,1,4,No,No,Divorced,2,20,Paid,579,1,South,1915,Bachelor
+CUST0355,62,Male,Management,Rent,Little,>=200,16040,67,Furniture,4,1,No,No,Married,0,5,Paid,670,0,East,7621,Master
+CUST0356,68,Female,Skilled,Free,Rich,<0,7219,57,Car,4,3,No,Yes,Married,0,8,Delayed,548,0,East,1586,Bachelor
+CUST0357,25,Male,Unskilled,Rent,Little,0<=X<200,8935,66,Car,4,3,No,Yes,Married,1,0,Delayed,480,1,West,9542,Master
+CUST0358,44,Male,Skilled,Free,Little,>=200,11850,45,Furniture,1,3,No,No,Married,1,11,Paid,377,1,North,6625,High School
+CUST0359,44,Male,Highly Skilled,Own,Moderate,0<=X<200,4090,43,Repairs,1,4,Yes,No,Married,1,25,Paid,635,1,West,8354,High School
+CUST0360,51,Female,Highly Skilled,Own,Little,>=200,10564,48,Repairs,3,3,Yes,No,Single,0,13,No Credit,349,1,West,5591,PhD
+CUST0361,38,Female,Highly Skilled,Rent,Little,0<=X<200,18076,68,Business,4,3,Yes,Yes,Single,1,5,Critical,384,0,North,3562,High School
+CUST0362,47,Female,Management,Rent,Rich,<0,18348,24,Car,2,1,No,No,Single,1,0,No Credit,303,0,North,7839,High School
+CUST0363,50,Male,Skilled,Rent,Little,<0,890,55,Business,3,1,No,Yes,Married,0,21,Delayed,616,1,West,9464,Bachelor
+CUST0364,45,Female,Highly Skilled,Free,Rich,0<=X<200,13168,38,Car,1,3,No,Yes,Married,2,1,Paid,410,0,South,3927,High School
+CUST0365,64,Female,Unskilled,Rent,Unknown,0<=X<200,12069,18,Furniture,2,3,Yes,Yes,Married,0,23,Delayed,633,1,South,7195,Bachelor
+CUST0366,50,Male,Highly Skilled,Own,Little,0<=X<200,13529,67,Repairs,1,1,Yes,No,Single,1,10,No Credit,432,1,North,7276,Bachelor
+CUST0367,22,Female,Highly Skilled,Free,Little,>=200,13607,48,Repairs,2,2,No,No,Married,0,2,Delayed,418,0,West,5290,Bachelor
+CUST0368,65,Female,Highly Skilled,Rent,Rich,<0,3060,54,Furniture,3,4,No,Yes,Single,2,9,Delayed,649,0,South,6882,Master
+CUST0369,36,Male,Management,Free,Unknown,>=200,6367,41,Business,2,4,No,Yes,Married,2,29,Critical,841,1,West,7446,Bachelor
+CUST0370,21,Male,Unskilled,Free,Moderate,<0,15784,15,Business,3,1,No,Yes,Divorced,2,5,Delayed,354,0,West,6167,Master
+CUST0371,52,Male,Skilled,Rent,Unknown,,1711,11,Education,1,4,Yes,Yes,Single,2,5,No Credit,660,1,West,2522,Bachelor
+CUST0372,66,Female,Unskilled,Free,Rich,>=200,9621,62,Car,2,1,Yes,No,Divorced,2,19,Critical,752,1,South,1561,Master
+CUST0373,34,Female,Skilled,Own,Unknown,<0,2039,6,Business,4,1,Yes,Yes,Single,2,20,Delayed,629,1,East,4540,PhD
+CUST0374,61,Female,Management,Own,Rich,<0,17527,63,Furniture,4,1,No,No,Married,1,1,No Credit,518,1,West,2479,PhD
+CUST0375,45,Male,Management,Free,Rich,>=200,9193,26,Business,1,1,Yes,Yes,Married,1,25,Paid,507,0,South,7677,Master
+CUST0376,47,Male,Management,Rent,Moderate,>=200,9421,61,Repairs,2,2,No,No,Divorced,0,25,Critical,384,1,East,2205,PhD
+CUST0377,46,Female,Management,Free,Little,<0,18167,25,Car,4,3,No,Yes,Married,1,23,Delayed,544,1,North,7660,High School
+CUST0378,63,Female,Skilled,Own,Rich,>=200,10810,59,Vacation,3,3,No,No,Single,2,9,Delayed,634,1,South,9848,Bachelor
+CUST0379,23,Male,Highly Skilled,Free,Rich,0<=X<200,13244,30,Education,2,2,Yes,No,Married,1,22,Critical,511,0,East,1589,Master
+CUST0380,52,Male,Skilled,Free,Moderate,>=200,4886,33,Car,2,4,Yes,No,Married,0,25,No Credit,482,1,South,5326,PhD
+CUST0381,58,Male,Unskilled,Own,Rich,>=200,17803,10,Repairs,4,4,No,Yes,Single,2,5,Delayed,432,1,East,5904,PhD
+CUST0382,54,Male,Management,Free,Little,>=200,12742,26,Repairs,3,3,Yes,No,Divorced,1,22,No Credit,649,0,East,7421,High School
+CUST0383,41,Female,Management,Free,Moderate,<0,19223,23,Repairs,3,4,No,Yes,Divorced,1,27,Critical,581,1,South,4759,Bachelor
+CUST0384,46,Male,Unskilled,Rent,Little,0<=X<200,14757,52,Repairs,3,3,No,No,Married,0,16,Delayed,592,1,North,9939,High School
+CUST0385,66,Female,Skilled,Rent,Little,,9447,62,Furniture,2,3,No,No,Single,2,29,Paid,568,1,West,9655,Master
+CUST0386,63,Female,Highly Skilled,Own,Moderate,,14446,24,Education,1,2,Yes,Yes,Divorced,0,13,Paid,496,1,East,9945,PhD
+CUST0387,48,Female,Highly Skilled,Own,Rich,0<=X<200,6430,70,Vacation,2,4,Yes,No,Divorced,2,4,Paid,836,0,West,6936,PhD
+CUST0388,52,Male,Unskilled,Own,Little,0<=X<200,5902,8,Repairs,2,2,No,No,Married,2,22,Critical,319,0,North,9774,PhD
+CUST0389,50,Male,Highly Skilled,Rent,Little,0<=X<200,16517,47,Repairs,4,3,Yes,Yes,Single,1,16,Delayed,704,0,West,3205,High School
+CUST0390,69,Male,Skilled,Own,Little,<0,1007,26,Business,1,3,Yes,No,Divorced,0,1,Critical,414,1,West,5114,High School
+CUST0391,38,Male,Skilled,Own,Little,,1936,45,Education,3,3,Yes,No,Married,0,8,Delayed,325,0,South,5027,Bachelor
+CUST0392,49,Female,Unskilled,Own,Moderate,0<=X<200,12118,30,Car,4,1,Yes,No,Married,0,11,Paid,694,0,South,5816,Master
+CUST0393,40,Male,Skilled,Rent,Moderate,<0,9250,60,Education,2,1,No,No,Married,2,18,Paid,680,1,North,8188,Bachelor
+CUST0394,50,Male,Management,Free,Unknown,,16622,57,Education,1,1,Yes,Yes,Married,0,21,No Credit,822,0,South,3808,Bachelor
+CUST0395,20,Female,Unskilled,Own,Unknown,>=200,7854,49,Vacation,3,2,No,No,Divorced,2,6,Critical,838,0,East,4603,PhD
+CUST0396,35,Male,Skilled,Free,Little,<0,11794,61,Education,3,3,No,No,Single,0,8,Critical,382,0,North,4913,High School
+CUST0397,42,Female,Unskilled,Own,Rich,,14340,60,Vacation,2,4,Yes,No,Married,0,20,No Credit,849,1,South,2419,Master
+CUST0398,59,Female,Highly Skilled,Free,Little,<0,4899,71,Repairs,3,2,No,No,Married,1,15,Paid,744,1,South,3167,Bachelor
+CUST0399,48,Female,Skilled,Rent,Rich,,5537,24,Repairs,3,2,No,No,Divorced,0,19,Paid,386,0,North,3144,Master
+CUST0400,20,Female,Management,Rent,Little,,16348,12,Furniture,1,2,Yes,No,Married,1,10,Critical,686,0,East,3167,PhD
+CUST0401,57,Female,Skilled,Own,Unknown,>=200,4215,68,Vacation,4,4,No,No,Married,1,11,Delayed,697,1,North,6891,Bachelor
+CUST0402,63,Female,Unskilled,Free,Unknown,<0,15377,47,Vacation,1,3,No,No,Single,2,14,Paid,585,1,South,7536,High School
+CUST0403,41,Female,Unskilled,Rent,Rich,0<=X<200,8337,47,Car,4,1,Yes,Yes,Married,0,17,No Credit,668,1,South,2166,Bachelor
+CUST0404,67,Female,Skilled,Own,Little,>=200,1801,64,Business,4,3,Yes,Yes,Divorced,0,18,No Credit,721,1,North,4575,PhD
+CUST0405,49,Male,Management,Own,Rich,>=200,7870,25,Education,4,3,Yes,Yes,Single,0,15,No Credit,742,0,East,3841,Bachelor
+CUST0406,64,Male,Management,Rent,Unknown,,19039,22,Car,3,2,Yes,Yes,Divorced,1,14,Critical,819,1,East,2870,PhD
+CUST0407,39,Male,Management,Rent,Little,0<=X<200,6911,32,Vacation,1,2,Yes,No,Single,0,4,Critical,587,0,West,3886,Bachelor
+CUST0408,40,Male,Unskilled,Own,Little,<0,6865,52,Car,3,2,No,No,Single,2,10,Critical,394,1,East,1159,Master
+CUST0409,19,Female,Skilled,Free,Rich,0<=X<200,15949,7,Furniture,2,1,No,Yes,Married,2,14,Critical,340,1,North,8243,High School
+CUST0410,44,Male,Highly Skilled,Free,Moderate,0<=X<200,1192,68,Business,1,1,Yes,Yes,Married,0,28,No Credit,630,1,East,4763,PhD
+CUST0411,59,Female,Unskilled,Free,Rich,0<=X<200,1978,67,Vacation,4,1,Yes,Yes,Married,1,17,No Credit,454,1,East,2055,Master
+CUST0412,19,Male,Management,Own,Unknown,0<=X<200,6896,24,Vacation,3,3,No,No,Divorced,2,12,Critical,803,0,West,1333,PhD
+CUST0413,43,Male,Skilled,Rent,Unknown,0<=X<200,8948,22,Education,3,2,Yes,No,Married,2,3,Critical,574,0,East,4596,Bachelor
+CUST0414,34,Male,Management,Own,Unknown,,11122,44,Business,1,4,Yes,Yes,Married,1,16,No Credit,478,0,West,8607,PhD
+CUST0415,57,Female,Highly Skilled,Rent,Unknown,,17325,44,Furniture,1,3,No,Yes,Single,2,3,Critical,436,1,West,2362,PhD
+CUST0416,50,Male,Management,Free,Unknown,>=200,10573,41,Repairs,4,1,No,Yes,Married,1,15,Critical,479,0,East,1925,High School
+CUST0417,26,Female,Management,Free,Moderate,,3146,45,Car,4,4,No,Yes,Married,2,22,Critical,481,1,South,6519,Master
+CUST0418,60,Female,Highly Skilled,Rent,Little,>=200,5709,50,Education,2,4,Yes,Yes,Married,1,14,Critical,558,1,North,3443,Bachelor
+CUST0419,65,Male,Skilled,Rent,Rich,>=200,7033,9,Vacation,4,2,No,No,Married,2,13,Paid,542,0,North,4980,High School
+CUST0420,56,Male,Unskilled,Own,Rich,<0,7711,30,Repairs,3,4,Yes,Yes,Single,0,11,Critical,395,1,East,8260,PhD
+CUST0421,46,Male,Skilled,Free,Unknown,0<=X<200,10427,35,Furniture,2,1,No,No,Married,2,2,No Credit,496,1,North,2419,High School
+CUST0422,59,Female,Highly Skilled,Own,Rich,,12427,34,Business,2,2,Yes,Yes,Single,2,9,No Credit,825,0,North,1059,PhD
+CUST0423,43,Male,Management,Own,Unknown,<0,19529,56,Car,2,4,Yes,Yes,Divorced,0,7,No Credit,686,1,West,3524,Bachelor
+CUST0424,52,Female,Skilled,Own,Moderate,,9816,29,Education,1,2,Yes,No,Married,0,5,No Credit,707,1,South,4797,PhD
+CUST0425,67,Female,Unskilled,Free,Moderate,>=200,12677,19,Vacation,4,4,No,Yes,Married,0,21,Critical,568,0,North,2578,High School
+CUST0426,42,Male,Highly Skilled,Own,Little,,11346,23,Vacation,2,3,No,No,Married,0,13,Paid,470,0,South,8201,High School
+CUST0427,41,Male,Skilled,Own,Moderate,0<=X<200,8433,47,Repairs,1,3,No,No,Single,1,16,Delayed,469,1,North,1707,PhD
+CUST0428,30,Female,Unskilled,Own,Moderate,>=200,5976,62,Repairs,1,1,Yes,Yes,Married,1,20,Delayed,458,0,South,9165,Master
+CUST0429,24,Female,Highly Skilled,Own,Little,>=200,14353,17,Car,2,3,No,Yes,Married,2,18,Delayed,808,1,South,6277,High School
+CUST0430,53,Female,Unskilled,Own,Rich,<0,8428,22,Business,2,3,No,No,Divorced,2,15,Delayed,746,0,North,2780,Master
+CUST0431,62,Male,Highly Skilled,Own,Unknown,0<=X<200,2580,35,Furniture,3,3,Yes,No,Single,2,14,No Credit,381,1,West,3413,Master
+CUST0432,37,Female,Management,Free,Unknown,>=200,6589,28,Business,2,4,Yes,Yes,Single,1,25,Critical,356,0,South,8750,Master
+CUST0433,18,Male,Skilled,Own,Rich,0<=X<200,8297,6,Business,3,4,No,No,Divorced,2,14,Critical,818,0,South,3161,Master
+CUST0434,25,Female,Unskilled,Rent,Little,,17745,37,Business,2,2,No,Yes,Single,2,0,Delayed,411,1,North,9800,High School
+CUST0435,63,Female,Highly Skilled,Own,Rich,0<=X<200,8846,14,Car,2,4,No,No,Married,1,23,Delayed,347,0,South,1308,High School
+CUST0436,33,Male,Unskilled,Own,Moderate,>=200,1404,20,Car,4,3,Yes,Yes,Married,2,22,Paid,675,0,South,6439,Master
+CUST0437,31,Female,Unskilled,Free,Little,<0,18153,33,Furniture,2,4,No,No,Divorced,1,22,Paid,332,1,West,5307,High School
+CUST0438,29,Male,Skilled,Free,Little,>=200,17288,29,Business,2,1,Yes,No,Single,1,11,Paid,803,0,South,3364,Master
+CUST0439,68,Male,Management,Rent,Little,0<=X<200,10474,65,Car,3,2,Yes,Yes,Single,0,9,No Credit,302,0,West,1184,Master
+CUST0440,40,Female,Unskilled,Rent,Unknown,0<=X<200,1684,40,Furniture,3,2,No,No,Single,0,13,Critical,785,0,South,6324,Master
+CUST0441,32,Male,Highly Skilled,Free,Rich,>=200,2225,32,Vacation,4,4,No,No,Divorced,1,9,No Credit,815,1,South,6483,PhD
+CUST0442,45,Male,Highly Skilled,Free,Little,0<=X<200,11880,25,Furniture,2,3,Yes,No,Married,1,9,No Credit,341,0,West,1245,Bachelor
+CUST0443,51,Female,Management,Own,Little,,13557,70,Business,2,2,Yes,No,Divorced,0,19,Critical,308,1,West,9430,High School
+CUST0444,19,Male,Highly Skilled,Free,Little,>=200,6106,54,Education,3,1,No,No,Married,2,28,Paid,441,1,East,9183,High School
+CUST0445,49,Male,Management,Rent,Rich,<0,4456,6,Business,1,1,No,No,Divorced,2,10,Critical,735,0,South,6924,Master
+CUST0446,40,Male,Highly Skilled,Own,Unknown,>=200,17055,15,Education,1,2,No,No,Married,2,21,Delayed,326,1,West,1519,PhD
+CUST0447,39,Female,Skilled,Rent,Moderate,,19190,52,Furniture,1,3,Yes,Yes,Single,1,15,Paid,342,1,South,4907,PhD
+CUST0448,68,Male,Unskilled,Own,Unknown,,16581,64,Vacation,3,3,Yes,No,Single,0,28,Critical,430,1,South,1276,High School
+CUST0449,42,Female,Skilled,Free,Little,,921,67,Vacation,3,4,No,No,Single,2,8,No Credit,515,1,South,6101,Master
+CUST0450,39,Female,Unskilled,Rent,Unknown,,6040,23,Car,1,4,Yes,Yes,Divorced,0,14,Critical,819,0,North,9797,High School
+CUST0451,39,Male,Unskilled,Own,Unknown,,16788,51,Vacation,1,2,Yes,No,Divorced,0,13,Paid,644,0,East,5573,Master
+CUST0452,66,Male,Unskilled,Own,Moderate,<0,16466,37,Repairs,2,4,No,No,Divorced,1,18,Delayed,807,0,North,5603,Master
+CUST0453,69,Male,Skilled,Free,Rich,0<=X<200,16382,32,Furniture,3,4,Yes,Yes,Single,2,8,No Credit,712,1,East,5053,Bachelor
+CUST0454,59,Female,Unskilled,Free,Rich,,5175,23,Car,3,4,No,No,Married,0,3,Delayed,545,1,South,7812,Master
+CUST0455,23,Male,Skilled,Free,Unknown,,9582,44,Vacation,1,1,No,No,Single,1,20,Delayed,748,0,South,7073,Bachelor
+CUST0456,32,Male,Management,Rent,Unknown,>=200,13509,54,Furniture,1,4,Yes,Yes,Single,1,6,No Credit,320,1,West,1141,High School
+CUST0457,60,Male,Highly Skilled,Own,Rich,<0,7248,49,Business,4,2,Yes,Yes,Married,1,21,Critical,707,0,East,2717,High School
+CUST0458,54,Male,Highly Skilled,Free,Rich,<0,6603,59,Vacation,3,3,No,No,Married,2,25,Critical,756,1,East,8313,PhD
+CUST0459,50,Male,Unskilled,Rent,Moderate,0<=X<200,18357,39,Education,4,4,Yes,No,Married,2,7,Delayed,743,0,North,6714,Bachelor
+CUST0460,25,Female,Skilled,Rent,Little,<0,19065,41,Furniture,2,3,No,Yes,Married,1,23,Critical,564,0,East,1399,High School
+CUST0461,61,Female,Highly Skilled,Rent,Unknown,>=200,19980,23,Car,4,4,Yes,No,Single,2,7,Paid,483,0,South,5763,Bachelor
+CUST0462,61,Male,Skilled,Free,Rich,>=200,11848,43,Business,1,2,Yes,Yes,Divorced,2,18,Delayed,526,1,West,7255,High School
+CUST0463,22,Male,Skilled,Free,Unknown,0<=X<200,10282,64,Repairs,3,1,Yes,Yes,Single,0,14,Delayed,847,0,North,1238,Bachelor
+CUST0464,56,Male,Unskilled,Own,Unknown,>=200,6382,14,Business,3,2,No,Yes,Married,1,15,Delayed,545,1,West,4215,Bachelor
+CUST0465,21,Male,Highly Skilled,Own,Rich,,6298,56,Vacation,4,1,Yes,No,Divorced,1,29,Paid,372,1,East,8541,Master
+CUST0466,23,Female,Unskilled,Free,Moderate,,10127,40,Education,4,4,No,Yes,Divorced,2,25,Delayed,449,0,East,4647,High School
+CUST0467,62,Male,Unskilled,Rent,Unknown,>=200,8915,10,Business,2,4,No,Yes,Single,1,21,Critical,812,0,North,6408,PhD
+CUST0468,49,Female,Highly Skilled,Rent,Moderate,0<=X<200,12966,19,Repairs,2,1,No,Yes,Single,1,22,Critical,368,1,East,7340,Master
+CUST0469,69,Female,Highly Skilled,Rent,Rich,<0,10346,35,Car,1,2,Yes,No,Single,1,8,Critical,529,1,West,3429,PhD
+CUST0470,47,Male,Management,Own,Little,0<=X<200,13220,9,Furniture,1,2,No,No,Divorced,2,25,Critical,371,0,South,4652,Bachelor
+CUST0471,64,Female,Management,Rent,Little,<0,9645,44,Education,1,1,No,No,Divorced,2,25,Delayed,696,0,North,7307,Master
+CUST0472,52,Female,Skilled,Own,Unknown,>=200,5024,69,Repairs,4,4,Yes,Yes,Divorced,2,29,Paid,383,1,East,6140,Bachelor
+CUST0473,57,Female,Highly Skilled,Own,Rich,>=200,7059,30,Vacation,4,1,No,No,Married,0,11,No Credit,598,0,West,3878,High School
+CUST0474,69,Female,Management,Rent,Moderate,,8120,33,Vacation,3,4,No,No,Married,1,15,Critical,592,0,South,2535,High School
+CUST0475,33,Male,Skilled,Rent,Unknown,<0,19658,71,Vacation,1,1,Yes,Yes,Single,0,3,No Credit,522,0,East,9727,PhD
+CUST0476,30,Male,Skilled,Free,Rich,0<=X<200,3624,27,Education,4,4,No,Yes,Divorced,2,4,No Credit,515,0,North,7254,High School
+CUST0477,67,Female,Skilled,Free,Rich,>=200,9171,36,Business,3,1,Yes,No,Single,0,7,Delayed,530,1,East,1948,PhD
+CUST0478,59,Male,Management,Rent,Moderate,0<=X<200,12206,28,Education,1,3,No,No,Divorced,1,0,Critical,704,1,East,4941,Bachelor
+CUST0479,47,Male,Highly Skilled,Own,Unknown,,18237,53,Vacation,2,4,No,Yes,Single,1,27,Critical,468,0,East,7603,Master
+CUST0480,36,Male,Unskilled,Own,Rich,<0,12570,25,Repairs,2,2,Yes,No,Married,2,5,Critical,628,0,South,9625,High School
+CUST0481,34,Male,Skilled,Own,Rich,<0,8634,43,Furniture,4,1,No,Yes,Divorced,2,14,No Credit,725,1,South,2403,Bachelor
+CUST0482,36,Male,Management,Own,Rich,>=200,1424,60,Furniture,3,2,No,Yes,Married,0,3,Critical,495,1,East,8819,Master
+CUST0483,45,Female,Management,Own,Moderate,<0,19054,6,Education,2,1,No,No,Divorced,2,20,Critical,825,1,East,4511,Bachelor
+CUST0484,43,Male,Unskilled,Free,Unknown,>=200,6006,12,Vacation,3,2,Yes,No,Single,0,10,Paid,376,1,North,3935,PhD
+CUST0485,54,Male,Unskilled,Rent,Unknown,,14150,62,Car,3,2,Yes,No,Divorced,1,4,Delayed,576,1,East,5878,Bachelor
+CUST0486,43,Male,Management,Free,Unknown,<0,2895,17,Education,2,1,Yes,No,Married,1,17,Critical,765,0,West,8506,PhD
+CUST0487,40,Male,Highly Skilled,Own,Unknown,>=200,15810,10,Vacation,3,1,Yes,Yes,Divorced,1,23,Critical,747,0,West,8591,PhD
+CUST0488,26,Female,Unskilled,Own,Little,0<=X<200,8726,55,Business,2,2,Yes,No,Single,1,14,Delayed,619,1,North,6060,High School
+CUST0489,29,Female,Management,Own,Little,>=200,12281,47,Furniture,4,2,No,No,Divorced,1,17,Delayed,459,1,South,4333,PhD
+CUST0490,18,Female,Unskilled,Own,Unknown,<0,6015,17,Furniture,1,2,Yes,No,Married,0,19,No Credit,791,0,East,2602,PhD
+CUST0491,18,Female,Highly Skilled,Rent,Moderate,,19554,23,Furniture,1,4,Yes,Yes,Single,1,27,No Credit,612,1,North,9420,Bachelor
+CUST0492,64,Male,Skilled,Own,Little,<0,3865,71,Car,4,4,Yes,No,Married,0,12,No Credit,460,1,South,3196,PhD
+CUST0493,51,Female,Unskilled,Rent,Rich,<0,17472,22,Vacation,2,3,No,No,Divorced,1,4,Delayed,607,0,North,1110,PhD
+CUST0494,49,Male,Highly Skilled,Own,Little,>=200,11910,67,Vacation,2,4,No,Yes,Married,0,29,Paid,445,0,South,7023,Bachelor
+CUST0495,65,Male,Management,Rent,Rich,0<=X<200,9595,46,Vacation,2,4,Yes,Yes,Divorced,0,0,Critical,695,0,East,5159,Master
+CUST0496,42,Male,Unskilled,Free,Unknown,<0,10861,39,Vacation,2,1,No,Yes,Single,0,21,Delayed,388,0,North,4867,High School
+CUST0497,57,Male,Unskilled,Own,Little,0<=X<200,9031,50,Car,4,3,No,Yes,Married,2,17,Paid,607,1,East,8641,Bachelor
+CUST0498,62,Male,Management,Rent,Moderate,>=200,4770,63,Repairs,1,3,No,Yes,Married,0,13,Delayed,845,0,North,6004,PhD
+CUST0499,18,Female,Skilled,Free,Little,0<=X<200,10406,56,Education,3,4,No,No,Divorced,0,4,Paid,670,1,South,9204,Bachelor
+CUST0500,33,Female,Management,Own,Little,>=200,17440,39,Education,3,1,Yes,Yes,Married,1,5,Delayed,750,1,North,8077,Master
+CUST0501,56,Female,Unskilled,Own,Little,,11779,49,Vacation,1,1,Yes,Yes,Married,0,26,Delayed,466,1,West,4261,Bachelor
+CUST0502,22,Female,Management,Own,Unknown,0<=X<200,5952,20,Business,4,3,No,Yes,Single,0,23,Paid,691,1,West,1662,Bachelor
+CUST0503,39,Male,Highly Skilled,Rent,Moderate,0<=X<200,6977,55,Furniture,3,1,No,Yes,Divorced,2,24,Paid,790,0,North,9885,Bachelor
+CUST0504,46,Female,Management,Rent,Little,,17900,37,Car,1,2,No,Yes,Divorced,1,28,Paid,449,1,West,4390,Bachelor
+CUST0505,20,Male,Unskilled,Free,Moderate,0<=X<200,6970,8,Business,4,4,No,Yes,Single,2,27,Paid,767,1,East,4018,PhD
+CUST0506,29,Female,Management,Rent,Unknown,,2562,56,Business,3,2,Yes,Yes,Single,2,15,Paid,342,1,West,2902,Bachelor
+CUST0507,43,Male,Skilled,Rent,Rich,<0,9530,53,Vacation,2,3,No,Yes,Divorced,2,21,Paid,328,0,West,5171,Master
+CUST0508,33,Male,Management,Own,Little,>=200,2313,22,Car,2,3,Yes,No,Single,0,20,Paid,330,0,East,1328,Bachelor
+CUST0509,68,Female,Skilled,Own,Moderate,,12171,12,Education,4,1,No,No,Single,2,11,Paid,427,0,East,7295,Bachelor
+CUST0510,54,Male,Highly Skilled,Own,Moderate,0<=X<200,14808,18,Furniture,2,1,Yes,No,Single,2,19,Delayed,593,0,South,4846,PhD
+CUST0511,39,Male,Skilled,Own,Unknown,,2813,71,Education,4,3,No,Yes,Divorced,1,17,Paid,740,0,East,1224,PhD
+CUST0512,46,Female,Management,Own,Little,0<=X<200,10206,9,Business,1,3,Yes,Yes,Single,1,1,Paid,687,1,North,3520,Bachelor
+CUST0513,31,Male,Unskilled,Own,Rich,<0,18115,15,Furniture,1,2,Yes,Yes,Married,1,22,Delayed,823,0,West,9064,PhD
+CUST0514,45,Female,Skilled,Own,Moderate,,10337,22,Repairs,3,2,Yes,No,Married,1,20,Delayed,846,1,South,4714,PhD
+CUST0515,22,Female,Highly Skilled,Free,Little,<0,6331,57,Business,4,1,No,Yes,Divorced,2,22,No Credit,409,0,East,3407,Bachelor
+CUST0516,64,Female,Skilled,Free,Rich,>=200,19883,11,Education,3,2,Yes,Yes,Single,1,12,No Credit,627,1,West,7683,PhD
+CUST0517,66,Male,Skilled,Free,Moderate,0<=X<200,4556,14,Education,3,1,No,Yes,Married,0,26,Paid,704,0,North,1810,High School
+CUST0518,47,Male,Skilled,Free,Moderate,0<=X<200,805,26,Vacation,1,1,Yes,No,Divorced,2,16,Paid,544,1,North,7752,High School
+CUST0519,63,Male,Highly Skilled,Own,Rich,<0,14847,29,Education,3,4,Yes,No,Married,1,16,No Credit,462,0,South,4117,High School
+CUST0520,69,Female,Management,Free,Rich,>=200,2189,9,Car,2,1,No,Yes,Single,2,15,No Credit,698,1,North,5773,PhD
+CUST0521,22,Male,Skilled,Own,Unknown,,4417,29,Business,3,2,Yes,No,Divorced,1,20,Critical,698,1,West,4290,High School
+CUST0522,29,Female,Skilled,Free,Little,,3436,64,Furniture,4,3,No,Yes,Married,2,17,Critical,792,1,East,3251,Master
+CUST0523,33,Female,Unskilled,Rent,Little,0<=X<200,4362,8,Education,2,3,No,Yes,Divorced,1,7,Paid,538,1,North,5661,High School
+CUST0524,43,Male,Highly Skilled,Free,Unknown,<0,15006,45,Vacation,1,2,No,No,Married,0,29,Critical,764,1,East,5606,Master
+CUST0525,43,Female,Skilled,Free,Moderate,<0,14818,53,Vacation,4,3,No,No,Married,1,2,No Credit,331,1,West,7421,PhD
+CUST0526,65,Male,Highly Skilled,Own,Rich,,15800,59,Education,2,1,Yes,No,Single,2,16,Paid,422,0,West,4052,High School
+CUST0527,38,Male,Skilled,Free,Rich,>=200,6149,40,Car,4,3,Yes,No,Single,2,28,Delayed,833,0,East,9207,Master
+CUST0528,56,Male,Management,Rent,Rich,>=200,18703,61,Vacation,2,2,No,Yes,Married,0,17,Delayed,409,1,West,5451,PhD
+CUST0529,53,Male,Management,Own,Moderate,,16174,45,Furniture,4,3,Yes,Yes,Divorced,2,25,No Credit,570,1,South,5925,High School
+CUST0530,50,Male,Skilled,Own,Rich,,18226,51,Business,4,1,Yes,No,Divorced,0,25,Critical,679,1,North,3646,Bachelor
+CUST0531,47,Female,Management,Free,Rich,<0,6060,18,Repairs,2,1,No,No,Single,2,22,Delayed,599,1,South,3906,High School
+CUST0532,54,Female,Skilled,Own,Unknown,>=200,15951,32,Car,1,2,Yes,Yes,Married,2,5,Critical,548,1,South,2746,High School
+CUST0533,40,Female,Management,Own,Moderate,,19110,11,Vacation,1,2,No,Yes,Single,0,27,Delayed,820,1,South,5309,High School
+CUST0534,27,Male,Unskilled,Own,Little,,1579,22,Business,4,2,Yes,Yes,Married,2,7,Critical,333,1,East,1448,Bachelor
+CUST0535,22,Male,Unskilled,Own,Unknown,0<=X<200,14483,41,Repairs,4,4,Yes,Yes,Married,2,22,Delayed,527,0,East,4012,Master
+CUST0536,53,Male,Unskilled,Own,Unknown,,15827,7,Education,1,4,No,No,Single,0,29,Delayed,698,1,West,2568,Master
+CUST0537,51,Female,Highly Skilled,Own,Little,,13255,57,Education,1,1,Yes,No,Divorced,1,25,Paid,519,1,East,4491,Bachelor
+CUST0538,69,Male,Highly Skilled,Rent,Unknown,>=200,7735,71,Furniture,3,4,Yes,No,Single,0,12,Paid,670,0,West,8310,High School
+CUST0539,48,Female,Unskilled,Free,Moderate,<0,17697,57,Repairs,1,4,No,Yes,Married,2,7,No Credit,827,0,East,7883,High School
+CUST0540,27,Female,Highly Skilled,Rent,Rich,>=200,2531,48,Education,4,3,Yes,Yes,Single,1,18,Delayed,374,1,West,6984,High School
+CUST0541,36,Male,Management,Own,Moderate,<0,9014,27,Education,2,4,No,No,Divorced,1,5,Critical,435,0,North,8088,Master
+CUST0542,49,Male,Skilled,Own,Little,0<=X<200,9595,60,Vacation,1,3,Yes,No,Divorced,1,28,Delayed,373,0,West,5768,Master
+CUST0543,18,Female,Skilled,Free,Little,,14787,65,Furniture,3,2,No,No,Married,0,22,Critical,553,0,North,2064,Bachelor
+CUST0544,22,Male,Skilled,Rent,Unknown,0<=X<200,6411,63,Business,3,3,No,Yes,Single,1,14,Critical,317,1,West,4821,PhD
+CUST0545,62,Female,Unskilled,Free,Moderate,<0,12195,17,Education,3,3,No,No,Divorced,1,9,Delayed,342,1,East,9759,Bachelor
+CUST0546,21,Male,Highly Skilled,Rent,Moderate,>=200,19537,44,Car,2,2,No,Yes,Single,1,26,Critical,349,0,East,2436,Master
+CUST0547,33,Male,Management,Own,Little,>=200,3840,18,Car,1,2,No,No,Divorced,2,16,No Credit,814,1,North,7097,High School
+CUST0548,41,Female,Management,Free,Moderate,0<=X<200,8376,46,Business,1,1,Yes,No,Married,0,0,Paid,602,1,South,3483,High School
+CUST0549,33,Male,Unskilled,Free,Little,<0,16396,62,Repairs,1,1,Yes,No,Married,0,6,Critical,441,1,South,8719,High School
+CUST0550,19,Female,Management,Own,Moderate,0<=X<200,12935,58,Furniture,2,1,No,Yes,Single,2,28,Delayed,501,0,West,5800,High School
+CUST0551,66,Male,Management,Free,Moderate,0<=X<200,1641,17,Vacation,2,1,Yes,Yes,Married,1,26,Paid,506,0,East,7382,PhD
+CUST0552,45,Female,Management,Rent,Moderate,,19781,18,Car,4,3,No,Yes,Divorced,2,12,No Credit,714,0,South,5829,Bachelor
+CUST0553,49,Female,Management,Rent,Little,0<=X<200,9781,62,Car,3,3,Yes,Yes,Married,2,2,Critical,520,0,East,7153,Bachelor
+CUST0554,44,Male,Highly Skilled,Rent,Unknown,,2538,45,Business,3,1,Yes,Yes,Divorced,1,18,Critical,661,1,East,3794,Master
+CUST0555,37,Female,Management,Rent,Moderate,,4770,50,Repairs,1,4,No,Yes,Divorced,1,14,Paid,380,1,East,8612,Bachelor
+CUST0556,41,Male,Skilled,Own,Little,>=200,10546,40,Repairs,2,1,No,No,Married,0,4,Critical,584,1,West,2097,PhD
+CUST0557,29,Male,Unskilled,Free,Little,,5183,8,Business,2,4,Yes,Yes,Divorced,1,10,Delayed,668,0,North,2638,PhD
+CUST0558,67,Male,Highly Skilled,Rent,Moderate,,17378,10,Car,1,2,Yes,No,Divorced,2,21,Paid,791,0,West,9455,PhD
+CUST0559,52,Female,Management,Own,Moderate,>=200,7616,16,Furniture,1,3,No,Yes,Single,2,17,Paid,645,1,South,1160,High School
+CUST0560,50,Female,Highly Skilled,Free,Unknown,0<=X<200,2284,61,Car,4,3,Yes,No,Single,1,2,Critical,503,0,North,6906,Master
+CUST0561,50,Male,Management,Free,Little,<0,4286,15,Repairs,3,4,Yes,No,Single,0,5,No Credit,324,0,South,9502,PhD
+CUST0562,68,Male,Skilled,Own,Little,<0,9690,39,Vacation,3,1,No,Yes,Married,2,2,No Credit,368,1,North,9418,Bachelor
+CUST0563,60,Female,Unskilled,Own,Rich,<0,5928,36,Car,3,3,Yes,No,Single,1,29,No Credit,815,0,North,9464,Bachelor
+CUST0564,54,Male,Management,Rent,Little,0<=X<200,7181,71,Furniture,4,4,No,Yes,Divorced,0,4,No Credit,791,0,West,8081,Bachelor
+CUST0565,29,Male,Management,Free,Unknown,,7393,46,Education,1,2,No,Yes,Married,0,8,Paid,539,1,East,5412,PhD
+CUST0566,20,Female,Management,Free,Rich,<0,13161,68,Car,1,2,No,Yes,Married,2,27,Paid,660,0,East,4157,PhD
+CUST0567,18,Male,Management,Own,Rich,0<=X<200,15392,37,Business,3,3,Yes,Yes,Married,2,18,Critical,740,1,North,3338,Bachelor
+CUST0568,50,Female,Unskilled,Free,Rich,,10143,25,Education,3,1,Yes,No,Married,0,27,No Credit,330,1,West,6588,PhD
+CUST0569,57,Male,Unskilled,Rent,Moderate,>=200,10443,62,Business,4,4,No,Yes,Divorced,0,26,No Credit,621,0,South,2601,Bachelor
+CUST0570,27,Female,Skilled,Free,Moderate,<0,10972,55,Business,2,3,No,No,Divorced,0,12,Critical,643,1,South,6888,High School
+CUST0571,60,Male,Unskilled,Own,Little,,13492,30,Business,2,2,Yes,No,Single,1,28,Critical,835,0,East,4718,PhD
+CUST0572,61,Male,Management,Own,Rich,<0,11626,17,Car,3,1,Yes,No,Married,2,5,Critical,654,0,East,6546,High School
+CUST0573,46,Female,Skilled,Rent,Unknown,<0,7369,44,Repairs,4,4,Yes,Yes,Single,0,10,Delayed,770,0,South,2925,High School
+CUST0574,30,Male,Skilled,Rent,Moderate,<0,8169,22,Education,3,3,No,No,Divorced,2,20,Critical,404,0,South,9758,PhD
+CUST0575,29,Female,Skilled,Free,Unknown,,12038,50,Furniture,2,4,No,Yes,Married,2,20,Critical,621,0,West,3915,Bachelor
+CUST0576,48,Male,Management,Free,Unknown,0<=X<200,10565,16,Repairs,3,1,Yes,No,Divorced,2,26,Delayed,826,0,South,7898,Master
+CUST0577,63,Female,Highly Skilled,Own,Moderate,,10671,28,Car,2,1,Yes,Yes,Single,0,29,No Credit,803,0,West,9443,High School
+CUST0578,19,Female,Management,Rent,Moderate,<0,18196,43,Business,2,2,Yes,Yes,Divorced,1,13,Paid,384,0,East,6652,PhD
+CUST0579,68,Female,Unskilled,Rent,Moderate,,3462,7,Furniture,2,1,No,Yes,Married,0,5,No Credit,534,0,South,4501,High School
+CUST0580,67,Female,Unskilled,Rent,Moderate,>=200,14351,42,Education,1,3,No,Yes,Married,2,5,Paid,562,1,East,8274,Bachelor
+CUST0581,52,Male,Management,Free,Rich,0<=X<200,19822,54,Repairs,1,4,Yes,No,Single,0,16,Paid,305,1,North,2602,PhD
+CUST0582,40,Male,Management,Rent,Rich,,13479,57,Vacation,3,1,Yes,No,Married,0,10,Critical,793,0,North,8359,Master
+CUST0583,34,Female,Skilled,Own,Rich,>=200,5796,38,Repairs,2,1,No,Yes,Divorced,2,14,Critical,588,0,North,1513,PhD
+CUST0584,43,Female,Management,Own,Rich,0<=X<200,15245,27,Furniture,1,3,No,No,Divorced,2,8,Delayed,649,0,South,9633,High School
+CUST0585,25,Female,Skilled,Free,Little,>=200,6230,10,Car,3,4,Yes,Yes,Divorced,0,20,No Credit,499,1,East,9192,PhD
+CUST0586,46,Male,Unskilled,Free,Rich,0<=X<200,14421,23,Education,3,4,Yes,Yes,Divorced,0,16,No Credit,634,1,South,7501,PhD
+CUST0587,43,Male,Skilled,Rent,Moderate,,626,43,Furniture,3,2,Yes,No,Single,0,23,Paid,516,0,East,1902,High School
+CUST0588,27,Male,Management,Free,Unknown,>=200,6102,42,Business,3,2,No,Yes,Divorced,0,6,Critical,652,0,West,6719,Master
+CUST0589,43,Male,Unskilled,Own,Rich,<0,18075,69,Education,3,4,Yes,Yes,Single,1,6,Critical,624,0,South,9148,Bachelor
+CUST0590,51,Female,Highly Skilled,Rent,Little,>=200,19523,15,Repairs,4,3,No,Yes,Divorced,0,29,No Credit,527,1,North,3321,PhD
+CUST0591,68,Female,Skilled,Own,Moderate,0<=X<200,13081,47,Furniture,2,3,No,Yes,Single,1,20,Delayed,444,0,West,1855,Master
+CUST0592,58,Female,Unskilled,Rent,Unknown,,16497,53,Repairs,3,2,Yes,Yes,Divorced,2,0,Critical,607,1,East,2017,Bachelor
+CUST0593,24,Male,Skilled,Free,Unknown,0<=X<200,18250,49,Repairs,4,1,Yes,No,Divorced,1,24,Delayed,584,1,South,6279,High School
+CUST0594,21,Male,Unskilled,Rent,Rich,>=200,9711,21,Repairs,2,3,No,No,Single,2,26,No Credit,691,0,East,8712,Master
+CUST0595,67,Male,Unskilled,Rent,Unknown,>=200,15497,59,Car,1,1,Yes,No,Married,1,24,No Credit,659,1,East,5680,Master
+CUST0596,62,Female,Skilled,Own,Rich,<0,7171,40,Repairs,3,3,No,Yes,Married,2,7,Delayed,464,0,South,8072,PhD
+CUST0597,28,Female,Highly Skilled,Own,Rich,,12771,33,Business,4,4,Yes,Yes,Married,0,4,Critical,523,1,South,7624,High School
+CUST0598,46,Male,Unskilled,Rent,Moderate,,9376,7,Business,1,2,Yes,Yes,Single,1,29,No Credit,423,1,East,1195,PhD
+CUST0599,53,Female,Unskilled,Free,Moderate,>=200,3387,18,Education,4,1,Yes,Yes,Married,1,18,Paid,643,0,East,5694,High School
+CUST0600,42,Male,Unskilled,Free,Little,,10154,46,Vacation,2,1,Yes,Yes,Married,2,7,No Credit,823,0,West,5651,Bachelor
+CUST0601,38,Male,Highly Skilled,Own,Moderate,<0,4586,64,Repairs,2,4,No,Yes,Single,2,16,Critical,351,1,North,7991,PhD
+CUST0602,53,Female,Highly Skilled,Free,Moderate,0<=X<200,19145,58,Repairs,1,3,No,No,Married,1,18,Paid,428,1,East,3697,High School
+CUST0603,27,Male,Management,Own,Rich,,4680,50,Furniture,4,1,No,Yes,Married,2,11,No Credit,434,1,North,2057,High School
+CUST0604,54,Female,Skilled,Free,Moderate,>=200,3341,25,Car,3,3,Yes,No,Married,0,26,Critical,426,0,West,6207,Master
+CUST0605,26,Male,Highly Skilled,Rent,Rich,0<=X<200,6540,29,Vacation,3,4,No,Yes,Single,1,22,Critical,370,0,North,3792,PhD
+CUST0606,41,Female,Skilled,Own,Rich,0<=X<200,10804,66,Education,1,2,No,No,Single,0,29,No Credit,572,0,North,1420,PhD
+CUST0607,52,Female,Management,Own,Moderate,<0,5258,63,Vacation,1,1,No,Yes,Married,1,14,Critical,486,0,West,3814,Bachelor
+CUST0608,66,Female,Skilled,Rent,Little,>=200,17510,32,Repairs,1,3,Yes,No,Married,0,3,Delayed,302,1,East,3840,High School
+CUST0609,52,Male,Highly Skilled,Own,Little,,16734,31,Furniture,4,1,No,No,Single,1,22,Paid,584,1,North,2031,Master
+CUST0610,65,Male,Skilled,Free,Unknown,>=200,5514,12,Car,3,3,Yes,Yes,Married,2,11,Delayed,321,1,East,8639,High School
+CUST0611,53,Female,Highly Skilled,Free,Unknown,0<=X<200,1875,47,Education,3,3,Yes,Yes,Single,1,26,No Credit,465,1,East,2491,High School
+CUST0612,35,Female,Skilled,Own,Moderate,>=200,1681,52,Vacation,3,3,No,No,Married,0,12,Delayed,609,1,South,5975,High School
+CUST0613,66,Male,Highly Skilled,Free,Little,,990,58,Education,1,4,Yes,Yes,Single,1,13,No Credit,776,0,East,5947,PhD
+CUST0614,56,Male,Highly Skilled,Own,Rich,,4229,64,Repairs,3,2,No,Yes,Divorced,0,4,No Credit,797,0,East,1509,High School
+CUST0615,49,Male,Skilled,Rent,Unknown,<0,6474,43,Education,2,1,No,Yes,Divorced,0,21,Critical,733,1,North,2859,Bachelor
+CUST0616,41,Female,Management,Own,Rich,,18824,58,Furniture,1,2,No,No,Single,0,15,Critical,533,1,East,6061,Master
+CUST0617,40,Male,Unskilled,Rent,Unknown,,2382,20,Education,3,3,No,Yes,Divorced,2,29,No Credit,675,1,East,2858,Master
+CUST0618,49,Male,Management,Free,Moderate,>=200,3487,31,Business,4,3,No,No,Married,1,6,Paid,545,1,South,6607,High School
+CUST0619,54,Female,Skilled,Rent,Little,>=200,6085,53,Furniture,1,2,Yes,No,Single,0,14,Paid,602,1,South,3065,Master
+CUST0620,29,Male,Management,Free,Unknown,0<=X<200,3659,24,Vacation,2,2,No,Yes,Single,2,12,Paid,704,1,North,3966,High School
+CUST0621,66,Male,Highly Skilled,Own,Little,<0,5030,14,Car,2,1,Yes,No,Married,0,25,Delayed,320,1,North,7773,PhD
+CUST0622,30,Male,Unskilled,Free,Rich,>=200,17565,69,Car,4,3,No,Yes,Married,1,15,No Credit,556,1,South,8892,Master
+CUST0623,40,Female,Skilled,Own,Moderate,,1573,59,Repairs,4,2,No,Yes,Single,2,11,Critical,698,0,South,5442,PhD
+CUST0624,42,Female,Skilled,Own,Little,0<=X<200,14243,56,Repairs,1,4,No,No,Married,0,6,Delayed,828,1,West,4204,PhD
+CUST0625,52,Female,Skilled,Rent,Moderate,>=200,19271,44,Business,1,3,Yes,No,Single,0,15,Delayed,350,1,East,1575,Bachelor
+CUST0626,58,Female,Unskilled,Rent,Little,<0,3193,9,Vacation,2,3,Yes,No,Married,0,22,Critical,746,0,North,1198,Bachelor
+CUST0627,47,Female,Highly Skilled,Rent,Rich,<0,10062,8,Car,4,1,Yes,No,Single,1,22,No Credit,569,0,North,8423,Master
+CUST0628,34,Female,Skilled,Rent,Rich,0<=X<200,4840,69,Car,1,4,Yes,No,Married,2,26,Delayed,561,1,East,2365,High School
+CUST0629,66,Female,Management,Free,Moderate,0<=X<200,2656,34,Car,2,1,No,Yes,Married,2,12,No Credit,664,0,East,8834,High School
+CUST0630,37,Male,Skilled,Free,Rich,0<=X<200,16684,16,Car,4,4,No,No,Divorced,2,28,No Credit,348,0,North,2998,High School
+CUST0631,65,Male,Skilled,Free,Unknown,0<=X<200,8466,63,Education,2,1,Yes,Yes,Divorced,0,22,No Credit,817,1,South,6350,High School
+CUST0632,42,Female,Skilled,Own,Little,0<=X<200,3080,32,Vacation,3,4,Yes,Yes,Divorced,2,2,Critical,417,0,South,7444,Bachelor
+CUST0633,39,Male,Skilled,Free,Rich,,7757,26,Furniture,4,4,Yes,No,Married,0,14,No Credit,752,1,East,2016,High School
+CUST0634,30,Male,Highly Skilled,Free,Unknown,,2659,44,Furniture,1,4,No,No,Single,1,27,Delayed,696,1,North,4618,High School
+CUST0635,36,Female,Management,Free,Moderate,>=200,16672,51,Business,1,2,Yes,No,Married,2,2,Critical,326,1,East,1025,PhD
+CUST0636,66,Male,Highly Skilled,Rent,Unknown,<0,14400,71,Education,3,3,Yes,No,Divorced,0,6,Critical,671,0,South,4724,High School
+CUST0637,53,Male,Management,Free,Moderate,,11940,41,Car,4,4,No,No,Married,2,29,Delayed,396,0,West,4458,High School
+CUST0638,29,Male,Skilled,Own,Moderate,,15178,70,Car,2,2,Yes,Yes,Divorced,2,17,Critical,828,1,West,7593,Bachelor
+CUST0639,58,Male,Unskilled,Rent,Little,,14936,68,Repairs,1,2,No,Yes,Divorced,1,13,Delayed,485,1,South,9662,Master
+CUST0640,36,Male,Highly Skilled,Own,Little,>=200,12521,40,Repairs,3,1,No,Yes,Single,2,17,Paid,514,0,East,8280,PhD
+CUST0641,29,Female,Unskilled,Free,Unknown,0<=X<200,7272,36,Business,3,3,No,No,Single,1,18,Delayed,550,1,West,9069,PhD
+CUST0642,26,Female,Highly Skilled,Rent,Little,>=200,2127,33,Car,4,3,No,No,Divorced,2,13,Critical,515,0,South,5746,Master
+CUST0643,24,Female,Skilled,Own,Little,<0,12164,6,Business,4,1,No,Yes,Divorced,2,19,Delayed,328,0,North,8589,PhD
+CUST0644,45,Male,Highly Skilled,Free,Little,<0,8719,30,Education,1,3,Yes,No,Married,2,5,Paid,401,0,East,7978,High School
+CUST0645,31,Female,Skilled,Own,Unknown,<0,18869,48,Furniture,3,1,Yes,No,Divorced,2,28,No Credit,422,0,East,4041,High School
+CUST0646,48,Male,Highly Skilled,Own,Rich,<0,10213,68,Car,2,2,No,No,Married,2,7,No Credit,353,0,West,8765,Master
+CUST0647,69,Male,Skilled,Own,Little,,8988,56,Vacation,3,2,No,Yes,Divorced,2,25,No Credit,582,0,East,6404,Bachelor
+CUST0648,36,Male,Skilled,Free,Little,,2681,7,Education,2,4,Yes,No,Single,1,25,Critical,416,1,West,1571,Bachelor
+CUST0649,64,Male,Management,Free,Unknown,>=200,12094,69,Car,2,1,Yes,Yes,Single,1,6,Paid,413,1,West,9796,PhD
+CUST0650,33,Female,Skilled,Own,Rich,0<=X<200,19180,14,Vacation,1,2,No,No,Divorced,0,19,Delayed,842,0,South,5980,Bachelor
+CUST0651,22,Female,Management,Rent,Little,<0,7664,7,Repairs,3,2,Yes,No,Married,2,17,Delayed,592,0,West,9573,Bachelor
+CUST0652,52,Male,Skilled,Rent,Moderate,>=200,19481,39,Business,2,1,Yes,Yes,Married,1,17,Delayed,494,1,North,2236,Bachelor
+CUST0653,29,Female,Unskilled,Free,Unknown,,1401,65,Repairs,4,2,No,No,Married,2,14,Delayed,591,1,East,3380,Bachelor
+CUST0654,42,Male,Skilled,Free,Little,,9790,66,Furniture,2,3,Yes,No,Divorced,2,19,Critical,560,1,West,8177,Bachelor
+CUST0655,69,Female,Unskilled,Free,Little,0<=X<200,18561,36,Repairs,4,2,Yes,No,Divorced,1,21,Critical,506,1,East,2517,Bachelor
+CUST0656,38,Female,Unskilled,Free,Moderate,0<=X<200,3381,15,Car,4,1,Yes,Yes,Single,2,18,Paid,348,1,West,2533,Bachelor
+CUST0657,53,Male,Skilled,Free,Moderate,0<=X<200,13558,41,Vacation,3,3,Yes,No,Single,1,21,Delayed,305,1,South,6887,PhD
+CUST0658,40,Female,Unskilled,Rent,Unknown,>=200,6122,54,Repairs,4,3,No,No,Divorced,1,20,No Credit,678,1,North,8859,High School
+CUST0659,33,Male,Management,Free,Unknown,,1878,54,Car,2,2,Yes,No,Single,0,20,Critical,693,1,East,4489,Bachelor
+CUST0660,56,Female,Highly Skilled,Own,Moderate,,18132,8,Furniture,4,4,No,No,Married,0,1,Paid,523,0,South,5642,High School
+CUST0661,62,Male,Skilled,Own,Unknown,0<=X<200,6150,10,Vacation,3,3,Yes,No,Married,0,7,Paid,322,1,East,3150,Master
+CUST0662,59,Male,Unskilled,Rent,Moderate,<0,12933,66,Repairs,1,1,No,Yes,Divorced,0,20,Critical,409,0,South,6319,High School
+CUST0663,56,Female,Skilled,Own,Little,0<=X<200,9956,31,Business,2,4,No,Yes,Married,2,10,No Credit,698,1,North,4766,Master
+CUST0664,31,Female,Management,Rent,Moderate,>=200,7536,10,Business,2,4,Yes,No,Divorced,2,17,No Credit,471,1,West,5960,PhD
+CUST0665,48,Male,Skilled,Rent,Moderate,0<=X<200,6987,20,Vacation,3,3,No,No,Married,0,22,Delayed,605,1,South,7061,High School
+CUST0666,22,Female,Skilled,Own,Rich,0<=X<200,17942,21,Business,3,2,No,Yes,Divorced,1,12,Critical,450,1,East,6857,Master
+CUST0667,52,Female,Unskilled,Free,Moderate,>=200,18932,6,Repairs,3,4,No,No,Married,1,8,No Credit,727,1,East,5487,High School
+CUST0668,40,Male,Management,Own,Moderate,0<=X<200,4748,21,Repairs,3,2,No,No,Married,1,8,Critical,766,0,South,8750,PhD
+CUST0669,46,Male,Highly Skilled,Own,Rich,,19360,42,Vacation,2,3,No,No,Single,1,16,Paid,366,1,North,2077,High School
+CUST0670,60,Female,Highly Skilled,Rent,Unknown,<0,5103,8,Repairs,1,1,Yes,No,Single,2,6,Paid,455,0,North,2300,Master
+CUST0671,28,Male,Unskilled,Own,Rich,0<=X<200,13132,57,Car,4,4,No,No,Single,1,8,Paid,505,0,West,7649,Bachelor
+CUST0672,35,Male,Skilled,Rent,Little,>=200,720,52,Furniture,4,1,No,No,Single,1,21,Critical,454,1,West,8181,Bachelor
+CUST0673,64,Male,Unskilled,Free,Rich,<0,14726,18,Business,1,2,Yes,No,Single,0,0,Delayed,808,0,East,9138,Bachelor
+CUST0674,29,Female,Unskilled,Free,Little,>=200,5318,60,Car,1,2,Yes,No,Single,1,1,Delayed,373,1,East,3529,PhD
+CUST0675,26,Female,Unskilled,Free,Unknown,<0,7849,26,Vacation,1,1,No,Yes,Divorced,2,3,No Credit,348,1,West,4260,Bachelor
+CUST0676,27,Male,Skilled,Own,Rich,<0,6118,71,Business,3,3,Yes,Yes,Divorced,1,13,Critical,766,1,West,1363,PhD
+CUST0677,61,Female,Management,Rent,Rich,0<=X<200,10356,59,Car,2,3,Yes,No,Single,1,3,Delayed,478,0,West,1845,Bachelor
+CUST0678,34,Male,Unskilled,Free,Unknown,,5076,32,Repairs,2,4,Yes,No,Divorced,2,1,Critical,347,1,South,4032,PhD
+CUST0679,55,Female,Skilled,Rent,Little,0<=X<200,18755,43,Vacation,2,4,Yes,No,Single,0,7,Delayed,371,0,West,2327,PhD
+CUST0680,24,Male,Management,Rent,Rich,>=200,15707,63,Vacation,3,3,Yes,No,Divorced,2,17,Paid,412,1,South,9583,High School
+CUST0681,63,Male,Unskilled,Free,Little,>=200,1962,67,Business,2,3,Yes,Yes,Married,0,18,Paid,458,1,South,4255,Bachelor
+CUST0682,30,Female,Highly Skilled,Free,Rich,<0,16405,51,Repairs,3,1,No,Yes,Divorced,1,13,No Credit,329,0,West,6136,High School
+CUST0683,57,Male,Management,Rent,Moderate,<0,16752,16,Business,2,2,No,Yes,Divorced,0,19,Paid,396,0,North,8108,Master
+CUST0684,59,Female,Unskilled,Free,Rich,,8736,13,Education,1,2,Yes,Yes,Divorced,0,24,Delayed,550,0,North,4237,Bachelor
+CUST0685,26,Female,Management,Rent,Unknown,0<=X<200,8313,69,Car,4,4,Yes,No,Married,0,9,No Credit,818,0,East,6668,Bachelor
+CUST0686,67,Male,Management,Rent,Unknown,>=200,2568,26,Education,4,3,No,No,Single,1,16,No Credit,391,0,West,7312,Bachelor
+CUST0687,44,Male,Management,Free,Little,<0,6253,68,Car,3,1,Yes,No,Divorced,0,7,Paid,412,0,East,9956,Bachelor
+CUST0688,19,Female,Management,Own,Rich,,7737,69,Furniture,2,4,No,Yes,Divorced,0,27,Critical,558,1,West,6465,High School
+CUST0689,22,Male,Management,Free,Little,>=200,14675,25,Vacation,4,1,Yes,No,Married,1,13,Paid,406,0,East,1498,High School
+CUST0690,46,Male,Management,Own,Little,<0,6691,13,Business,1,3,No,No,Single,2,20,Paid,689,1,South,7062,PhD
+CUST0691,54,Male,Unskilled,Rent,Moderate,>=200,18398,63,Furniture,1,3,No,Yes,Divorced,2,22,No Credit,657,1,West,3944,High School
+CUST0692,55,Male,Highly Skilled,Rent,Moderate,,19482,51,Furniture,1,3,Yes,Yes,Married,2,7,Paid,498,1,North,8952,PhD
+CUST0693,36,Male,Skilled,Own,Unknown,,15122,36,Vacation,3,2,Yes,Yes,Single,1,4,Delayed,726,1,West,6856,Master
+CUST0694,25,Female,Management,Rent,Little,>=200,1501,14,Vacation,3,3,Yes,Yes,Single,1,15,No Credit,777,1,East,8838,High School
+CUST0695,65,Female,Skilled,Own,Unknown,0<=X<200,17917,20,Car,2,4,Yes,Yes,Divorced,2,7,Paid,802,0,East,7077,PhD
+CUST0696,62,Male,Unskilled,Own,Rich,>=200,15377,31,Education,1,2,No,No,Divorced,0,9,Critical,419,1,East,1135,Bachelor
+CUST0697,18,Male,Management,Rent,Little,<0,10732,15,Repairs,2,1,Yes,No,Divorced,2,26,Delayed,608,1,East,5033,Master
+CUST0698,39,Male,Highly Skilled,Own,Little,0<=X<200,4976,34,Car,2,4,No,Yes,Divorced,1,7,Critical,837,1,East,7700,PhD
+CUST0699,69,Female,Skilled,Free,Rich,<0,17362,41,Repairs,1,4,Yes,No,Married,0,8,Delayed,774,0,East,5113,Master
+CUST0700,34,Male,Management,Free,Rich,>=200,1015,42,Furniture,2,1,No,No,Married,0,17,Critical,643,0,North,7546,Bachelor
+CUST0701,24,Female,Unskilled,Rent,Unknown,0<=X<200,12978,28,Repairs,4,2,Yes,No,Divorced,1,2,Paid,435,0,East,9396,Bachelor
+CUST0702,42,Female,Highly Skilled,Rent,Unknown,<0,1691,46,Education,3,4,Yes,No,Single,0,16,Delayed,576,0,North,5594,PhD
+CUST0703,62,Female,Skilled,Own,Rich,>=200,11360,33,Car,2,4,No,Yes,Divorced,2,19,No Credit,832,1,West,1561,PhD
+CUST0704,21,Male,Skilled,Own,Unknown,>=200,13948,53,Vacation,1,4,Yes,No,Single,1,14,No Credit,330,0,South,6400,Bachelor
+CUST0705,53,Female,Management,Own,Rich,0<=X<200,6797,43,Education,3,2,Yes,No,Single,1,20,Critical,546,1,North,8333,PhD
+CUST0706,23,Male,Highly Skilled,Own,Little,>=200,17155,36,Education,3,2,Yes,No,Single,1,26,Critical,710,0,West,4314,Bachelor
+CUST0707,48,Female,Highly Skilled,Free,Little,,8834,19,Car,2,2,Yes,Yes,Married,1,16,Critical,326,0,South,4960,High School
+CUST0708,36,Male,Highly Skilled,Free,Moderate,<0,6508,34,Vacation,4,4,Yes,No,Single,0,7,Delayed,372,0,North,3211,PhD
+CUST0709,61,Female,Highly Skilled,Rent,Little,<0,8487,56,Education,2,3,No,Yes,Single,1,1,No Credit,396,0,North,3371,Master
+CUST0710,56,Male,Unskilled,Own,Rich,>=200,3832,54,Vacation,4,1,Yes,Yes,Married,1,16,Paid,645,1,West,7974,Bachelor
+CUST0711,44,Female,Highly Skilled,Own,Unknown,>=200,1287,48,Business,3,3,No,Yes,Single,0,17,Delayed,775,0,East,3681,High School
+CUST0712,27,Male,Skilled,Rent,Moderate,,6722,10,Business,2,2,Yes,Yes,Single,1,28,Critical,599,1,North,3806,PhD
+CUST0713,43,Male,Skilled,Own,Unknown,0<=X<200,10373,47,Business,1,4,Yes,No,Divorced,0,4,No Credit,598,1,North,3255,Bachelor
+CUST0714,36,Male,Unskilled,Own,Rich,>=200,17506,12,Repairs,2,4,No,Yes,Single,0,8,Critical,586,1,West,7382,High School
+CUST0715,56,Male,Skilled,Own,Little,>=200,4176,47,Education,4,3,No,Yes,Single,1,8,Paid,748,1,East,5899,PhD
+CUST0716,20,Female,Skilled,Own,Moderate,>=200,3072,41,Car,4,3,No,Yes,Single,2,1,Paid,511,1,South,4159,Bachelor
+CUST0717,62,Female,Highly Skilled,Own,Rich,>=200,7415,32,Car,2,1,No,Yes,Single,1,1,No Credit,375,1,East,6656,Bachelor
+CUST0718,30,Male,Skilled,Rent,Moderate,<0,5533,63,Repairs,4,4,No,Yes,Single,2,18,Delayed,700,1,East,2452,Bachelor
+CUST0719,67,Female,Unskilled,Own,Moderate,>=200,8288,51,Car,3,3,Yes,No,Married,0,22,Paid,333,0,West,3322,PhD
+CUST0720,45,Male,Highly Skilled,Rent,Little,<0,16189,71,Business,2,1,No,Yes,Single,2,26,Paid,797,1,East,8097,High School
+CUST0721,37,Male,Management,Own,Rich,>=200,11952,30,Education,4,2,No,No,Single,1,2,Paid,815,0,West,2768,Bachelor
+CUST0722,45,Female,Highly Skilled,Free,Unknown,0<=X<200,5212,32,Car,2,3,Yes,No,Married,1,16,Paid,627,0,South,7096,High School
+CUST0723,25,Male,Unskilled,Free,Moderate,,566,6,Car,2,2,Yes,Yes,Married,2,13,Critical,397,1,North,6185,High School
+CUST0724,58,Male,Highly Skilled,Free,Moderate,0<=X<200,16355,47,Furniture,1,1,No,No,Single,1,13,Critical,665,1,North,2169,Master
+CUST0725,56,Female,Highly Skilled,Free,Unknown,>=200,12978,57,Furniture,2,2,No,No,Single,2,13,Delayed,762,0,West,5710,High School
+CUST0726,18,Male,Unskilled,Rent,Rich,>=200,8033,30,Furniture,1,4,No,No,Single,0,5,No Credit,327,0,West,7590,High School
+CUST0727,20,Male,Highly Skilled,Rent,Moderate,>=200,15603,59,Education,4,4,Yes,Yes,Divorced,2,2,No Credit,685,1,East,1386,High School
+CUST0728,30,Male,Unskilled,Own,Moderate,0<=X<200,5116,11,Business,1,2,No,Yes,Divorced,2,0,No Credit,572,1,East,3430,High School
+CUST0729,45,Male,Unskilled,Free,Moderate,>=200,13777,63,Vacation,1,4,Yes,Yes,Single,2,29,Paid,426,0,North,2405,High School
+CUST0730,66,Female,Management,Rent,Rich,0<=X<200,18024,58,Business,1,1,Yes,Yes,Married,2,15,Critical,501,0,North,1123,PhD
+CUST0731,42,Female,Skilled,Own,Rich,<0,6230,71,Business,3,4,Yes,Yes,Single,0,28,Critical,820,1,North,4997,Master
+CUST0732,50,Female,Skilled,Own,Unknown,,11224,63,Education,1,2,Yes,Yes,Married,0,3,Delayed,586,0,West,6909,Bachelor
+CUST0733,55,Male,Highly Skilled,Rent,Rich,,12272,7,Education,2,2,No,Yes,Married,0,28,No Credit,749,0,South,4896,Master
+CUST0734,23,Male,Highly Skilled,Free,Rich,0<=X<200,16768,27,Furniture,1,2,Yes,No,Married,2,0,Critical,387,1,South,9066,Master
+CUST0735,61,Female,Management,Own,Little,<0,13440,42,Car,2,3,Yes,No,Single,0,16,Delayed,617,0,West,1727,Bachelor
+CUST0736,62,Male,Management,Free,Unknown,0<=X<200,17432,25,Repairs,1,2,No,Yes,Single,1,27,No Credit,318,1,East,8039,High School
+CUST0737,49,Male,Management,Free,Moderate,<0,15143,29,Repairs,3,1,Yes,No,Married,0,17,Paid,406,1,South,8715,Bachelor
+CUST0738,62,Male,Unskilled,Free,Rich,>=200,698,70,Vacation,4,4,No,Yes,Divorced,2,25,Critical,757,1,East,4670,High School
+CUST0739,64,Male,Management,Own,Moderate,<0,17455,70,Car,1,4,Yes,Yes,Divorced,1,7,Critical,610,0,North,2141,Bachelor
+CUST0740,38,Female,Management,Free,Moderate,<0,17674,6,Vacation,1,3,No,Yes,Divorced,2,1,No Credit,711,1,North,5031,PhD
+CUST0741,33,Female,Highly Skilled,Own,Little,<0,10330,8,Furniture,3,3,Yes,No,Married,1,26,Paid,797,0,East,9550,Master
+CUST0742,38,Female,Management,Free,Rich,,14298,51,Vacation,1,1,Yes,Yes,Single,2,17,Paid,543,1,North,4742,High School
+CUST0743,28,Male,Unskilled,Own,Unknown,<0,18058,60,Car,2,2,No,Yes,Married,2,26,Critical,679,1,West,3844,Master
+CUST0744,54,Female,Unskilled,Free,Rich,>=200,11969,69,Car,1,3,Yes,Yes,Divorced,1,26,No Credit,814,0,East,3211,High School
+CUST0745,53,Female,Highly Skilled,Rent,Moderate,>=200,678,50,Repairs,1,4,Yes,Yes,Single,0,15,Delayed,506,0,East,1972,Bachelor
+CUST0746,52,Male,Management,Free,Unknown,>=200,19128,31,Furniture,4,3,No,No,Married,1,25,Critical,693,0,East,1360,Bachelor
+CUST0747,36,Male,Management,Free,Rich,<0,17618,70,Education,4,3,Yes,Yes,Married,1,9,Paid,320,1,South,3632,Bachelor
+CUST0748,37,Female,Unskilled,Own,Moderate,0<=X<200,1298,29,Vacation,1,2,Yes,No,Divorced,1,7,Delayed,826,0,East,4190,PhD
+CUST0749,35,Female,Management,Own,Moderate,0<=X<200,8101,40,Repairs,3,3,No,No,Married,1,11,No Credit,642,1,East,5948,Bachelor
+CUST0750,64,Female,Management,Free,Little,>=200,3295,29,Vacation,4,1,No,Yes,Single,1,21,Paid,501,0,East,2624,Bachelor
+CUST0751,58,Female,Management,Rent,Little,,12996,33,Vacation,1,4,No,Yes,Divorced,2,15,Delayed,419,1,South,2756,PhD
+CUST0752,66,Male,Skilled,Rent,Little,0<=X<200,5088,21,Education,4,2,No,No,Divorced,2,11,Critical,688,1,North,8818,Master
+CUST0753,31,Female,Highly Skilled,Own,Moderate,<0,7797,64,Furniture,1,4,No,No,Single,0,10,Paid,836,1,South,6119,Master
+CUST0754,32,Female,Skilled,Rent,Rich,0<=X<200,3584,59,Car,4,1,Yes,No,Divorced,0,19,No Credit,533,1,West,7026,High School
+CUST0755,48,Male,Highly Skilled,Free,Little,>=200,11610,21,Business,4,1,No,No,Married,1,18,Paid,619,0,East,9432,Master
+CUST0756,18,Female,Unskilled,Own,Rich,,1231,20,Vacation,2,3,Yes,Yes,Married,0,0,Critical,479,0,West,7975,High School
+CUST0757,20,Male,Management,Free,Little,0<=X<200,1629,16,Business,1,3,No,No,Divorced,0,26,No Credit,667,1,South,1975,High School
+CUST0758,33,Male,Highly Skilled,Own,Unknown,0<=X<200,2105,70,Furniture,1,3,Yes,No,Single,1,2,Critical,375,1,North,5318,Master
+CUST0759,40,Male,Skilled,Own,Unknown,>=200,12470,48,Business,1,4,Yes,No,Married,2,11,Delayed,795,0,North,6923,Master
+CUST0760,28,Female,Management,Own,Little,,11437,18,Vacation,1,1,No,No,Single,2,29,Paid,821,0,East,3313,PhD
+CUST0761,29,Female,Unskilled,Own,Moderate,,11862,15,Education,4,2,Yes,Yes,Married,0,8,Critical,500,0,North,1787,High School
+CUST0762,27,Male,Highly Skilled,Rent,Little,>=200,3433,46,Business,2,3,Yes,Yes,Married,2,20,Delayed,645,0,South,3428,Master
+CUST0763,49,Female,Highly Skilled,Free,Little,<0,15687,55,Furniture,2,4,No,Yes,Divorced,2,28,No Credit,782,0,South,9747,Master
+CUST0764,33,Female,Highly Skilled,Free,Moderate,0<=X<200,5574,64,Furniture,3,3,No,No,Divorced,0,21,No Credit,518,0,North,7664,PhD
+CUST0765,25,Male,Management,Free,Unknown,<0,14537,44,Education,1,1,No,No,Single,1,4,Delayed,359,1,East,8483,Master
+CUST0766,55,Male,Skilled,Own,Rich,0<=X<200,7599,8,Business,3,2,No,Yes,Divorced,0,0,Delayed,849,0,East,2363,Bachelor
+CUST0767,29,Female,Skilled,Rent,Little,0<=X<200,18374,12,Business,4,1,Yes,Yes,Married,0,9,No Credit,520,0,South,4959,Bachelor
+CUST0768,41,Male,Highly Skilled,Free,Moderate,<0,1393,54,Car,3,4,Yes,No,Married,0,16,Critical,801,1,North,9781,High School
+CUST0769,45,Female,Unskilled,Rent,Little,>=200,1890,31,Repairs,1,3,Yes,Yes,Single,1,3,Delayed,432,0,South,2749,PhD
+CUST0770,25,Female,Unskilled,Own,Moderate,>=200,4739,38,Furniture,2,1,Yes,No,Single,1,14,Critical,352,0,South,7671,Master
+CUST0771,45,Female,Skilled,Free,Rich,0<=X<200,19147,53,Car,2,4,Yes,No,Married,1,18,No Credit,749,0,West,1540,High School
+CUST0772,53,Female,Unskilled,Rent,Rich,>=200,3932,7,Furniture,1,3,Yes,No,Divorced,1,26,Critical,361,1,South,8634,Master
+CUST0773,43,Male,Skilled,Own,Unknown,0<=X<200,2871,37,Car,4,2,No,No,Divorced,0,7,Critical,322,0,East,9482,Bachelor
+CUST0774,25,Male,Highly Skilled,Rent,Moderate,>=200,2015,9,Repairs,1,1,Yes,No,Single,2,27,Delayed,343,1,North,4935,Master
+CUST0775,67,Male,Skilled,Free,Moderate,0<=X<200,16406,25,Car,4,3,Yes,No,Single,0,27,Critical,346,0,North,4958,Master
+CUST0776,45,Male,Skilled,Free,Unknown,>=200,6826,41,Furniture,2,3,Yes,Yes,Married,1,22,Critical,323,1,West,4859,Master
+CUST0777,45,Female,Highly Skilled,Own,Unknown,,15105,37,Business,4,3,No,Yes,Married,2,14,Critical,388,0,West,9050,Bachelor
+CUST0778,54,Female,Unskilled,Own,Moderate,<0,6086,33,Furniture,1,3,No,Yes,Single,0,26,No Credit,473,0,East,6331,Bachelor
+CUST0779,58,Male,Skilled,Own,Unknown,,3417,6,Vacation,1,1,No,No,Married,2,6,No Credit,418,0,West,9199,PhD
+CUST0780,53,Female,Skilled,Rent,Rich,<0,16401,65,Education,1,3,No,Yes,Single,1,14,Paid,477,1,South,2657,Bachelor
+CUST0781,44,Female,Highly Skilled,Rent,Little,<0,18051,61,Education,4,4,Yes,No,Single,2,7,No Credit,641,0,South,7185,High School
+CUST0782,34,Female,Unskilled,Rent,Rich,0<=X<200,4293,40,Vacation,4,1,Yes,No,Divorced,2,29,No Credit,358,0,East,5428,Master
+CUST0783,26,Male,Skilled,Own,Unknown,<0,10447,35,Education,4,3,Yes,No,Single,1,25,Paid,737,1,North,8237,Bachelor
+CUST0784,50,Male,Highly Skilled,Free,Moderate,,16359,59,Education,2,1,No,No,Married,2,22,Paid,727,1,East,2039,High School
+CUST0785,37,Male,Skilled,Free,Moderate,,2077,41,Repairs,3,4,Yes,Yes,Divorced,0,9,Delayed,725,1,West,3116,Bachelor
+CUST0786,30,Female,Management,Rent,Rich,>=200,9988,60,Business,3,4,Yes,Yes,Divorced,2,17,Delayed,680,0,North,9876,Master
+CUST0787,45,Male,Highly Skilled,Rent,Moderate,,19104,63,Business,1,1,Yes,Yes,Married,0,3,No Credit,785,1,North,5018,High School
+CUST0788,65,Male,Unskilled,Free,Unknown,>=200,9664,70,Furniture,2,3,No,No,Married,2,14,Critical,484,0,North,8546,Bachelor
+CUST0789,46,Male,Unskilled,Free,Rich,<0,1530,56,Vacation,4,3,No,Yes,Married,2,10,Delayed,759,1,West,2824,Bachelor
+CUST0790,30,Male,Unskilled,Rent,Moderate,,16381,27,Car,1,4,No,Yes,Single,1,21,Delayed,401,1,South,4534,High School
+CUST0791,63,Male,Unskilled,Rent,Little,<0,11285,58,Furniture,2,3,Yes,Yes,Divorced,1,2,No Credit,314,0,South,7670,PhD
+CUST0792,52,Male,Skilled,Free,Little,,7191,41,Furniture,1,4,Yes,No,Single,0,14,Critical,350,0,West,9254,High School
+CUST0793,23,Female,Skilled,Own,Unknown,,17797,41,Furniture,2,3,Yes,Yes,Single,1,2,Paid,608,0,West,9452,High School
+CUST0794,35,Female,Unskilled,Rent,Moderate,>=200,6858,57,Furniture,2,4,Yes,No,Single,1,14,Paid,333,0,East,4571,High School
+CUST0795,68,Male,Unskilled,Free,Unknown,<0,19065,58,Business,3,2,No,Yes,Single,1,5,No Credit,504,1,East,4192,High School
+CUST0796,22,Male,Unskilled,Free,Rich,,1962,55,Car,1,3,Yes,No,Divorced,1,0,No Credit,369,1,South,5953,Bachelor
+CUST0797,64,Female,Skilled,Free,Little,0<=X<200,16011,46,Furniture,4,3,No,Yes,Divorced,1,13,Critical,529,1,West,5275,High School
+CUST0798,42,Female,Unskilled,Free,Rich,<0,11070,23,Business,3,3,Yes,Yes,Single,0,15,No Credit,779,0,East,1354,High School
+CUST0799,19,Male,Unskilled,Own,Moderate,<0,16397,27,Furniture,3,1,No,Yes,Married,0,0,No Credit,832,0,West,6029,Master
+CUST0800,27,Male,Management,Free,Unknown,<0,12146,71,Education,4,3,Yes,No,Divorced,1,20,No Credit,407,1,West,3774,Bachelor
+CUST0801,47,Male,Management,Rent,Unknown,>=200,15974,26,Furniture,2,1,Yes,Yes,Single,1,16,Critical,540,1,South,1588,Master
+CUST0802,67,Male,Unskilled,Own,Unknown,0<=X<200,7537,49,Vacation,4,1,No,Yes,Married,0,25,No Credit,550,0,South,1604,Bachelor
+CUST0803,62,Female,Highly Skilled,Free,Rich,<0,9999,52,Vacation,1,4,No,No,Married,2,7,Delayed,434,1,West,9365,PhD
+CUST0804,22,Male,Unskilled,Own,Little,,13886,44,Furniture,4,1,Yes,No,Single,0,17,Critical,389,1,North,1353,PhD
+CUST0805,50,Male,Management,Rent,Rich,,6721,34,Repairs,2,1,Yes,No,Divorced,2,15,Delayed,739,1,North,6434,Bachelor
+CUST0806,18,Male,Highly Skilled,Free,Rich,>=200,8269,59,Education,4,2,Yes,No,Married,1,5,Critical,597,0,West,1433,PhD
+CUST0807,35,Male,Highly Skilled,Rent,Moderate,,17571,22,Car,2,3,No,Yes,Divorced,1,9,Delayed,706,1,South,9450,PhD
+CUST0808,49,Female,Unskilled,Free,Moderate,<0,14856,65,Furniture,2,1,Yes,Yes,Divorced,0,9,Critical,607,0,North,1867,Bachelor
+CUST0809,64,Female,Management,Free,Moderate,,18778,36,Car,1,3,No,No,Married,1,4,Paid,401,1,South,9787,High School
+CUST0810,66,Female,Management,Free,Little,<0,7889,54,Education,4,1,Yes,Yes,Single,2,25,No Credit,660,0,North,6764,Master
+CUST0811,28,Male,Highly Skilled,Free,Little,,5422,7,Furniture,4,4,Yes,No,Married,2,27,No Credit,827,1,West,1393,Bachelor
+CUST0812,38,Male,Unskilled,Free,Moderate,0<=X<200,14139,53,Repairs,1,2,Yes,Yes,Married,0,11,Critical,592,1,East,4754,Bachelor
+CUST0813,43,Female,Skilled,Own,Moderate,>=200,10503,19,Business,2,1,Yes,No,Divorced,2,19,Delayed,445,1,East,5370,Bachelor
+CUST0814,42,Male,Skilled,Free,Little,>=200,5678,64,Repairs,4,3,No,Yes,Single,0,16,Paid,703,0,South,5521,Master
+CUST0815,39,Male,Management,Free,Unknown,0<=X<200,15740,63,Repairs,1,4,No,No,Divorced,0,13,Delayed,301,1,South,8699,Bachelor
+CUST0816,44,Female,Skilled,Own,Little,0<=X<200,4468,63,Business,2,3,Yes,No,Married,2,13,No Credit,418,1,North,5578,Master
+CUST0817,66,Female,Management,Own,Little,>=200,3216,56,Business,1,4,Yes,Yes,Single,2,2,No Credit,490,0,West,9405,Master
+CUST0818,30,Female,Management,Own,Little,0<=X<200,17074,7,Vacation,4,2,Yes,Yes,Single,2,28,Delayed,302,0,North,3126,PhD
+CUST0819,50,Female,Management,Own,Moderate,<0,14011,46,Business,1,4,No,Yes,Single,2,11,Critical,786,1,West,9330,High School
+CUST0820,51,Male,Skilled,Own,Unknown,,18219,21,Furniture,3,3,Yes,No,Single,2,19,Critical,476,1,West,5193,PhD
+CUST0821,58,Male,Management,Own,Little,>=200,8681,9,Car,2,3,No,Yes,Single,2,17,Delayed,556,1,South,4960,Bachelor
+CUST0822,52,Female,Highly Skilled,Free,Moderate,0<=X<200,13495,17,Vacation,3,1,No,No,Married,2,11,No Credit,833,1,East,1663,Bachelor
+CUST0823,18,Male,Unskilled,Free,Rich,<0,11798,34,Vacation,3,4,No,Yes,Married,1,1,Delayed,776,1,East,3832,Master
+CUST0824,38,Female,Unskilled,Rent,Rich,>=200,17262,12,Car,2,3,No,Yes,Married,0,1,No Credit,697,0,South,5574,PhD
+CUST0825,65,Female,Management,Free,Little,0<=X<200,6880,19,Vacation,2,1,Yes,No,Divorced,0,26,Delayed,795,1,East,7371,Master
+CUST0826,23,Male,Unskilled,Free,Rich,>=200,1115,17,Business,1,2,Yes,No,Single,2,16,Critical,519,0,South,8624,PhD
+CUST0827,45,Female,Skilled,Own,Unknown,0<=X<200,19214,10,Repairs,2,3,No,Yes,Single,0,9,Paid,472,0,North,7292,PhD
+CUST0828,34,Male,Skilled,Own,Rich,>=200,18638,37,Education,3,1,Yes,No,Married,2,17,No Credit,689,1,West,6177,PhD
+CUST0829,22,Male,Unskilled,Free,Rich,<0,963,48,Business,3,3,Yes,No,Single,1,21,Paid,801,0,East,9353,PhD
+CUST0830,48,Male,Skilled,Rent,Unknown,<0,9658,50,Repairs,4,4,Yes,Yes,Divorced,0,18,Critical,559,1,East,8006,PhD
+CUST0831,22,Male,Unskilled,Own,Little,,3658,14,Repairs,2,1,No,No,Single,0,25,Delayed,430,0,North,4178,High School
+CUST0832,55,Female,Unskilled,Free,Little,>=200,13934,54,Vacation,3,4,Yes,Yes,Single,1,20,Critical,412,0,North,6546,Bachelor
+CUST0833,20,Male,Unskilled,Free,Unknown,,5438,38,Furniture,4,2,Yes,Yes,Divorced,1,0,Paid,319,1,East,5490,PhD
+CUST0834,40,Female,Management,Rent,Unknown,>=200,5917,23,Furniture,4,4,Yes,No,Married,1,23,Critical,514,1,East,5896,PhD
+CUST0835,54,Female,Unskilled,Rent,Unknown,0<=X<200,9381,14,Vacation,1,1,Yes,Yes,Married,0,28,Critical,609,0,South,1185,Master
+CUST0836,54,Female,Management,Own,Rich,0<=X<200,6103,67,Vacation,3,3,Yes,No,Single,0,3,Delayed,550,1,South,5653,Bachelor
+CUST0837,27,Female,Unskilled,Rent,Unknown,,2712,62,Car,1,1,Yes,Yes,Divorced,1,24,Paid,787,1,East,2980,Bachelor
+CUST0838,27,Male,Unskilled,Free,Moderate,>=200,17266,34,Car,3,4,Yes,No,Married,1,3,Paid,681,0,South,5541,Bachelor
+CUST0839,36,Male,Unskilled,Free,Rich,,19140,30,Education,1,4,Yes,No,Married,1,29,Paid,708,0,North,8808,PhD
+CUST0840,34,Female,Skilled,Rent,Little,<0,12195,20,Education,1,3,Yes,No,Married,1,1,No Credit,570,0,West,1829,Master
+CUST0841,38,Female,Management,Rent,Little,,18296,11,Education,2,2,Yes,No,Single,1,18,Critical,706,1,South,4519,Bachelor
+CUST0842,31,Male,Management,Rent,Little,,10275,47,Education,1,1,No,No,Divorced,2,20,Paid,493,1,West,9008,Master
+CUST0843,26,Female,Unskilled,Rent,Rich,0<=X<200,15059,34,Repairs,2,3,Yes,Yes,Single,1,11,Critical,740,1,South,6909,High School
+CUST0844,63,Male,Unskilled,Own,Moderate,,6646,9,Repairs,4,3,No,Yes,Married,2,9,Delayed,612,0,East,2225,High School
+CUST0845,18,Female,Skilled,Rent,Unknown,>=200,871,62,Car,3,3,Yes,No,Divorced,0,12,Delayed,378,1,South,6774,Master
+CUST0846,68,Male,Skilled,Own,Unknown,0<=X<200,6065,54,Furniture,4,1,No,Yes,Single,0,28,No Credit,479,0,West,3844,PhD
+CUST0847,62,Female,Skilled,Free,Little,,9302,49,Vacation,3,1,No,No,Married,2,29,No Credit,313,0,West,8347,Bachelor
+CUST0848,30,Female,Management,Rent,Little,<0,8807,19,Furniture,4,1,Yes,No,Married,1,21,Delayed,545,0,East,3733,High School
+CUST0849,21,Male,Management,Own,Rich,,7937,8,Business,3,2,No,Yes,Single,0,22,Paid,313,0,West,5420,High School
+CUST0850,18,Female,Management,Rent,Moderate,,946,67,Repairs,1,3,No,Yes,Married,1,19,Delayed,398,0,East,4996,Master
+CUST0851,66,Female,Unskilled,Free,Unknown,,1891,69,Education,3,4,No,No,Married,1,22,Critical,332,0,East,2688,PhD
+CUST0852,57,Male,Management,Free,Rich,0<=X<200,12016,50,Education,3,4,Yes,No,Divorced,2,14,No Credit,735,0,West,3447,Master
+CUST0853,49,Female,Highly Skilled,Free,Unknown,>=200,18224,63,Business,4,3,No,No,Married,0,25,No Credit,556,1,North,1867,Master
+CUST0854,51,Male,Highly Skilled,Rent,Little,<0,15954,25,Furniture,4,4,No,No,Single,0,2,Delayed,333,0,West,7952,Master
+CUST0855,45,Male,Skilled,Rent,Unknown,,19823,63,Education,4,2,Yes,No,Divorced,2,22,Paid,318,1,West,7084,Master
+CUST0856,48,Female,Management,Own,Moderate,>=200,12391,62,Furniture,2,2,No,No,Single,1,19,Paid,559,1,South,9431,Master
+CUST0857,25,Female,Highly Skilled,Free,Moderate,>=200,15498,57,Vacation,2,1,No,Yes,Married,1,28,Critical,715,1,West,6305,PhD
+CUST0858,56,Female,Skilled,Rent,Little,0<=X<200,6469,42,Business,3,1,No,No,Divorced,0,12,No Credit,436,1,South,9239,Master
+CUST0859,43,Female,Management,Free,Moderate,<0,9765,13,Furniture,3,1,Yes,No,Divorced,2,7,Delayed,658,1,South,5049,PhD
+CUST0860,51,Female,Unskilled,Free,Moderate,0<=X<200,16361,49,Vacation,1,1,No,Yes,Divorced,2,24,Delayed,415,0,West,4457,Bachelor
+CUST0861,20,Female,Highly Skilled,Own,Rich,>=200,5954,10,Furniture,1,1,Yes,No,Divorced,1,6,No Credit,703,1,East,4228,Bachelor
+CUST0862,67,Female,Unskilled,Own,Unknown,>=200,3650,36,Furniture,3,4,No,No,Single,1,23,Delayed,501,1,North,2248,Bachelor
+CUST0863,29,Male,Management,Own,Little,>=200,15886,50,Education,2,4,No,Yes,Married,2,7,No Credit,675,1,West,2167,Bachelor
+CUST0864,18,Female,Highly Skilled,Own,Little,0<=X<200,6914,14,Car,3,1,No,No,Married,0,17,Paid,549,0,West,4490,High School
+CUST0865,61,Male,Management,Free,Little,<0,5157,37,Repairs,1,2,No,Yes,Divorced,1,8,Paid,745,1,East,2897,PhD
+CUST0866,22,Female,Unskilled,Own,Little,,10986,38,Furniture,2,4,Yes,No,Married,2,5,Delayed,577,1,South,3179,Bachelor
+CUST0867,47,Female,Highly Skilled,Own,Little,0<=X<200,15394,35,Furniture,2,2,No,Yes,Single,2,26,Paid,411,1,East,6955,High School
+CUST0868,47,Male,Unskilled,Own,Moderate,>=200,5980,34,Furniture,1,2,Yes,Yes,Married,2,3,Paid,772,1,East,3720,PhD
+CUST0869,34,Female,Management,Own,Rich,0<=X<200,8533,8,Car,3,3,No,Yes,Single,0,14,Critical,691,0,South,2943,High School
+CUST0870,65,Female,Management,Free,Little,>=200,1483,62,Vacation,4,3,Yes,No,Single,1,4,No Credit,442,1,West,6912,High School
+CUST0871,64,Male,Unskilled,Own,Rich,,9043,35,Business,3,1,No,No,Married,1,25,No Credit,331,0,East,8686,Master
+CUST0872,40,Female,Highly Skilled,Free,Rich,,10416,14,Education,3,2,No,Yes,Single,1,4,Delayed,480,0,East,4696,High School
+CUST0873,32,Female,Unskilled,Rent,Moderate,<0,10643,31,Car,1,4,Yes,Yes,Single,0,6,No Credit,815,1,West,3825,High School
+CUST0874,54,Female,Management,Free,Little,>=200,16081,7,Vacation,2,3,Yes,No,Single,1,29,Critical,568,1,West,9414,PhD
+CUST0875,38,Male,Unskilled,Free,Moderate,<0,2407,67,Furniture,1,3,Yes,No,Single,1,8,Delayed,535,0,North,2746,High School
+CUST0876,31,Female,Management,Own,Little,<0,9716,8,Vacation,3,2,Yes,No,Divorced,1,6,Delayed,576,1,East,1529,Master
+CUST0877,19,Female,Unskilled,Rent,Moderate,,9237,51,Car,4,3,No,No,Married,1,8,No Credit,574,1,North,7384,Bachelor
+CUST0878,28,Female,Highly Skilled,Rent,Rich,0<=X<200,14257,30,Car,4,3,Yes,No,Divorced,0,19,Paid,385,1,South,9325,Bachelor
+CUST0879,68,Female,Highly Skilled,Rent,Little,0<=X<200,4674,56,Car,4,4,Yes,Yes,Single,2,9,Paid,362,0,West,5486,PhD
+CUST0880,56,Male,Unskilled,Rent,Unknown,<0,16208,18,Business,1,2,Yes,No,Married,2,29,Paid,703,0,West,1101,PhD
+CUST0881,55,Male,Unskilled,Free,Rich,,9797,49,Repairs,2,3,No,Yes,Single,1,25,Paid,491,1,North,4723,High School
+CUST0882,51,Female,Highly Skilled,Rent,Unknown,>=200,2490,40,Education,1,2,No,No,Married,1,3,Critical,592,1,East,3728,PhD
+CUST0883,55,Female,Management,Free,Rich,0<=X<200,6096,60,Business,4,3,No,Yes,Divorced,1,5,Delayed,330,0,South,3545,High School
+CUST0884,67,Male,Highly Skilled,Free,Moderate,<0,16874,14,Business,3,4,No,Yes,Married,0,23,Paid,629,0,East,3558,PhD
+CUST0885,51,Male,Management,Free,Little,0<=X<200,4275,7,Repairs,2,2,Yes,No,Single,1,13,Critical,406,0,East,7846,Bachelor
+CUST0886,35,Female,Unskilled,Rent,Rich,0<=X<200,18945,66,Business,1,3,No,Yes,Married,0,8,Delayed,575,0,North,1948,Bachelor
+CUST0887,47,Male,Unskilled,Own,Moderate,>=200,16206,46,Car,1,4,Yes,Yes,Married,1,0,No Credit,381,0,East,5936,Bachelor
+CUST0888,32,Female,Management,Own,Little,,15145,49,Car,2,3,No,Yes,Divorced,1,16,No Credit,363,0,North,3053,Bachelor
+CUST0889,44,Male,Unskilled,Rent,Little,>=200,14168,69,Vacation,2,2,Yes,Yes,Single,2,12,Critical,428,0,West,1193,High School
+CUST0890,68,Male,Management,Own,Rich,,16460,36,Furniture,3,3,Yes,No,Married,1,23,Delayed,555,1,West,9933,High School
+CUST0891,51,Male,Skilled,Own,Little,0<=X<200,11857,52,Business,2,2,Yes,Yes,Divorced,0,26,Paid,530,0,West,8304,High School
+CUST0892,69,Male,Highly Skilled,Free,Rich,<0,4935,7,Furniture,3,2,Yes,No,Married,2,6,Delayed,796,0,South,3959,Bachelor
+CUST0893,55,Female,Skilled,Free,Little,>=200,19528,63,Education,4,3,Yes,Yes,Single,0,8,Paid,436,1,South,9174,Master
+CUST0894,50,Male,Management,Rent,Unknown,,16304,49,Car,4,4,No,No,Married,2,10,Critical,754,1,East,3923,Bachelor
+CUST0895,41,Male,Highly Skilled,Rent,Moderate,0<=X<200,17929,61,Vacation,1,1,Yes,No,Married,0,2,Paid,654,1,North,4239,Bachelor
+CUST0896,32,Female,Management,Own,Unknown,,15126,48,Education,4,4,Yes,No,Married,2,25,Critical,784,0,East,4865,Master
+CUST0897,47,Male,Highly Skilled,Free,Rich,,8451,39,Vacation,4,4,Yes,Yes,Married,0,11,Delayed,445,0,West,9229,Master
+CUST0898,59,Male,Highly Skilled,Rent,Unknown,,6949,35,Repairs,3,3,Yes,No,Single,0,20,Delayed,332,1,East,5566,PhD
+CUST0899,68,Female,Highly Skilled,Rent,Rich,0<=X<200,19565,60,Car,1,4,No,No,Divorced,1,2,Paid,559,1,East,7595,Bachelor
+CUST0900,34,Male,Highly Skilled,Rent,Little,<0,3699,18,Education,2,4,No,Yes,Divorced,2,14,Delayed,386,1,East,6609,Master
+CUST0901,22,Female,Management,Rent,Little,<0,7268,8,Repairs,1,1,Yes,No,Married,2,20,Paid,564,0,West,4213,PhD
+CUST0902,46,Female,Highly Skilled,Rent,Rich,<0,9630,31,Education,4,4,Yes,Yes,Single,1,9,Delayed,841,1,North,6108,Master
+CUST0903,21,Female,Highly Skilled,Rent,Unknown,,9133,62,Vacation,2,1,Yes,Yes,Single,0,0,No Credit,691,0,East,2783,Master
+CUST0904,27,Female,Skilled,Own,Little,0<=X<200,19434,29,Repairs,1,3,Yes,No,Single,0,13,Paid,531,0,West,9294,PhD
+CUST0905,34,Male,Unskilled,Free,Moderate,,4725,58,Repairs,1,1,No,Yes,Single,2,26,Critical,746,0,South,6830,Bachelor
+CUST0906,27,Female,Unskilled,Free,Little,<0,17480,48,Car,1,2,No,Yes,Single,0,19,No Credit,428,0,North,6831,PhD
+CUST0907,34,Male,Skilled,Rent,Moderate,<0,6554,65,Furniture,1,2,Yes,Yes,Single,2,5,Critical,570,1,West,1041,Bachelor
+CUST0908,37,Male,Skilled,Free,Unknown,0<=X<200,2005,63,Vacation,3,1,Yes,No,Married,2,1,Delayed,388,1,East,7209,Master
+CUST0909,41,Male,Management,Free,Moderate,,9553,54,Vacation,1,2,Yes,Yes,Divorced,0,28,No Credit,765,1,West,2061,PhD
+CUST0910,22,Male,Management,Free,Moderate,>=200,16249,47,Repairs,4,3,Yes,Yes,Divorced,0,22,Delayed,469,0,North,4689,High School
+CUST0911,51,Male,Management,Rent,Moderate,>=200,11332,71,Repairs,4,2,Yes,Yes,Married,0,7,Paid,427,1,East,8595,Master
+CUST0912,23,Male,Skilled,Rent,Moderate,<0,16844,16,Car,3,1,No,No,Divorced,1,0,Critical,473,0,South,7807,PhD
+CUST0913,19,Male,Skilled,Free,Little,0<=X<200,15283,23,Furniture,2,3,No,Yes,Single,2,28,Delayed,325,0,South,4997,Master
+CUST0914,30,Male,Highly Skilled,Free,Moderate,,2051,57,Vacation,2,2,Yes,No,Single,0,3,Critical,810,0,South,1325,PhD
+CUST0915,60,Male,Management,Rent,Little,,15654,51,Business,4,3,No,Yes,Divorced,1,26,Critical,787,1,West,8205,Bachelor
+CUST0916,60,Male,Management,Own,Moderate,<0,14299,49,Business,4,1,No,No,Single,0,3,Delayed,705,0,North,2120,High School
+CUST0917,65,Female,Management,Free,Rich,<0,7352,27,Furniture,3,2,No,No,Single,2,28,Paid,325,0,South,1107,Master
+CUST0918,28,Female,Unskilled,Own,Unknown,,1949,58,Education,2,3,Yes,No,Divorced,1,4,Critical,382,1,East,7294,High School
+CUST0919,68,Female,Highly Skilled,Free,Moderate,,3159,64,Car,2,3,No,Yes,Married,2,29,Delayed,663,1,East,6193,Bachelor
+CUST0920,64,Male,Management,Own,Rich,<0,8009,35,Furniture,1,2,No,Yes,Divorced,0,27,Paid,666,1,East,8224,PhD
+CUST0921,40,Female,Management,Own,Moderate,,3221,13,Business,1,3,Yes,Yes,Divorced,0,27,Delayed,359,0,West,9526,High School
+CUST0922,33,Female,Management,Own,Moderate,>=200,12944,62,Repairs,1,3,No,No,Divorced,0,19,Paid,591,0,North,3039,PhD
+CUST0923,48,Female,Unskilled,Rent,Moderate,<0,10137,25,Business,3,1,Yes,Yes,Divorced,1,8,Critical,490,1,North,1803,Bachelor
+CUST0924,28,Male,Unskilled,Own,Rich,,10990,30,Repairs,4,1,No,Yes,Married,1,22,No Credit,760,0,South,1766,Master
+CUST0925,33,Male,Skilled,Own,Unknown,<0,3425,24,Car,3,1,Yes,No,Married,1,12,Delayed,532,0,North,4527,Bachelor
+CUST0926,25,Male,Highly Skilled,Own,Rich,0<=X<200,10324,10,Repairs,2,1,Yes,Yes,Single,1,17,Critical,773,1,East,3306,High School
+CUST0927,21,Male,Skilled,Free,Unknown,<0,6740,32,Furniture,4,1,No,Yes,Single,0,16,Delayed,704,1,East,2488,High School
+CUST0928,57,Female,Highly Skilled,Own,Moderate,<0,17396,45,Repairs,1,1,No,No,Divorced,0,24,Delayed,570,1,West,5129,High School
+CUST0929,21,Female,Unskilled,Free,Little,0<=X<200,715,31,Education,3,2,Yes,No,Single,0,0,Paid,433,1,East,3373,PhD
+CUST0930,42,Female,Management,Own,Moderate,>=200,7799,32,Furniture,3,1,Yes,Yes,Married,1,21,Delayed,470,1,North,4309,Master
+CUST0931,20,Female,Skilled,Own,Unknown,,12023,67,Car,1,3,No,No,Single,1,14,Paid,714,1,East,7834,High School
+CUST0932,49,Male,Management,Rent,Rich,0<=X<200,10864,55,Furniture,3,2,No,Yes,Single,0,1,Critical,327,1,South,6735,High School
+CUST0933,20,Male,Skilled,Free,Moderate,<0,3653,47,Education,1,3,No,Yes,Single,0,15,Delayed,435,1,West,5834,High School
+CUST0934,44,Male,Unskilled,Own,Rich,,2206,34,Car,2,1,No,Yes,Divorced,1,19,Critical,704,0,West,7990,Bachelor
+CUST0935,46,Female,Unskilled,Free,Rich,0<=X<200,10798,44,Business,4,1,Yes,Yes,Single,2,21,No Credit,804,0,North,4983,High School
+CUST0936,49,Male,Unskilled,Free,Rich,,2067,65,Education,2,3,Yes,Yes,Married,0,4,Critical,540,0,East,4768,Bachelor
+CUST0937,67,Male,Skilled,Rent,Moderate,,10900,46,Car,2,3,Yes,No,Married,0,26,Delayed,743,0,East,2504,High School
+CUST0938,68,Female,Highly Skilled,Rent,Rich,0<=X<200,10845,38,Repairs,1,3,No,No,Married,0,21,No Credit,733,0,North,7793,Bachelor
+CUST0939,36,Female,Skilled,Rent,Rich,,1628,21,Furniture,3,4,No,Yes,Married,1,18,Paid,527,0,North,3450,PhD
+CUST0940,38,Male,Highly Skilled,Rent,Moderate,>=200,8367,28,Car,2,4,Yes,No,Single,0,4,No Credit,808,0,South,3033,PhD
+CUST0941,22,Male,Skilled,Rent,Rich,0<=X<200,19249,12,Furniture,2,4,Yes,No,Divorced,0,1,Delayed,602,0,North,9002,Bachelor
+CUST0942,35,Male,Skilled,Rent,Moderate,>=200,6083,31,Repairs,2,4,Yes,Yes,Married,0,6,Delayed,333,0,East,7019,Master
+CUST0943,45,Male,Unskilled,Rent,Unknown,<0,5397,17,Car,3,2,Yes,No,Married,0,2,Critical,301,0,South,2307,Master
+CUST0944,59,Male,Management,Rent,Unknown,,6501,10,Business,3,1,Yes,No,Divorced,0,16,Paid,661,0,West,1975,Bachelor
+CUST0945,39,Male,Management,Own,Unknown,<0,11613,54,Education,1,3,Yes,Yes,Divorced,2,29,Delayed,494,1,East,5939,PhD
+CUST0946,38,Female,Highly Skilled,Free,Rich,<0,5067,31,Car,2,1,No,Yes,Married,2,23,Delayed,607,0,West,4733,Bachelor
+CUST0947,23,Female,Management,Rent,Little,,9771,10,Repairs,4,3,Yes,Yes,Married,0,23,Paid,549,1,West,9551,Master
+CUST0948,18,Female,Skilled,Rent,Little,0<=X<200,14848,27,Car,3,1,Yes,Yes,Divorced,0,2,Paid,446,0,West,3223,Bachelor
+CUST0949,22,Male,Skilled,Free,Rich,,12203,18,Furniture,1,2,Yes,Yes,Married,0,12,Critical,645,1,East,1484,PhD
+CUST0950,58,Female,Unskilled,Own,Little,<0,13829,33,Vacation,2,4,Yes,Yes,Married,0,6,No Credit,647,0,West,2428,Master
+CUST0951,29,Male,Unskilled,Free,Moderate,<0,3241,38,Car,4,1,Yes,Yes,Single,1,24,Paid,553,1,East,3080,Master
+CUST0952,43,Male,Management,Free,Little,0<=X<200,19904,28,Business,3,3,Yes,No,Divorced,1,23,Delayed,698,0,West,1695,High School
+CUST0953,63,Female,Highly Skilled,Rent,Rich,,6756,23,Car,4,1,Yes,Yes,Single,1,2,Paid,633,1,North,7300,High School
+CUST0954,51,Male,Management,Free,Rich,<0,728,35,Education,3,2,No,No,Single,2,14,Delayed,475,0,North,5660,Master
+CUST0955,66,Male,Management,Free,Moderate,>=200,17178,31,Car,1,2,Yes,No,Divorced,0,28,Critical,424,1,East,1201,Master
+CUST0956,31,Female,Management,Rent,Unknown,<0,4784,21,Vacation,4,1,No,Yes,Single,1,17,No Credit,697,0,West,9265,Bachelor
+CUST0957,43,Female,Management,Rent,Rich,<0,13764,44,Furniture,2,4,No,No,Married,0,28,Critical,430,1,West,9287,PhD
+CUST0958,62,Female,Skilled,Rent,Moderate,0<=X<200,13890,38,Car,2,3,No,No,Single,0,9,Paid,706,1,West,4477,Master
+CUST0959,44,Male,Highly Skilled,Rent,Little,>=200,1418,31,Business,3,2,Yes,No,Divorced,2,22,Delayed,633,1,North,3202,PhD
+CUST0960,26,Female,Skilled,Free,Little,<0,11945,53,Repairs,2,2,Yes,Yes,Married,2,6,Paid,319,1,West,8490,Master
+CUST0961,43,Female,Highly Skilled,Free,Moderate,<0,998,70,Car,4,1,Yes,No,Married,1,8,Paid,504,1,West,9449,PhD
+CUST0962,64,Male,Unskilled,Own,Moderate,>=200,3309,43,Car,1,2,Yes,No,Married,1,4,Paid,654,1,East,7317,High School
+CUST0963,39,Female,Management,Own,Rich,,5461,7,Education,3,2,Yes,Yes,Married,2,19,Paid,472,1,West,5425,Master
+CUST0964,64,Female,Skilled,Free,Little,,9517,11,Business,4,3,Yes,No,Single,2,7,No Credit,488,1,North,6350,Bachelor
+CUST0965,47,Female,Highly Skilled,Own,Moderate,<0,4279,51,Vacation,3,4,Yes,No,Single,0,13,Delayed,301,0,West,3806,PhD
+CUST0966,60,Male,Unskilled,Free,Little,<0,10550,55,Repairs,1,3,Yes,No,Married,0,3,Paid,467,0,North,8163,Master
+CUST0967,65,Male,Unskilled,Own,Moderate,,2618,43,Furniture,3,4,Yes,No,Divorced,1,19,Delayed,667,0,North,1185,High School
+CUST0968,34,Male,Management,Rent,Little,0<=X<200,6891,23,Car,2,3,Yes,No,Married,1,27,No Credit,835,1,South,9070,High School
+CUST0969,43,Male,Highly Skilled,Own,Unknown,>=200,645,32,Vacation,2,1,No,Yes,Single,2,13,Delayed,669,1,North,9334,High School
+CUST0970,53,Female,Skilled,Rent,Rich,>=200,14429,46,Repairs,3,2,Yes,No,Married,1,11,Delayed,736,0,South,8050,High School
+CUST0971,18,Male,Management,Rent,Little,0<=X<200,15417,22,Furniture,1,4,Yes,Yes,Single,0,1,No Credit,506,0,South,9831,Master
+CUST0972,25,Male,Skilled,Rent,Unknown,0<=X<200,5065,67,Vacation,1,1,Yes,No,Married,2,12,Paid,348,1,West,3074,Bachelor
+CUST0973,66,Female,Unskilled,Rent,Little,0<=X<200,17076,34,Business,2,2,No,Yes,Divorced,0,0,Delayed,843,1,South,8654,PhD
+CUST0974,52,Female,Skilled,Own,Little,0<=X<200,7137,63,Business,1,2,Yes,Yes,Married,2,19,Critical,428,0,East,1201,Bachelor
+CUST0975,69,Female,Skilled,Free,Unknown,0<=X<200,8743,27,Repairs,3,2,Yes,Yes,Divorced,2,6,Delayed,746,1,North,6710,PhD
+CUST0976,32,Male,Management,Rent,Little,0<=X<200,2910,11,Furniture,4,3,No,No,Divorced,0,27,Paid,334,0,East,4165,Bachelor
+CUST0977,64,Male,Skilled,Own,Little,>=200,2320,31,Business,3,1,Yes,No,Married,1,24,Critical,498,1,South,3102,Master
+CUST0978,39,Male,Management,Rent,Rich,0<=X<200,19848,44,Repairs,2,1,No,No,Divorced,1,8,Paid,376,0,West,2571,Master
+CUST0979,31,Female,Unskilled,Own,Unknown,,3021,17,Business,2,2,No,No,Divorced,1,27,Delayed,668,0,North,6125,PhD
+CUST0980,43,Female,Management,Own,Unknown,0<=X<200,19452,19,Business,2,4,No,No,Single,1,25,No Credit,825,1,East,7697,Master
+CUST0981,45,Male,Management,Own,Moderate,0<=X<200,6382,27,Vacation,1,1,No,Yes,Single,0,16,Paid,648,0,West,6169,PhD
+CUST0982,40,Female,Highly Skilled,Free,Little,>=200,2367,56,Vacation,3,3,Yes,Yes,Divorced,2,20,Paid,805,1,South,3159,Bachelor
+CUST0983,31,Female,Skilled,Own,Rich,>=200,7965,28,Business,4,4,No,Yes,Married,0,22,No Credit,537,1,West,2329,Master
+CUST0984,41,Female,Unskilled,Own,Little,0<=X<200,11961,53,Education,3,4,No,No,Divorced,1,12,Delayed,579,1,East,4613,Master
+CUST0985,19,Male,Management,Free,Little,>=200,6603,55,Vacation,4,4,Yes,No,Married,1,22,Paid,731,1,West,9652,PhD
+CUST0986,62,Female,Unskilled,Free,Moderate,<0,12697,18,Furniture,3,4,Yes,Yes,Single,0,9,Delayed,437,1,East,9998,PhD
+CUST0987,43,Female,Highly Skilled,Own,Little,>=200,15924,15,Repairs,2,1,Yes,No,Married,2,15,Delayed,568,0,West,4699,PhD
+CUST0988,31,Male,Skilled,Free,Rich,>=200,16553,60,Repairs,4,2,No,No,Divorced,0,5,Delayed,500,1,North,7027,PhD
+CUST0989,68,Male,Management,Rent,Rich,>=200,740,14,Furniture,3,4,Yes,Yes,Divorced,0,15,No Credit,441,1,West,3273,High School
+CUST0990,24,Female,Skilled,Rent,Moderate,>=200,5131,57,Furniture,1,3,No,Yes,Divorced,0,10,Delayed,654,0,North,9250,PhD
+CUST0991,20,Female,Highly Skilled,Free,Little,,10099,7,Furniture,1,3,No,No,Divorced,2,25,Delayed,628,1,East,5823,High School
+CUST0992,64,Male,Highly Skilled,Free,Rich,,12194,30,Furniture,3,2,Yes,No,Divorced,0,19,Critical,530,0,North,8075,Bachelor
+CUST0993,40,Male,Unskilled,Own,Little,,5577,18,Car,2,1,Yes,Yes,Married,0,2,Critical,607,1,West,1497,PhD
+CUST0994,63,Female,Management,Free,Little,0<=X<200,4268,56,Repairs,4,2,Yes,No,Divorced,1,27,Critical,445,0,North,7959,High School
+CUST0995,60,Female,Unskilled,Own,Little,0<=X<200,9642,63,Car,3,4,Yes,Yes,Single,0,28,Paid,451,1,East,7210,High School
+CUST0996,64,Female,Highly Skilled,Rent,Moderate,<0,8495,39,Business,1,1,Yes,Yes,Divorced,1,8,Paid,439,1,West,8126,High School
+CUST0997,62,Female,Skilled,Free,Little,,13776,40,Business,4,1,Yes,Yes,Married,1,14,Critical,320,1,North,4976,Master
+CUST0998,35,Male,Unskilled,Own,Rich,0<=X<200,13246,8,Repairs,1,4,No,No,Divorced,1,27,No Credit,553,1,North,7420,High School
+CUST0999,55,Female,Unskilled,Own,Little,>=200,11975,64,Business,1,3,No,Yes,Divorced,2,12,No Credit,363,1,South,2607,PhD
+CUST1000,52,Female,Skilled,Rent,Rich,>=200,19057,53,Furniture,3,4,Yes,Yes,Married,1,9,Critical,517,0,North,9912,PhD
+CUST1001,68,Male,Unskilled,Free,Little,,7068,69,Car,1,2,No,No,Divorced,0,19,Paid,371,0,South,2274,PhD
+CUST1002,32,Female,Skilled,Rent,Rich,<0,3101,24,Furniture,4,4,No,Yes,Married,0,23,Paid,461,1,East,1690,High School
+CUST1003,42,Male,Management,Own,Rich,<0,19541,10,Business,2,3,No,No,Divorced,1,12,No Credit,429,0,South,5023,High School
+CUST1004,54,Female,Skilled,Own,Little,>=200,6580,16,Vacation,3,4,No,No,Single,1,16,Delayed,524,1,East,8247,Master
+CUST1005,45,Female,Management,Free,Little,<0,14354,6,Car,4,2,No,No,Divorced,0,6,No Credit,753,1,North,4437,Bachelor
+CUST1006,27,Male,Skilled,Own,Rich,,2659,68,Furniture,3,2,No,Yes,Married,1,27,Delayed,683,1,North,3355,Master
+CUST1007,56,Male,Highly Skilled,Free,Unknown,>=200,8813,34,Repairs,1,3,Yes,Yes,Single,2,5,Paid,406,0,South,6581,PhD
+CUST1008,34,Female,Highly Skilled,Rent,Moderate,0<=X<200,4868,17,Furniture,1,2,Yes,No,Married,1,12,Paid,402,1,East,1749,PhD
+CUST1009,56,Female,Management,Free,Unknown,0<=X<200,1817,46,Vacation,4,2,Yes,No,Divorced,2,27,Critical,440,0,North,4051,PhD
+CUST1010,39,Female,Management,Free,Unknown,<0,13772,7,Business,4,4,No,No,Single,2,16,Paid,433,1,South,8763,Master
+CUST1011,43,Male,Highly Skilled,Own,Little,>=200,1730,42,Car,2,1,Yes,Yes,Married,2,14,Delayed,498,1,South,4564,PhD
+CUST1012,61,Female,Management,Own,Moderate,>=200,18017,50,Repairs,4,2,Yes,No,Single,1,3,No Credit,809,0,South,6758,PhD
+CUST1013,42,Male,Skilled,Free,Unknown,0<=X<200,1801,53,Car,4,2,Yes,No,Single,2,27,Critical,378,1,North,2704,PhD
+CUST1014,34,Male,Skilled,Own,Little,>=200,16427,29,Repairs,3,3,No,No,Married,2,14,Delayed,781,0,East,7074,High School
+CUST1015,30,Female,Highly Skilled,Own,Unknown,>=200,2410,27,Car,1,3,Yes,Yes,Single,1,13,No Credit,811,1,North,3377,Bachelor
+CUST1016,37,Male,Unskilled,Own,Unknown,>=200,15404,16,Business,4,4,No,No,Married,2,20,No Credit,549,1,West,9019,High School
+CUST1017,42,Female,Skilled,Free,Little,<0,8607,63,Repairs,2,4,Yes,Yes,Single,1,10,No Credit,782,1,West,6274,High School
+CUST1018,21,Female,Management,Own,Little,>=200,18800,51,Education,4,2,Yes,Yes,Single,0,23,Paid,471,0,North,4231,Bachelor
+CUST1019,27,Female,Unskilled,Free,Little,,3257,34,Car,1,1,Yes,No,Single,2,3,No Credit,316,1,East,7409,Bachelor
+CUST1020,20,Female,Unskilled,Own,Moderate,<0,6964,40,Car,4,1,No,No,Divorced,1,2,Paid,593,0,South,3215,Master
+CUST1021,58,Female,Skilled,Rent,Unknown,>=200,17062,20,Furniture,3,4,No,No,Divorced,0,1,No Credit,693,1,West,7288,Bachelor
+CUST1022,62,Male,Skilled,Own,Little,>=200,9588,65,Repairs,1,3,No,Yes,Married,2,19,No Credit,797,1,West,7329,Master
+CUST1023,35,Male,Unskilled,Own,Rich,,15624,47,Vacation,4,2,No,Yes,Single,2,26,Paid,518,0,North,1885,Master
+CUST1024,64,Female,Unskilled,Free,Unknown,<0,14760,48,Education,3,2,No,Yes,Married,1,9,Paid,533,1,West,1864,High School
+CUST1025,53,Female,Highly Skilled,Free,Rich,0<=X<200,10243,54,Business,1,1,Yes,No,Divorced,0,29,Delayed,689,1,West,7917,PhD
+CUST1026,64,Male,Management,Own,Moderate,0<=X<200,9183,69,Furniture,4,4,Yes,Yes,Divorced,1,12,No Credit,547,0,South,4054,High School
+CUST1027,39,Male,Highly Skilled,Rent,Little,<0,560,37,Education,3,1,No,No,Divorced,2,19,Paid,351,0,South,9977,High School
+CUST1028,51,Male,Skilled,Own,Rich,>=200,9769,69,Repairs,2,1,No,No,Divorced,2,28,Delayed,314,0,East,9648,Bachelor
+CUST1029,64,Male,Highly Skilled,Own,Moderate,>=200,3395,7,Education,3,4,Yes,No,Married,2,25,Delayed,623,1,West,9536,Bachelor
+CUST1030,25,Female,Highly Skilled,Rent,Little,0<=X<200,15823,29,Car,2,3,No,Yes,Single,2,20,Paid,740,0,East,1553,Master
+CUST1031,57,Female,Highly Skilled,Free,Rich,0<=X<200,12852,71,Car,4,2,Yes,Yes,Married,0,28,No Credit,411,0,East,6116,Master
+CUST1032,66,Male,Highly Skilled,Own,Rich,0<=X<200,12375,43,Furniture,3,3,No,Yes,Single,0,22,Delayed,306,1,South,8683,Master
+CUST1033,61,Female,Management,Free,Moderate,,17469,36,Repairs,2,4,Yes,No,Divorced,1,24,No Credit,544,0,South,1787,Bachelor
+CUST1034,36,Male,Management,Free,Little,0<=X<200,6323,31,Repairs,1,4,No,Yes,Single,1,17,No Credit,747,0,North,9896,Master
+CUST1035,59,Female,Unskilled,Rent,Little,,12462,34,Education,3,2,No,Yes,Divorced,1,20,Delayed,664,1,South,5907,Master
+CUST1036,58,Male,Skilled,Rent,Rich,<0,1034,30,Furniture,4,3,Yes,No,Married,2,15,Paid,666,0,East,8190,Bachelor
+CUST1037,54,Female,Highly Skilled,Free,Rich,>=200,4511,53,Repairs,1,2,Yes,No,Single,1,10,No Credit,586,1,West,1814,PhD
+CUST1038,23,Male,Unskilled,Own,Rich,0<=X<200,2655,70,Vacation,2,1,No,Yes,Married,0,9,Critical,405,0,East,9335,High School
+CUST1039,69,Male,Unskilled,Free,Little,>=200,7457,58,Vacation,3,1,No,No,Divorced,1,8,Paid,312,0,East,3777,Bachelor
+CUST1040,43,Female,Unskilled,Own,Moderate,>=200,9696,23,Car,3,1,Yes,Yes,Married,1,11,Delayed,445,1,East,4766,Master
+CUST1041,51,Male,Management,Own,Moderate,0<=X<200,11191,14,Education,4,3,No,No,Divorced,0,29,Critical,777,0,South,5958,High School
+CUST1042,62,Female,Highly Skilled,Rent,Little,0<=X<200,13827,43,Business,1,1,Yes,No,Divorced,0,28,No Credit,414,1,East,4825,Bachelor
+CUST1043,23,Female,Highly Skilled,Own,Unknown,<0,3206,26,Car,3,2,Yes,Yes,Divorced,2,18,Paid,808,0,North,2216,High School
+CUST1044,54,Male,Skilled,Own,Moderate,,501,70,Furniture,3,3,No,No,Married,0,0,Critical,451,0,West,5470,High School
+CUST1045,50,Female,Highly Skilled,Free,Rich,,9725,26,Repairs,1,2,Yes,No,Married,0,17,Paid,356,1,South,7772,PhD
+CUST1046,39,Female,Highly Skilled,Rent,Unknown,>=200,17988,32,Car,3,4,Yes,No,Single,1,13,No Credit,681,1,East,8717,Master
+CUST1047,38,Female,Unskilled,Own,Unknown,0<=X<200,15320,49,Business,1,3,No,Yes,Single,0,21,Paid,456,0,North,9747,Bachelor
+CUST1048,23,Female,Skilled,Own,Moderate,<0,11391,33,Business,1,2,Yes,No,Married,2,20,Critical,432,0,West,1862,Master
+CUST1049,23,Female,Highly Skilled,Rent,Unknown,<0,2361,50,Vacation,1,2,Yes,No,Married,1,0,Paid,462,0,East,7217,PhD
+CUST1050,65,Male,Management,Free,Unknown,<0,5769,22,Furniture,4,3,Yes,Yes,Married,2,16,Delayed,574,1,West,6938,PhD
+CUST1051,21,Female,Highly Skilled,Rent,Moderate,<0,11612,45,Car,1,4,Yes,Yes,Married,0,10,Delayed,376,1,South,3355,Bachelor
+CUST1052,47,Female,Unskilled,Rent,Moderate,<0,16199,8,Education,1,3,No,No,Divorced,2,19,Critical,343,0,South,3395,Bachelor
+CUST1053,28,Female,Management,Own,Unknown,,8820,71,Car,2,1,Yes,No,Divorced,2,27,Paid,849,0,North,9667,PhD
+CUST1054,47,Female,Unskilled,Own,Rich,,17321,51,Vacation,2,1,No,No,Divorced,0,14,Critical,617,0,South,1524,Bachelor
+CUST1055,48,Female,Highly Skilled,Free,Little,,11240,35,Business,4,4,Yes,Yes,Married,0,3,Paid,833,1,North,1561,High School
+CUST1056,41,Male,Management,Own,Unknown,0<=X<200,3629,14,Furniture,1,2,No,No,Divorced,1,14,No Credit,453,0,East,9167,High School
+CUST1057,26,Female,Skilled,Own,Unknown,>=200,17785,16,Furniture,2,2,Yes,Yes,Divorced,1,21,Delayed,536,1,West,9113,PhD
+CUST1058,20,Male,Skilled,Rent,Rich,<0,14880,71,Education,2,2,No,Yes,Single,1,21,No Credit,816,1,South,8416,Master
+CUST1059,68,Male,Management,Own,Unknown,0<=X<200,11860,36,Furniture,3,3,Yes,No,Single,0,25,Paid,520,0,West,5664,Bachelor
+CUST1060,48,Male,Management,Free,Unknown,<0,5898,38,Vacation,1,3,Yes,No,Divorced,2,13,No Credit,609,1,West,2205,Bachelor
+CUST1061,57,Male,Unskilled,Rent,Little,,6029,44,Vacation,2,4,Yes,Yes,Divorced,2,21,Critical,476,1,East,3238,High School
+CUST1062,54,Female,Management,Free,Little,0<=X<200,4418,51,Vacation,4,1,Yes,No,Divorced,1,0,Critical,519,0,East,2160,Bachelor
+CUST1063,53,Male,Unskilled,Rent,Little,,17951,42,Furniture,3,2,No,No,Married,1,25,Paid,337,0,South,6239,Master
+CUST1064,41,Male,Highly Skilled,Own,Moderate,<0,16910,65,Furniture,3,1,No,Yes,Single,0,8,Delayed,730,0,East,7974,Bachelor
+CUST1065,48,Female,Unskilled,Rent,Moderate,<0,7437,36,Vacation,1,3,Yes,No,Single,2,26,Critical,502,0,West,1071,Bachelor
+CUST1066,23,Female,Management,Rent,Little,>=200,7618,16,Furniture,1,3,No,Yes,Single,1,6,Delayed,747,0,North,1754,High School
+CUST1067,19,Female,Management,Own,Little,<0,17431,7,Furniture,3,3,Yes,No,Divorced,0,22,Paid,794,0,North,8298,Bachelor
+CUST1068,37,Male,Highly Skilled,Own,Moderate,,11360,32,Business,4,1,Yes,Yes,Married,1,10,Delayed,424,0,North,7600,PhD
+CUST1069,45,Female,Management,Free,Rich,<0,5838,7,Car,1,4,No,Yes,Single,0,22,Paid,364,1,South,9152,PhD
+CUST1070,28,Female,Management,Free,Unknown,>=200,12972,26,Repairs,1,4,No,No,Single,2,1,No Credit,543,0,East,9243,Master
+CUST1071,21,Male,Skilled,Own,Unknown,>=200,3640,63,Furniture,3,3,No,Yes,Married,0,1,Paid,826,0,East,3621,Master
+CUST1072,32,Female,Skilled,Own,Little,,8496,10,Repairs,3,2,Yes,Yes,Divorced,1,5,No Credit,525,0,East,4190,Master
+CUST1073,23,Female,Highly Skilled,Own,Rich,0<=X<200,15989,57,Repairs,1,1,Yes,No,Divorced,1,22,Paid,764,0,East,4948,Master
+CUST1074,66,Female,Unskilled,Rent,Moderate,<0,18474,50,Business,2,3,No,No,Single,2,18,Critical,592,0,West,2287,High School
+CUST1075,47,Female,Skilled,Rent,Little,>=200,14701,25,Furniture,1,1,Yes,No,Single,2,28,Critical,680,0,North,6358,Bachelor
+CUST1076,55,Male,Unskilled,Rent,Rich,<0,8276,66,Vacation,2,1,No,Yes,Married,1,19,Delayed,465,1,West,8518,High School
+CUST1077,68,Female,Management,Own,Rich,<0,5443,43,Repairs,3,4,No,Yes,Single,1,13,Paid,517,0,South,8036,Master
+CUST1078,19,Female,Skilled,Free,Rich,0<=X<200,13386,25,Furniture,2,3,No,Yes,Married,1,27,Paid,574,1,North,5780,Bachelor
+CUST1079,32,Male,Highly Skilled,Own,Moderate,>=200,9497,30,Education,4,4,No,No,Single,2,2,Paid,351,0,North,2772,PhD
+CUST1080,28,Female,Highly Skilled,Rent,Moderate,<0,8298,7,Vacation,3,3,No,Yes,Single,1,6,Delayed,673,1,West,4902,High School
+CUST1081,25,Male,Highly Skilled,Rent,Unknown,>=200,18241,37,Education,1,1,No,Yes,Single,2,6,Critical,662,1,South,6726,Bachelor
+CUST1082,43,Female,Skilled,Own,Unknown,,8592,31,Education,1,4,Yes,No,Divorced,1,3,Paid,313,1,South,7200,PhD
+CUST1083,68,Male,Unskilled,Own,Rich,,3725,46,Repairs,3,1,Yes,Yes,Married,0,28,Delayed,639,0,North,4138,PhD
+CUST1084,62,Male,Management,Rent,Rich,<0,12310,6,Education,3,3,No,No,Married,0,22,Paid,838,0,East,8213,Master
+CUST1085,61,Male,Unskilled,Rent,Moderate,>=200,15414,56,Business,4,2,No,No,Divorced,1,4,No Credit,388,0,South,3416,PhD
+CUST1086,22,Male,Unskilled,Rent,Unknown,<0,2960,10,Business,3,4,No,No,Divorced,0,16,Paid,340,0,West,8051,PhD
+CUST1087,23,Female,Management,Own,Rich,>=200,9237,18,Repairs,1,4,Yes,Yes,Divorced,2,25,No Credit,603,0,South,2584,Master
+CUST1088,43,Male,Management,Rent,Unknown,>=200,14420,24,Furniture,4,1,No,Yes,Married,0,3,Delayed,567,0,North,2046,Bachelor
+CUST1089,21,Female,Skilled,Rent,Unknown,0<=X<200,19612,17,Car,1,1,No,Yes,Single,0,22,Delayed,437,1,East,7984,Bachelor
+CUST1090,36,Male,Skilled,Free,Rich,0<=X<200,11254,53,Furniture,2,2,No,No,Divorced,2,12,Critical,305,1,South,3165,Master
+CUST1091,37,Male,Skilled,Own,Moderate,0<=X<200,11333,30,Furniture,3,4,Yes,No,Divorced,0,15,Paid,541,1,North,6719,High School
+CUST1092,50,Male,Skilled,Free,Rich,<0,3614,62,Furniture,2,3,No,No,Divorced,0,15,Delayed,461,0,South,8222,Master
+CUST1093,37,Female,Skilled,Free,Rich,0<=X<200,17500,40,Furniture,1,3,Yes,Yes,Single,1,1,Critical,817,0,East,2176,Bachelor
+CUST1094,66,Male,Management,Rent,Unknown,0<=X<200,15860,10,Vacation,2,4,Yes,Yes,Single,2,17,Paid,700,1,West,7411,High School
+CUST1095,29,Female,Unskilled,Own,Rich,,18087,27,Car,2,4,No,Yes,Divorced,2,0,Delayed,455,0,North,9074,Master
+CUST1096,64,Female,Skilled,Rent,Moderate,>=200,10451,62,Vacation,1,4,Yes,Yes,Single,1,17,No Credit,384,0,North,4288,Bachelor
+CUST1097,18,Female,Skilled,Own,Rich,>=200,3065,52,Education,1,2,Yes,Yes,Divorced,1,25,Delayed,309,0,East,2315,Bachelor
+CUST1098,43,Female,Unskilled,Free,Moderate,0<=X<200,3674,59,Furniture,3,3,Yes,No,Single,0,29,No Credit,437,1,North,1892,Bachelor
+CUST1099,31,Female,Skilled,Own,Moderate,>=200,19965,8,Business,2,3,No,Yes,Married,0,7,Critical,455,1,East,6169,PhD
+CUST1100,55,Female,Unskilled,Rent,Unknown,,3130,58,Repairs,4,1,Yes,No,Married,0,10,Critical,707,0,North,9298,PhD
+CUST1101,54,Female,Unskilled,Rent,Little,,3661,36,Repairs,4,1,No,No,Single,1,23,Paid,524,1,East,4080,High School
+CUST1102,28,Female,Management,Rent,Little,0<=X<200,4821,38,Vacation,1,4,No,Yes,Married,2,23,Paid,483,1,South,9936,High School
+CUST1103,53,Female,Highly Skilled,Own,Unknown,,13704,55,Vacation,1,1,No,No,Married,0,14,Paid,494,0,South,7466,High School
+CUST1104,30,Male,Management,Free,Rich,>=200,7599,21,Business,2,2,Yes,Yes,Married,1,15,Critical,695,0,South,9813,PhD
+CUST1105,60,Male,Highly Skilled,Free,Unknown,<0,11860,44,Furniture,1,3,No,Yes,Divorced,2,16,No Credit,433,1,North,6090,High School
+CUST1106,20,Male,Highly Skilled,Own,Moderate,>=200,10813,51,Car,4,3,Yes,No,Single,1,16,Paid,608,1,East,5240,Bachelor
+CUST1107,50,Male,Highly Skilled,Rent,Little,<0,14002,52,Education,3,1,Yes,Yes,Single,0,11,Paid,841,0,East,1411,Bachelor
+CUST1108,23,Male,Skilled,Free,Unknown,0<=X<200,6301,49,Repairs,3,4,Yes,Yes,Single,1,9,Critical,308,0,West,9305,High School
+CUST1109,67,Female,Management,Rent,Rich,<0,14630,14,Education,2,1,Yes,No,Married,1,19,No Credit,469,0,South,3446,High School
+CUST1110,27,Female,Highly Skilled,Own,Unknown,,14771,55,Car,3,4,No,No,Divorced,1,5,Delayed,589,1,West,4346,PhD
+CUST1111,22,Female,Unskilled,Rent,Little,>=200,16575,65,Vacation,1,2,No,No,Single,1,7,Paid,467,1,South,1085,Bachelor
+CUST1112,40,Female,Skilled,Free,Unknown,<0,4651,20,Repairs,1,3,Yes,No,Married,2,12,Delayed,643,0,West,8749,Master
+CUST1113,27,Female,Management,Free,Unknown,>=200,9411,41,Education,1,2,No,No,Divorced,0,1,Delayed,796,0,South,5142,Master
+CUST1114,61,Female,Highly Skilled,Rent,Little,0<=X<200,19484,68,Vacation,1,3,No,No,Divorced,2,28,Paid,444,0,East,8087,PhD
+CUST1115,19,Female,Unskilled,Own,Moderate,0<=X<200,13361,46,Car,2,2,No,Yes,Single,1,18,Critical,712,0,South,8368,PhD
+CUST1116,30,Male,Management,Rent,Moderate,,1166,29,Education,3,1,Yes,Yes,Single,1,21,Paid,756,1,North,6834,PhD
+CUST1117,57,Male,Management,Own,Little,0<=X<200,17167,54,Furniture,4,2,No,Yes,Married,0,9,No Credit,601,0,South,1803,Bachelor
+CUST1118,19,Male,Skilled,Rent,Unknown,<0,6340,23,Vacation,3,2,Yes,No,Single,0,3,No Credit,345,0,South,7719,High School
+CUST1119,37,Male,Management,Free,Little,0<=X<200,4065,12,Car,1,1,No,Yes,Married,2,11,Paid,316,1,East,7085,High School
+CUST1120,18,Female,Skilled,Own,Moderate,,10926,9,Education,4,3,Yes,No,Divorced,2,17,Delayed,659,0,North,5182,PhD
+CUST1121,54,Female,Highly Skilled,Own,Rich,>=200,18349,65,Furniture,2,3,Yes,Yes,Divorced,0,6,No Credit,560,1,East,1264,Bachelor
+CUST1122,26,Female,Skilled,Own,Unknown,>=200,7866,60,Furniture,1,1,Yes,No,Divorced,2,19,No Credit,422,1,West,4093,Master
+CUST1123,34,Male,Unskilled,Free,Moderate,0<=X<200,16130,21,Car,1,2,No,Yes,Divorced,1,23,Paid,530,1,West,5798,PhD
+CUST1124,26,Female,Skilled,Rent,Unknown,<0,7882,34,Business,4,2,Yes,No,Single,1,23,Paid,411,0,North,9143,Bachelor
+CUST1125,28,Female,Unskilled,Free,Little,,16649,28,Repairs,2,2,No,No,Single,0,22,Critical,545,1,West,1325,PhD
+CUST1126,32,Female,Skilled,Own,Rich,<0,16371,19,Car,4,4,Yes,No,Married,2,25,Paid,690,0,North,2206,Bachelor
+CUST1127,41,Male,Management,Rent,Little,,13773,54,Furniture,2,3,No,No,Married,1,24,Paid,691,1,South,2440,Bachelor
+CUST1128,55,Female,Highly Skilled,Free,Rich,0<=X<200,1492,38,Furniture,1,2,Yes,Yes,Married,0,3,No Credit,627,1,West,6184,PhD
+CUST1129,52,Male,Unskilled,Own,Unknown,,7358,30,Car,3,3,No,Yes,Married,2,6,No Credit,514,1,South,9746,High School
+CUST1130,47,Male,Skilled,Own,Unknown,,2621,26,Business,1,2,Yes,No,Married,1,9,No Credit,666,0,East,6136,PhD
+CUST1131,48,Male,Skilled,Free,Little,0<=X<200,12888,22,Repairs,3,1,Yes,No,Divorced,2,25,Delayed,381,0,West,9140,High School
+CUST1132,66,Male,Skilled,Free,Rich,<0,19107,28,Education,3,1,Yes,No,Divorced,2,14,No Credit,375,1,East,6819,High School
+CUST1133,22,Female,Management,Free,Rich,0<=X<200,4636,62,Car,2,3,No,Yes,Divorced,2,11,No Credit,826,0,East,9069,Master
+CUST1134,61,Male,Management,Own,Unknown,,17227,63,Repairs,4,3,Yes,No,Married,0,0,Paid,802,1,North,3036,Bachelor
+CUST1135,67,Male,Unskilled,Free,Little,0<=X<200,13153,19,Repairs,2,1,Yes,No,Divorced,1,19,Critical,778,1,East,6560,PhD
+CUST1136,31,Female,Unskilled,Own,Rich,,15979,25,Vacation,1,4,Yes,Yes,Divorced,0,17,No Credit,671,1,North,4629,Bachelor
+CUST1137,28,Female,Management,Free,Unknown,0<=X<200,5323,35,Furniture,4,1,Yes,No,Divorced,1,24,Critical,564,1,North,9963,Master
+CUST1138,26,Male,Unskilled,Own,Moderate,>=200,5420,24,Education,3,2,No,No,Divorced,1,15,No Credit,563,0,North,6314,High School
+CUST1139,51,Female,Highly Skilled,Own,Little,>=200,5971,58,Car,3,4,Yes,Yes,Single,0,4,No Credit,409,1,North,3456,PhD
+CUST1140,29,Male,Highly Skilled,Rent,Moderate,0<=X<200,17772,61,Furniture,1,1,Yes,No,Married,0,18,Critical,606,0,North,9662,Bachelor
+CUST1141,52,Male,Management,Free,Little,<0,10033,28,Vacation,4,4,No,No,Married,1,3,Paid,499,1,South,2370,Master
+CUST1142,52,Male,Unskilled,Free,Unknown,,7627,67,Vacation,1,4,No,Yes,Single,1,5,No Credit,525,1,North,8629,High School
+CUST1143,18,Male,Skilled,Own,Rich,>=200,4220,38,Furniture,1,4,No,No,Divorced,1,25,Critical,484,1,West,9863,High School
+CUST1144,57,Female,Highly Skilled,Own,Rich,<0,19767,23,Business,2,3,Yes,Yes,Divorced,2,16,No Credit,330,1,North,2174,Bachelor
+CUST1145,39,Male,Management,Own,Rich,,16196,38,Repairs,1,1,No,No,Divorced,1,6,Delayed,398,1,South,1110,High School
+CUST1146,46,Female,Unskilled,Rent,Little,>=200,19299,37,Car,4,3,No,No,Married,0,23,Delayed,638,0,West,4559,Master
+CUST1147,25,Female,Management,Rent,Unknown,>=200,19885,66,Car,1,3,No,No,Married,0,22,Delayed,565,0,West,7692,High School
+CUST1148,28,Female,Skilled,Own,Moderate,0<=X<200,18622,59,Car,4,2,Yes,No,Married,0,6,Delayed,649,1,South,4233,PhD
+CUST1149,58,Female,Highly Skilled,Free,Unknown,,1864,22,Furniture,3,2,Yes,No,Married,1,8,Paid,843,0,West,2472,PhD
+CUST1150,54,Male,Management,Free,Moderate,<0,3208,24,Business,1,4,Yes,Yes,Married,1,12,Delayed,756,0,South,5872,Bachelor
+CUST1151,31,Female,Management,Rent,Little,<0,13482,39,Education,4,4,No,No,Single,2,19,Critical,387,1,East,5753,Master
+CUST1152,47,Male,Management,Rent,Little,<0,17808,30,Vacation,3,2,Yes,No,Married,2,13,No Credit,362,1,East,2833,High School
+CUST1153,52,Female,Skilled,Own,Moderate,,651,16,Furniture,4,2,No,Yes,Divorced,0,15,Critical,686,1,North,6928,High School
+CUST1154,38,Female,Management,Free,Moderate,<0,17796,21,Education,3,1,No,Yes,Married,2,22,Delayed,758,1,North,9645,High School
+CUST1155,54,Male,Skilled,Own,Moderate,<0,2821,66,Vacation,2,4,No,No,Single,2,8,Paid,568,0,North,7816,PhD
+CUST1156,22,Male,Skilled,Rent,Unknown,<0,14365,12,Vacation,1,4,Yes,Yes,Divorced,0,14,Delayed,645,0,North,1740,Master
+CUST1157,36,Male,Skilled,Free,Moderate,0<=X<200,995,21,Business,1,2,No,No,Single,1,4,Delayed,377,0,South,8256,High School
+CUST1158,31,Female,Highly Skilled,Free,Little,0<=X<200,12487,21,Repairs,3,1,No,Yes,Divorced,2,17,Paid,664,0,East,3380,Bachelor
+CUST1159,43,Female,Highly Skilled,Rent,Little,,2648,45,Car,2,2,Yes,Yes,Married,1,20,Paid,313,1,South,4680,Master
+CUST1160,21,Male,Management,Own,Rich,,1056,17,Education,4,2,No,No,Single,0,19,Paid,435,1,West,3401,Master
+CUST1161,42,Male,Management,Own,Moderate,<0,13893,40,Furniture,2,3,No,Yes,Divorced,0,7,Paid,603,1,West,8177,High School
+CUST1162,62,Male,Highly Skilled,Free,Unknown,0<=X<200,2052,26,Education,4,4,No,No,Married,2,14,Paid,696,1,West,3006,PhD
+CUST1163,59,Male,Unskilled,Rent,Unknown,>=200,19004,55,Repairs,4,1,Yes,Yes,Divorced,0,20,Paid,378,0,West,2409,Master
+CUST1164,42,Female,Highly Skilled,Free,Unknown,>=200,3585,48,Car,1,3,No,Yes,Single,0,24,No Credit,717,0,West,2762,Bachelor
+CUST1165,35,Male,Skilled,Rent,Rich,<0,656,22,Education,3,4,Yes,Yes,Single,0,8,Delayed,541,1,East,1909,Master
+CUST1166,57,Male,Highly Skilled,Own,Little,<0,9426,37,Repairs,1,2,Yes,No,Single,2,18,Delayed,350,0,South,1760,PhD
+CUST1167,25,Male,Skilled,Rent,Unknown,0<=X<200,7662,46,Furniture,1,1,No,No,Single,2,28,Paid,683,0,West,7638,Bachelor
+CUST1168,56,Male,Management,Own,Little,0<=X<200,8555,11,Business,1,4,No,Yes,Married,2,25,Critical,674,1,North,6612,PhD
+CUST1169,57,Female,Unskilled,Rent,Rich,0<=X<200,5154,32,Vacation,4,2,No,No,Divorced,0,21,Paid,505,0,East,4240,High School
+CUST1170,31,Male,Management,Free,Moderate,,11968,25,Furniture,1,3,No,No,Married,1,5,No Credit,788,1,North,1530,Master
+CUST1171,49,Female,Skilled,Own,Moderate,,654,30,Car,4,1,Yes,No,Single,0,3,Critical,680,0,East,3560,Bachelor
+CUST1172,68,Male,Skilled,Free,Moderate,<0,8450,71,Vacation,3,4,Yes,Yes,Divorced,2,10,No Credit,610,0,East,3177,PhD
+CUST1173,55,Male,Skilled,Free,Unknown,,15823,14,Furniture,4,3,No,No,Single,1,28,Critical,674,1,North,6103,High School
+CUST1174,50,Female,Unskilled,Own,Moderate,0<=X<200,17880,58,Furniture,4,2,Yes,Yes,Married,1,9,Critical,341,1,North,8706,Bachelor
+CUST1175,40,Male,Highly Skilled,Own,Unknown,0<=X<200,5126,66,Furniture,2,2,No,Yes,Married,2,2,Paid,832,1,West,2537,Master
+CUST1176,32,Female,Management,Free,Rich,,19789,43,Furniture,1,4,No,Yes,Married,1,0,No Credit,821,0,North,3781,Master
+CUST1177,50,Female,Management,Free,Rich,>=200,14759,8,Vacation,1,2,No,Yes,Divorced,1,11,Critical,452,1,South,1946,PhD
+CUST1178,42,Male,Highly Skilled,Free,Unknown,<0,15373,60,Car,1,1,No,Yes,Divorced,2,22,No Credit,611,0,East,6257,Bachelor
+CUST1179,34,Female,Management,Free,Little,>=200,13516,6,Repairs,1,4,Yes,No,Single,1,14,Paid,593,1,East,6097,High School
+CUST1180,50,Female,Unskilled,Own,Moderate,<0,9869,50,Education,2,3,Yes,No,Divorced,1,14,Paid,412,0,West,3511,High School
+CUST1181,64,Female,Management,Own,Moderate,>=200,653,52,Business,2,4,No,Yes,Divorced,2,20,Paid,411,1,East,3188,High School
+CUST1182,19,Female,Skilled,Free,Moderate,,8353,31,Education,2,4,No,No,Married,1,13,Paid,474,1,North,7063,PhD
+CUST1183,31,Female,Highly Skilled,Rent,Unknown,<0,12879,19,Education,2,3,Yes,No,Single,1,25,Delayed,601,0,East,1881,High School
+CUST1184,57,Female,Unskilled,Rent,Rich,<0,16292,59,Business,1,2,Yes,No,Married,1,6,Critical,815,0,East,2847,Bachelor
+CUST1185,57,Female,Highly Skilled,Own,Moderate,<0,6099,51,Vacation,4,3,Yes,No,Single,1,16,Delayed,520,1,North,7599,PhD
+CUST1186,68,Female,Unskilled,Free,Rich,0<=X<200,18600,36,Car,3,1,No,No,Single,2,23,Paid,470,0,North,2975,Master
+CUST1187,56,Male,Skilled,Free,Moderate,0<=X<200,15285,64,Business,2,2,Yes,No,Divorced,0,18,Critical,617,1,East,7577,PhD
+CUST1188,68,Male,Highly Skilled,Own,Moderate,>=200,11549,34,Car,4,4,No,No,Married,0,6,Critical,512,0,South,6726,PhD
+CUST1189,23,Female,Management,Rent,Unknown,,1286,22,Vacation,2,2,No,Yes,Divorced,1,27,No Credit,552,0,North,5568,PhD
+CUST1190,23,Male,Unskilled,Rent,Little,0<=X<200,4868,19,Education,1,2,Yes,Yes,Divorced,2,2,Paid,423,1,South,8163,Bachelor
+CUST1191,20,Female,Highly Skilled,Rent,Unknown,<0,15423,41,Car,1,1,No,Yes,Divorced,2,29,Delayed,512,1,South,7582,Master
+CUST1192,24,Female,Management,Own,Moderate,0<=X<200,4772,63,Vacation,4,2,Yes,No,Single,1,2,No Credit,384,0,West,9689,Master
+CUST1193,68,Male,Highly Skilled,Rent,Moderate,,6494,29,Vacation,4,2,No,No,Married,0,25,Critical,815,0,South,3216,PhD
+CUST1194,25,Female,Highly Skilled,Own,Little,0<=X<200,7511,68,Repairs,4,2,No,Yes,Married,1,24,Delayed,364,0,West,6701,PhD
+CUST1195,59,Female,Highly Skilled,Own,Rich,<0,14586,30,Business,1,4,No,No,Divorced,2,28,Paid,617,0,South,9017,PhD
+CUST1196,69,Female,Unskilled,Free,Rich,>=200,9761,64,Repairs,1,2,No,No,Single,2,17,Delayed,645,1,West,3608,Bachelor
+CUST1197,32,Female,Management,Rent,Moderate,<0,19233,37,Education,3,3,No,Yes,Married,0,29,Delayed,542,1,North,5809,Bachelor
+CUST1198,64,Male,Skilled,Own,Rich,,7511,23,Business,4,2,No,Yes,Married,2,19,Delayed,436,0,East,7345,High School
+CUST1199,46,Female,Unskilled,Rent,Moderate,>=200,1712,42,Education,3,1,Yes,Yes,Divorced,2,21,No Credit,546,1,East,1178,Master
