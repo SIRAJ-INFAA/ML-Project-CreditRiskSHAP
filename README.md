@@ -4,37 +4,48 @@ Its Repo name
 # Credit Risk Modeling with SHAP Interpretability
 This project builds a credit risk classification model using XGBoost and interprets its predictions using SHAP (SHapley Additive exPlanations). It aims to provide transparent, explainable decisions for loan approvals by identifying key risk drivers and visualizing how each feature contributes to individual predictions.
 
-# Project Context
-This project was developed as part of the Microsoft 365 with Artificial Intelligence course at ASGARDIA Foundation – TNSKILLS. The dataset is a synthetic version of the German Credit dataset, designed for educational use in financial risk modeling and explainable AI.
-
-# Core Concepts
+## Core Concepts
 - Credit Risk Modeling: Predicting whether a loan applicant is likely to repay or default.
 - XGBoost Classifier: A gradient-boosted decision tree ensemble used for high-performance classification.
 - SHAP (SHapley Additive Explanations): A game-theoretic approach to explain the output of machine learning models.
 - Model Interpretability: Understanding how input features influence model predictions.
 - RiskScore: A scaled feature used to rank applicants by predicted risk.
 
-# Project Structure
-credit-risk-shap-project/
-│
-├── credit_risk_model.ipynb         # Main notebook with all steps
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project overview and insights
-├── plots/                          # Visualizations
-│   ├── shap_summary_plot.png
-│   ├── shap_case_high.png
-│   ├── shap_case_low.png
-│   ├── shap_case_borderline.png
-│   └── riskscore_distribution.png
+## Folder Structure
+- `CreditRisk-ML.ipynb` – Main notebook with preprocessing, model training, SHAP analysis, and visualizations
+- `requirements.txt `– Python dependencies
+- `README.md` – Detailed project overview, insights, and interpretation
+- `plots/` – SHAP and supporting visualizations
+  - `shap_summary_plot.png`
+  - `shap_case_high.png`
+  - `shap_case_low.png`
+  - `shap_case_borderline.png`
+  - `riskscore_distribution.png`
+  - `correlation_heatmap.png`
+ - `data/` – Dataset used for training- synthetic_german_credit_spil.csv
 
-# Installation
+## Installation
 Install all required libraries using:
+
 pip install -r requirements.txt
 
 Dependencies:
 pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, shap
 
-# Workflow Overview
+## Workflow Overview
+1. Load and preprocess dataset
+2. Train XGBoost model
+3. Evaluate performance (AUC, Precision, Recall)
+4. Generate global SHAP summary plot
+5. Select 3 representative cases:
+   - High-risk denial
+   - Low-risk approval
+   - Borderline case
+6. Generate SHAP waterfall plots
+7. Write textual analysis
+
+## Workflow
+-markdown
 1. Data Preprocessing
 - Label encoding for categorical features
 - Standard scaling for numerical features (CreditAmount, Duration, Income, etc.)
@@ -68,7 +79,22 @@ pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, shap
   -> Borderline case
 - SHAP waterfall plots were generated for each case and saved to the plot png/ folder. Each explanation maps SHAP values back to original feature meanings.
 
-# Detailed SHAP Interpretations
+## Key Insights
+
+- **Top 5 Risk Drivers**:
+  1. CreditAmount
+  2. Duration
+  3. EmploymentSince
+  4. CheckingAccount
+  5. Age
+
+- **SHAP Explanations**:
+  - High-risk denial: High CreditAmount and long Duration pushed the model toward rejection.
+  - Low-risk approval: Stable job and high income supported approval.
+  - Borderline case: Mixed signals from CreditHistory and Housing.
+
+
+## Detailed SHAP Interpretations
 High-Risk Denial
 - Prediction: Denied
 - Key Drivers:
@@ -93,7 +119,7 @@ Borderline Case
   - CreditAmount = 3,000 → Moderate loan size
 - Interpretation: Mixed signals from moderate risk features placed this applicant near the decision boundary.
 
-# Visuals
+## Visuals
 All plots are stored in the plot png/ folder:
 - shap_summary_plot.png: Global feature importance.
 - shap_case_high.png: SHAP explanation for high-risk denial.
@@ -103,13 +129,13 @@ All plots are stored in the plot png/ folder:
 - correlation_heatmap.png: Feature correlation matrix
 
 
-# Lessons Learned
+## Lessons Learned
 - Model performance improved significantly with proper tuning and class balancing.
 - SHAP explanations provided actionable insights into model behavior.
 - Visual justifications (heatmap, histogram) made the analysis more transparent and credible.
 - Textual analysis was expanded to clearly link SHAP values to real-world financial reasoning.
 
-# Author
+## Author
 Mohamed Siraj N
 MCA Graduate | TNSKILLS
 - Focused on AI/ML, Python, and model interpretability.
