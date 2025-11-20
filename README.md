@@ -93,11 +93,15 @@ Borderline Case
   - CreditAmount = 3,000 → Moderate loan size
 - Interpretation: Mixed signals from moderate risk features placed this applicant near the decision boundary.
 
-# Lessons Learned
-- Model performance improved significantly with proper tuning and class balancing.
-- SHAP explanations provided actionable insights into model behavior.
-- Visual justifications (heatmap, histogram) made the analysis more transparent and credible.
-- Textual analysis was expanded to clearly link SHAP values to real-world financial reasoning.
+# Visuals
+All plots are stored in the plot png/ folder:
+- shap_summary_plot.png: Global feature importance.
+- shap_case_high.png: SHAP explanation for high-risk denial.
+- shap_case_low.png: SHAP explanation for low-risk approval.
+- shap_case_borderline.png: SHAP explanation for borderline case.
+- riskscore_distribution.png: Histogram used to justify borderline threshold.
+- correlation_heatmap.png: Feature correlation matrix
+
 
 # Lessons Learned
 - Model performance improved significantly with proper tuning and class balancing.
