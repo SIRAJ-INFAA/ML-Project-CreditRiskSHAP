@@ -22,7 +22,7 @@ This project builds a credit risk classification model using XGBoost and interpr
   - `shap_case_borderline.png`
   - `riskscore_distribution.png`
   - `correlation_heatmap.png`
- - `data/` – Dataset used for training- synthetic_german_credit_spil.csv
+ - `data/` – Dataset used for training- `synthetic_german_credit_spil.csv`
 
 ## Installation
 Install all required libraries using:
