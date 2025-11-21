@@ -8,10 +8,10 @@ The goal of this project was to build a transparent and interpretable credit ris
 
 To tackle the classification task, I chose the XGBoost classifier due to its strong performance and native compatibility with SHAP. I used `GridSearchCV` to fine-tune key hyperparameters, including:
 
-● `max_depth`
-● `learning_rate`
-● `n_estimators`
-● `scale_pos_weight` (to address class imbalance)
+ `max_depth`
+ `learning_rate`
+ `n_estimators`
+ `scale_pos_weight` (to address class imbalance)
 
 This tuning process helped improve the model’s ability to generalize while ensuring that minority class predictions (i.e., defaults) were not overlooked.
 
@@ -19,9 +19,9 @@ This tuning process helped improve the model’s ability to generalize while ens
 
 After tuning, the model showed a significant improvement over the baseline. The key evaluation metrics were:
 
-● **AUC Score**: 0.71 (up from 0.526)
-● **Precision**: 0.68
-● **Recall**: 0.74
+ **AUC Score**: 0.71 (up from 0.526)
+ **Precision**: 0.68
+ **Recall**: 0.74
 
 The confusion matrix indicated a balanced classification between approved and denied applicants, which is crucial for fairness in credit decisions.
 
@@ -31,26 +31,26 @@ The confusion matrix indicated a balanced classification between approved and de
 
 Using SHAP’s summary plot, I identified the top five features that influenced the model’s predictions:
 
-● **CreditAmount** – Higher loan amounts increased risk
-● **Duration** – Longer repayment periods were associated with higher default probability
-● **EmploymentSince** – Longer employment history reduced risk
-● **CheckingAccount** – Lack of account history increased risk
-● **Age** – Younger applicants showed slightly higher risk
+ **CreditAmount** – Higher loan amounts increased risk
+ **Duration** – Longer repayment periods were associated with higher default probability
+ **EmploymentSince** – Longer employment history reduced risk
+ **CheckingAccount** – Lack of account history increased risk
+ **Age** – Younger applicants showed slightly higher risk
 
 ### Instance-Level Explanations
 
 To demonstrate local interpretability, I selected three representative cases:
 
-● **High-Risk Denial**: The applicant requested a large loan over a long duration and had no checking account history. These factors pushed the model toward rejection.
-● **Low-Risk Approval**: This applicant had a stable job, high income, and a clean credit history — all of which contributed positively to the approval decision.
-● **Borderline Case**: The model showed uncertainty due to mixed signals — for example, no credit history but a moderate loan amount and stable housing. This case fell within the decision boundary and was ideal for manual review.
+ **High-Risk Denial**: The applicant requested a large loan over a long duration and had no checking account history. These factors pushed the model toward rejection.
+ **Low-Risk Approval**: This applicant had a stable job, high income, and a clean credit history — all of which contributed positively to the approval decision.
+ **Borderline Case**: The model showed uncertainty due to mixed signals — for example, no credit history but a moderate loan amount and stable housing. This case fell within the decision boundary and was ideal for manual review.
 
 ### Feature Mapping
 
 To ensure transparency, I mapped SHAP values back to the original feature meanings. For instance:
 
-● `CheckingAccount < 0` indicated no financial history
-● `Duration > 36 months` suggested a longer repayment period, which increased risk
+ `CheckingAccount < 0` indicated no financial history
+ `Duration > 36 months` suggested a longer repayment period, which increased risk
 
 ## RiskScore Distribution
 
@@ -60,11 +60,11 @@ To justify the selection of borderline cases, I plotted a histogram of the scale
 
 Throughout the project, I implemented several key improvements:
 
-● Added a **correlation heatmap** to visualize feature relationships
-● Expanded the **textual analysis** in both the notebook and README
-● Tuned the model to significantly improve AUC and recall
-● Provided **visual justifications** for borderline case selection
-● Clearly linked SHAP values to **real-world financial reasoning**
+ Added a **correlation heatmap** to visualize feature relationships
+ Expanded the **textual analysis** in both the notebook and README
+ Tuned the model to significantly improve AUC and recall
+ Provided **visual justifications** for borderline case selection
+ Clearly linked SHAP values to **real-world financial reasoning**
 
 ## Conclusion
 
